@@ -1,0 +1,5 @@
+Parallel computation UBC: https://www.students.cs.ubc.ca/~cs-418/2020-1/lecture.html
+
+Application of parallel computers Berkley: https://sites.google.com/lbl.gov/cs267-spr2020/
+
+Concurrent and parallel programming UW: https://student.cs.uwaterloo.ca/~cs343/documents/notes.pdf

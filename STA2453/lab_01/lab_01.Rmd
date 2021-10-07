@@ -1,0 +1,507 @@
+---
+title: "STA2453 Lab 1"
+author: "Yihan Duan"
+date: "21/09/2021"
+output: pdf_document
+---
+
+# Exercise 1
+
+## Data Quality
+
+Load raw ED data.
+```{r tidy=TRUE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Load the required libraries
+library(tidyverse)
+library(lubridate)
+
+# Read in the data
+ed_data <- read_csv('raw_ed_data.csv')
+
+# Show head
+head(ed_data)
+```
+
+Clean up 'presenting_complaint' column as shown in class.
+
+```{r tidy=TRUE}
+# function to clean presenting complaints text
+clean_complaints <- function(x) {
+  
+  x_clean <- x %>% 
+    # remove any leading and trailing spaces
+    trimws() %>% 
+    # collapse > 1 blank space into 1 blank space
+    gsub(' +',' ',.) %>% 
+    # set text to lower case
+    tolower() 
+  
+  return(x_clean)
+  
+}
+
+ed_data <- ed_data %>% 
+  mutate(presenting_complaint = clean_complaints(presenting_complaint))
+
+ed_data <- ed_data %>% 
+  mutate(presenting_complaint = case_when(
+    presenting_complaint == "chest pian" ~ "chest pain",
+    presenting_complaint == "burns" ~ "burn",
+    presenting_complaint == "traumatic injuries" ~ "traumatic injury",
+    presenting_complaint %in% c("unk", "missing") ~ "unknown",
+    presenting_complaint == "headach" ~ "headache",
+    TRUE ~ presenting_complaint))
+
+ed_data %>% 
+  count(presenting_complaint, sort = T) %>% 
+  mutate(proportion = round(n/sum(n), 3))
+```
+
+As shown in class, we can count all the 'NA's for each column.
+
+```{r tidy=TRUE}
+count_NAs <- function(x) {
+  
+  num_NAs <- sum(is.na(x))
+  
+  return(num_NAs)
+}
+
+# the data
+ed_data %>% 
+  # becomes the first argument passed to the summarize_all function
+  summarize_all(count_NAs) %>%
+  glimpse
+```
+
+```{R tidy=TRUE}
+ed_data %>%
+  filter(is.na(ed_start_time) & is.na(ed_end_time))
+```
+
+Now we check all the variables one by one.
+
+### ENCOUNTER_NUM
+
+First see if there are any duplicate numbers.
+
+```{R tidy=TRUE}
+print("Length of ENCOUNTER_NUM:")
+length(ed_data$ENCOUNTER_NUM)
+print("Number of unique values of ENCOUNTER_NUM:")
+length(unique(ed_data$ENCOUNTER_NUM))
+```
+
+We can see that there are duplicates in ENCOUNTER_NUM column.
+
+```{R tidy=TRUE}
+# Remove all duplicate rows
+ed_data_dedup <- ed_data[!duplicated(ed_data),]
+```
+
+Now check the number of unique values again.
+
+```{R tidy=TRUE}
+print("Length of ENCOUNTER_NUM:")
+length(ed_data_dedup$ENCOUNTER_NUM)
+print("Number of unique values of ENCOUNTER_NUM:")
+length(unique(ed_data_dedup$ENCOUNTER_NUM))
+```
+
+Still one duplicate ENCOUNTER_NUM, lets find it.
+
+```{R tidy=TRUE}
+num_freq <- ed_data_dedup %>%
+  count(ENCOUNTER_NUM) %>%
+  filter(n>1)
+dup_num = num_freq$ENCOUNTER_NUM[1]
+ed_data_dedup %>%
+  filter(ENCOUNTER_NUM == dup_num)
+```
+
+Notice the only difference between these two records are the `ed_pia_time`.
+
+### CTAS_CD
+
+Check data integrity for column 'CTAS_CD'.
+
+```{R tidy=TRUE}
+ed_data_dedup %>% 
+  count(CTAS_CD)
+```
+
+As we can see, the values presented in this column are mostly in range [1, 5]. However, there are many records with CTAS_CD missing.
+
+### CTAS_DESCR
+
+First check all the values presented in CTAS_DESCR.
+
+```{R tidy=TRUE}
+ed_data_dedup %>% 
+  count(CTAS_DESCR)
+```
+
+There should be a 1 to 1 mapping from CTAS_CD to CTAS_DESCR.
+
+```{R tidy=TRUE}
+ed_data[,c("CTAS_CD","CTAS_DESCR")] %>%
+  unique
+```
+
+Yes the mapping is 1 to 1.
+
+### ed_start_time, ed_end_time, ed_pia_time, adm_start_time
+
+ed_start_time should always come before ed_end_time.
+
+```{R tidy=TRUE}
+print("PIA before arrival at the ED:")
+ed_data %>%
+  filter(ed_start_time > ed_pia_time) %>%
+  nrow
+
+print("Departure before arrival at the ED:")
+ed_data %>%
+  filter(ed_start_time > ed_end_time) %>%
+  nrow
+
+print("PIA after leaving the ED:")
+ed_data %>%
+  filter(ed_pia_time > ed_end_time) %>%
+  nrow
+
+print("PIA after admitted to the hospital:")
+ed_data %>%
+  filter(ed_pia_time > adm_start_time) %>%
+  nrow
+
+print("Admitted to the hospital before leaving the ED:")
+ed_data %>%
+  filter(ed_end_time > adm_start_time) %>%
+  nrow
+
+print("Arrived at the ED after admitted to the hospital:")
+ed_data %>%
+  filter(ed_start_time > adm_start_time) %>%
+  nrow
+
+print("PIA time of '2099-01-01':")
+ed_data_dedup %>%
+  filter(ed_pia_time == ymd("2099-01-01")) %>%
+  nrow
+```
+
+```{R tidy=TRUE}
+ed_data_dedup %>%
+  filter(ed_pia_time == ymd("2099-01-01"))
+```
+As we can see, many 'ed_pia_time' entries are labeled with unrealistic dates -- '2099-01-01'.
+
+### adm_start_time, admitted
+
+adm_start_time only make sense if the patient is admitted.
+
+```{R tidy=TRUE}
+ed_data %>%
+  filter(admitted == 0) %>%
+  count(adm_start_time)
+```
+
+All patients that are not admitted have no 'adm_start_tme'.
+
+```{R tidy=TRUE}
+ed_data %>%
+  filter(admitted == 1) %>%
+  count_NAs()
+```
+
+There are 371 records that are admitted but have no 'adm_start_time'.
+
+### los
+```{R tidy=TRUE}
+ed_data %>%
+  filter(los == 24) %>%
+  count
+```
+
+## Descriptive analysis
+
+### Length of stay
+
+```{R tidy=TRUE}
+ed_data_dedup$startToEnd = as.numeric(difftime(ed_data_dedup$ed_end_time, ed_data_dedup$ed_start_time), units="hours")
+
+ed_data_dedup %>%
+  filter(startToEnd >= 0) %>%
+  ggplot(aes(x=startToEnd)) + 
+  geom_histogram(binwidth=1) + 
+  labs(x = "(Departure Time - Arrival Time) in hours", y="Number of Records")
+ggsave("los.png")
+```
+
+```{R tidy=TRUE}
+ed_data_dedup %>%
+  filter(startToEnd >= 0) %>%
+  ggplot(aes(x=startToEnd)) + 
+  geom_histogram(binwidth=1) + 
+  xlim(0, 60) +
+  labs(x = "(Departure Time - Arrival Time) in hours", y="Number of Records")
+ggsave("los_zoom.png")
+```
+
+```{R tidy=TRUE}
+startToEndMean = mean(ed_data_dedup$startToEnd[ed_data_dedup$startToEnd > 0], na.rm=TRUE)
+startToEndSd = sd(ed_data_dedup$startToEnd[ed_data_dedup$startToEnd > 0], na.rm=TRUE)
+
+startToEndMean
+startToEndSd
+```
+
+### Time to seeing a physician
+
+```{R tidy=TRUE}
+ed_data_dedup$startToPia = as.numeric(difftime(ed_data_dedup$ed_pia_time, ed_data_dedup$ed_start_time), units="mins")
+
+ed_data_dedup %>%
+  filter(ed_pia_time != ymd("2099-01-01")) %>%
+  filter(startToPia > 0) %>%
+  ggplot(aes(x=startToPia)) + 
+  geom_histogram(binwidth=10) + 
+  labs(x = "(PIA Time - Arrival Time) in mins", y="Number of Records")
+ggsave("pia.png")
+```
+
+```{R tidy=TRUE}
+ed_data_dedup %>%
+  filter(ed_pia_time != ymd("2099-01-01")) %>%
+  filter(startToPia > 0) %>%
+  ggplot(aes(x=startToPia)) + 
+  geom_histogram(binwidth=10) + 
+  xlim(0,1000) +
+  labs(x = "(PIA Time - Arrival Time) in mins", y="Number of Records")
+ggsave("pia_zoom.png")
+```
+
+```{R tidy=TRUE}
+startToPiaMean = mean(ed_data_dedup$startToPia[ed_data_dedup$startToPia > 0 & ed_data_dedup$ed_pia_time != ymd("2099-01-01")], na.rm=TRUE)
+startToPiaSd = sd(ed_data_dedup$startToPia[ed_data_dedup$startToPia > 0 & ed_data_dedup$ed_pia_time != ymd("2099-01-01")], na.rm=TRUE)
+
+startToPiaMean
+startToPiaSd
+```
+
+### Counts and proportions of presenting complaints
+
+```{R tidy=TRUE}
+PC_counts = ed_data_dedup %>%
+  count(presenting_complaint) %>%
+  arrange(desc(n))
+
+jpeg(filename="PC.jpg",width=800,height=600)
+pie(PC_counts$n, labels=PC_counts$presenting_complaint, radius = 0.9, cex = 1.2)
+dev.off()
+```
+
+```{R tidy=TRUE}
+PC_counts
+```
+
+### CTAS
+
+```{R tidy=TRUE}
+CTAS_counts = ed_data_dedup %>%
+  count(CTAS_DESCR) %>%
+  arrange(desc(n))
+
+jpeg(filename="CTAS.jpg",width=800,height=600)
+pie(CTAS_counts$n, labels=CTAS_counts$CTAS_DESCR, radius = 1, cex = 1)
+dev.off()
+```
+
+```{R tidy=TRUE}
+CTAS_counts
+```
+
+### Number of encounters
+
+```{R tidy=TRUE}
+ed_data_dedup$ed_start_time_YMD = as_date(ed_data_dedup$ed_start_time)
+
+n_encounters = count(ed_data_dedup, ed_start_time_YMD)
+
+ed_data_dedup %>%
+  count(ed_start_time_YMD) %>%
+  ggplot(aes(x=n)) + 
+  geom_histogram(binwidth = 5) +
+  labs(x = "Number of Encounters", y="Count")
+ggsave("n_enc.png")
+```
+
+```{R}
+n_encountersMean = mean(n_encounters$n, rm.na=TRUE)
+n_encountersSd = sd(n_encounters$n)
+
+n_encounters %>%
+  ggplot(aes(x=n)) + 
+  geom_density() +
+  stat_function(fun=dnorm, args=c(n_encountersMean, n_encountersSd / 1.7), xlim=c(0, 799), n=800, size=1, color='grey') +
+  xlim(0,800) +
+  labs(x = "Number of Encounters", y="Density", title="Real Density vs. Normal(221, 22)")
+ggsave("n_enc_fit.png")
+```
+
+```{R}
+n_encountersMean
+n_encountersSd 
+```
+
+### Time series
+
+```{R tidy=TRUE}
+ggplot(n_encounters, aes(x=ed_start_time_YMD, y=n)) + geom_line() + labs(x="Date", y="ED arrivals per day", title="ED arrivals per day")
+ggsave("ed_arr.png")
+```
+
+```{R tidy=TRUE}
+n_encountersMean
+```
+
+```{R tidy=TRUE}
+tail(n_encounters)
+```
+
+## Weekend vs. weekday volumes
+
+```{R tidy=TRUE}
+weekend_names = c("Sat", "Sun")
+
+# Get weekday and weekend dfs
+weekday_encounters = n_encounters %>%
+  filter(! weekdays(ed_start_time_YMD, abbreviate = TRUE) %in% weekend_names) %>%
+  filter(! is.na(ed_start_time_YMD))
+weekend_encounters = n_encounters %>%
+  filter(weekdays(ed_start_time_YMD, abbreviate = TRUE) %in% weekend_names)
+
+# Get weekday stats
+print("Weekday mean:")
+mean(weekday_encounters$n)
+print("Weekday standard deviation:")
+sd(weekday_encounters$n)
+
+# Get weekend stats
+print("Weekend mean:")
+mean(weekend_encounters$n)
+print("Weekend standard deviation:")
+sd(weekend_encounters$n)
+```
+
+```{R tidy=TRUE}
+weekday_encounters$day = "Weekdays"
+weekend_encounters$day = "Weekends"
+all_encounters = rbind(weekday_encounters, weekend_encounters)
+
+all_encounters %>%
+  ggplot(aes(x=day, y=n)) +
+  geom_boxplot() +
+  labs(x="Weekday vs. weekend volumes", y="ED arrivals perday")
+ggsave("wkd_wke.png")
+```
+
+```{R tidy=TRUE}
+t.test(n ~ day, data=all_encounters, var.equal=TRUE)
+```
+
+## Working hours
+
+```{R tidy=TRUE}
+ed_data_clean <- ed_data_dedup %>%
+  filter(! is.na(ed_start_time), ! is.na(ed_end_time)) %>%
+  filter(ed_start_time < ed_end_time) %>%
+  mutate(ed_start_time = floor_date(ed_start_time, unit="hour"),
+         ed_end_time = floor_date(ed_end_time, unit="hour"))
+
+arrivals <- ed_data_clean %>%
+  select(timestamp=ed_start_time) %>%
+  mutate(counter = 1)
+
+departures <- ed_data_clean %>%
+  select(timestamp=ed_end_time) %>%
+  mutate(counter = -1)
+
+census_volumes <- arrivals %>%
+  bind_rows(departures) %>%
+  arrange(timestamp, counter) %>%
+  mutate(volume = cumsum(counter))
+
+start <- min(ed_data_clean$ed_start_time)
+end <- max(ed_data_clean$ed_end_time)
+full_time_window <- tibble(timestamp = seq(start, end, by='hours'))
+
+census_volumes <- census_volumes %>%
+  right_join(full_time_window,
+             by='timestamp') %>%
+  arrange(timestamp) %>%
+  fill(volume, .direction='down')
+
+census_volumes <- census_volumes %>%
+  arrange(timestamp, volume) %>%
+  group_by(timestamp) %>%
+  summarise_all(last)
+
+census_volumes %>%
+  ggplot(aes(timestamp, volume)) +
+  geom_line() +
+  labs(x='Date', title='Emergency Department Census Throughout 2019')
+ggsave("census_ydm_hms.png")
+```
+
+```{R tidy=TRUE}
+census_hours <- census_volumes %>%
+  mutate(timestamp = format(timestamp, format='%T'))
+
+aggregate(x = census_hours$volume, by =list(timestamp=census_hours$timestamp), FUN=mean) %>%
+  ggplot(aes(timestamp, x, group=1)) +
+  geom_line() +
+  labs(y='Volume', x='Time of Day', title='Average ED Census by Hour') +
+  theme(axis.text.x = element_text(angle = 45))
+ggsave("census_hms.png")
+```
+
+```{R}
+census_by_hour = aggregate(x = census_hours$volume, by =list(timestamp=census_hours$timestamp), FUN=mean)
+
+summary(census_by_hour)
+```
+
+## Descriptive Summary
+```{R tidy=TRUE}
+ed_data_dedup %>%
+  filter(startToEnd >= 0) %>%
+  filter(ed_pia_time != ymd("2099-01-01")) %>%
+  filter(startToPia >= 0) %>%
+  summary()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
