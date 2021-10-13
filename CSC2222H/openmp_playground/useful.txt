@@ -1,1 +1,4 @@
 /usr/local/opt/llvm/bin/clang -fopenmp -L/usr/local/opt/llvm/lib program.c -o program
+
+
+clang++ -Xpreprocessor -fopenmp main.cpp -o main -lomp 
