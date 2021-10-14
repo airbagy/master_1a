@@ -1,0 +1,3 @@
+[submodule "CSC2222H/Project/Halide"]
+	path = CSC2222H/Project/Halide
+	url = https://github.com/halide/Halide.git
