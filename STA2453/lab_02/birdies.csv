@@ -1,0 +1,2501 @@
+rank_this_week,rank_last_week,player_name,rounds,total,tournamet_id,tournament_name,year,type
+T1,T6,Xander Schauffele,4,21,t060,TOUR Championship,2020,weekly
+T1,T12,Collin Morikawa,4,21,t060,TOUR Championship,2020,weekly
+3,T2,Dustin Johnson,4,20,t060,TOUR Championship,2020,weekly
+T4,T6,Justin Thomas,4,19,t060,TOUR Championship,2020,weekly
+T4,T35,Sungjae Im,4,19,t060,TOUR Championship,2020,weekly
+T6,T49,Harris English,4,18,t060,TOUR Championship,2020,weekly
+T6,T6,Tony Finau,4,18,t060,TOUR Championship,2020,weekly
+T6,T2,Rory McIlroy,4,18,t060,TOUR Championship,2020,weekly
+T6,T35,Sebastián Muñoz,4,18,t060,TOUR Championship,2020,weekly
+T6,T28,Cameron Smith,4,18,t060,TOUR Championship,2020,weekly
+T11,T6,Scottie Scheffler,4,17,t060,TOUR Championship,2020,weekly
+T11,T19,Tyrrell Hatton,4,17,t060,TOUR Championship,2020,weekly
+T13,T19,Lanto Griffin,4,16,t060,TOUR Championship,2020,weekly
+T13,T35,Mackenzie Hughes,4,16,t060,TOUR Championship,2020,weekly
+T13,T35,Daniel Berger,4,16,t060,TOUR Championship,2020,weekly
+T13,,Webb Simpson,4,16,t060,TOUR Championship,2020,weekly
+T13,T49,Ryan Palmer,4,16,t060,TOUR Championship,2020,weekly
+T13,T4,Jon Rahm,4,16,t060,TOUR Championship,2020,weekly
+T13,T58,Cameron Champ,4,16,t060,TOUR Championship,2020,weekly
+T20,T35,Abraham Ancer,4,15,t060,TOUR Championship,2020,weekly
+T20,T35,Kevin Kisner,4,15,t060,TOUR Championship,2020,weekly
+22,T58,Billy Horschel,4,14,t060,TOUR Championship,2020,weekly
+T23,T12,Hideki Matsuyama,4,13,t060,TOUR Championship,2020,weekly
+T23,T12,Patrick Reed,4,13,t060,TOUR Championship,2020,weekly
+T23,T19,Viktor Hovland,4,13,t060,TOUR Championship,2020,weekly
+T26,T4,Joaquin Niemann,4,12,t060,TOUR Championship,2020,weekly
+T26,69,Marc Leishman,4,12,t060,TOUR Championship,2020,weekly
+T26,1,Brendon Todd,4,12,t060,TOUR Championship,2020,weekly
+29,T19,Bryson DeChambeau,4,11,t060,TOUR Championship,2020,weekly
+30,T58,Kevin Na,4,9,t060,TOUR Championship,2020,weekly
+1,T52,Brendon Todd,4,18,t028,BMW Championship,2020,weekly
+T2,T5,Dustin Johnson,4,15,t028,BMW Championship,2020,weekly
+T2,T26,Rory McIlroy,4,15,t028,BMW Championship,2020,weekly
+T4,,Joaquin Niemann,4,14,t028,BMW Championship,2020,weekly
+T4,T37,Jon Rahm,4,14,t028,BMW Championship,2020,weekly
+T6,T52,Justin Thomas,4,13,t028,BMW Championship,2020,weekly
+T6,,Byeong Hun An,4,13,t028,BMW Championship,2020,weekly
+T6,,Joel Dahmen,4,13,t028,BMW Championship,2020,weekly
+T6,T1,Scottie Scheffler,4,13,t028,BMW Championship,2020,weekly
+T6,T59,Xander Schauffele,4,13,t028,BMW Championship,2020,weekly
+T6,,Tony Finau,4,13,t028,BMW Championship,2020,weekly
+T12,T26,Danny Lee,4,12,t028,BMW Championship,2020,weekly
+T12,T26,Jason Kokrak,4,12,t028,BMW Championship,2020,weekly
+T12,,Gary Woodland,4,12,t028,BMW Championship,2020,weekly
+T12,T26,Hideki Matsuyama,4,12,t028,BMW Championship,2020,weekly
+T12,T26,Patrick Reed,4,12,t028,BMW Championship,2020,weekly
+T12,T66,Adam Long,4,12,t028,BMW Championship,2020,weekly
+T12,,Collin Morikawa,4,12,t028,BMW Championship,2020,weekly
+T19,T5,Tyrrell Hatton,4,11,t028,BMW Championship,2020,weekly
+T19,T37,Lanto Griffin,4,11,t028,BMW Championship,2020,weekly
+T19,,Patrick Cantlay,4,11,t028,BMW Championship,2020,weekly
+T19,,Tom Hoge,4,11,t028,BMW Championship,2020,weekly
+T19,T11,Viktor Hovland,4,11,t028,BMW Championship,2020,weekly
+T19,,Bryson DeChambeau,4,11,t028,BMW Championship,2020,weekly
+T19,T52,Brendan Steele,4,11,t028,BMW Championship,2020,weekly
+T19,T11,Brian Harman,4,11,t028,BMW Championship,2020,weekly
+T19,T66,Kevin Streelman,4,11,t028,BMW Championship,2020,weekly
+T28,T11,Alex Noren,4,10,t028,BMW Championship,2020,weekly
+T28,T52,Charles Howell III,4,10,t028,BMW Championship,2020,weekly
+T28,,Nick Taylor,4,10,t028,BMW Championship,2020,weekly
+T28,T16,Bubba Watson,4,10,t028,BMW Championship,2020,weekly
+T28,T37,Cameron Smith,4,10,t028,BMW Championship,2020,weekly
+T28,T45,Tyler Duncan,4,10,t028,BMW Championship,2020,weekly
+T28,T59,Richy Werenski,4,10,t028,BMW Championship,2020,weekly
+T35,T26,Russell Henley,4,9,t028,BMW Championship,2020,weekly
+T35,T26,Mackenzie Hughes,4,9,t028,BMW Championship,2020,weekly
+T35,,Sungjae Im,4,9,t028,BMW Championship,2020,weekly
+T35,,Max Homa,4,9,t028,BMW Championship,2020,weekly
+T35,T5,Daniel Berger,4,9,t028,BMW Championship,2020,weekly
+T35,,Matt Fitzpatrick,4,9,t028,BMW Championship,2020,weekly
+T35,,Abraham Ancer,4,9,t028,BMW Championship,2020,weekly
+T35,T11,Sebastián Muñoz,4,9,t028,BMW Championship,2020,weekly
+T35,T16,Matthew Wolff,4,9,t028,BMW Championship,2020,weekly
+T35,T21,Louis Oosthuizen,4,9,t028,BMW Championship,2020,weekly
+T35,T26,Matt Kuchar,4,9,t028,BMW Championship,2020,weekly
+T35,T45,Tiger Woods,4,9,t028,BMW Championship,2020,weekly
+T35,T16,Kevin Kisner,4,9,t028,BMW Championship,2020,weekly
+T35,,Dylan Frittelli,4,9,t028,BMW Championship,2020,weekly
+T49,,Jim Herman,4,8,t028,BMW Championship,2020,weekly
+T49,T5,Ryan Palmer,4,8,t028,BMW Championship,2020,weekly
+T49,T52,Adam Scott,4,8,t028,BMW Championship,2020,weekly
+T49,,Adam Hadwin,4,8,t028,BMW Championship,2020,weekly
+T49,,Carlos Ortiz,4,8,t028,BMW Championship,2020,weekly
+T49,T1,Harris English,4,8,t028,BMW Championship,2020,weekly
+T49,T1,Talor Gooch,4,8,t028,BMW Championship,2020,weekly
+T49,T21,Maverick McNealy,4,8,t028,BMW Championship,2020,weekly
+T49,65,J.T. Poston,4,8,t028,BMW Championship,2020,weekly
+T58,T5,Harry Higgs,4,7,t028,BMW Championship,2020,weekly
+T58,T45,Corey Conners,4,7,t028,BMW Championship,2020,weekly
+T58,,Cameron Champ,4,7,t028,BMW Championship,2020,weekly
+T58,T45,Kevin Na,4,7,t028,BMW Championship,2020,weekly
+T58,,Jason Day,4,7,t028,BMW Championship,2020,weekly
+T58,,Billy Horschel,4,7,t028,BMW Championship,2020,weekly
+T64,T66,Paul Casey,4,6,t028,BMW Championship,2020,weekly
+T64,T59,Andrew Landry,4,6,t028,BMW Championship,2020,weekly
+T64,T45,Mark Hubbard,4,6,t028,BMW Championship,2020,weekly
+T67,T11,Robby Shelton,4,5,t028,BMW Championship,2020,weekly
+T67,,Michael Thompson,4,5,t028,BMW Championship,2020,weekly
+69,,Marc Leishman,4,4,t028,BMW Championship,2020,weekly
+T1,T10,Harris English,4,24,t027,THE NORTHERN TRUST,2020,weekly
+T1,,Keith Mitchell,4,24,t027,THE NORTHERN TRUST,2020,weekly
+T1,,Scottie Scheffler,4,24,t027,THE NORTHERN TRUST,2020,weekly
+T1,T14,Talor Gooch,4,24,t027,THE NORTHERN TRUST,2020,weekly
+T5,,Daniel Berger,4,23,t027,THE NORTHERN TRUST,2020,weekly
+T5,T10,Cam Davis,4,23,t027,THE NORTHERN TRUST,2020,weekly
+T5,,Dustin Johnson,4,23,t027,THE NORTHERN TRUST,2020,weekly
+T5,,Harry Higgs,4,23,t027,THE NORTHERN TRUST,2020,weekly
+T5,,Tyrrell Hatton,4,23,t027,THE NORTHERN TRUST,2020,weekly
+T5,,Ryan Palmer,4,23,t027,THE NORTHERN TRUST,2020,weekly
+T11,,Alex Noren,4,22,t027,THE NORTHERN TRUST,2020,weekly
+T11,T39,Brian Harman,4,22,t027,THE NORTHERN TRUST,2020,weekly
+T11,,Robby Shelton,4,22,t027,THE NORTHERN TRUST,2020,weekly
+T11,,Viktor Hovland,4,22,t027,THE NORTHERN TRUST,2020,weekly
+T11,T59,Sebastián Muñoz,4,22,t027,THE NORTHERN TRUST,2020,weekly
+T16,T1,Si Woo Kim,4,21,t027,THE NORTHERN TRUST,2020,weekly
+T16,,Matthew Wolff,4,21,t027,THE NORTHERN TRUST,2020,weekly
+T16,T7,Kevin Kisner,4,21,t027,THE NORTHERN TRUST,2020,weekly
+T16,,Bubba Watson,4,21,t027,THE NORTHERN TRUST,2020,weekly
+T16,,Charley Hoffman,4,21,t027,THE NORTHERN TRUST,2020,weekly
+T21,T10,Zach Johnson,4,20,t027,THE NORTHERN TRUST,2020,weekly
+T21,,Louis Oosthuizen,4,20,t027,THE NORTHERN TRUST,2020,weekly
+T21,T4,Webb Simpson,4,20,t027,THE NORTHERN TRUST,2020,weekly
+T21,,K.H. Lee,4,20,t027,THE NORTHERN TRUST,2020,weekly
+T21,,Maverick McNealy,4,20,t027,THE NORTHERN TRUST,2020,weekly
+T26,T39,Adam Schenk,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,,Rory McIlroy,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,,Danny Lee,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,T30,Tommy Fleetwood,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,T1,Jason Kokrak,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,,Hideki Matsuyama,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,,Keegan Bradley,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,T14,Russell Henley,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,T48,Patrick Reed,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,,Mackenzie Hughes,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T26,,Matt Kuchar,4,19,t027,THE NORTHERN TRUST,2020,weekly
+T37,T48,Scott Piercy,4,18,t027,THE NORTHERN TRUST,2020,weekly
+T37,T59,Matt Jones,4,18,t027,THE NORTHERN TRUST,2020,weekly
+T37,,Justin Rose,4,18,t027,THE NORTHERN TRUST,2020,weekly
+T37,,Lanto Griffin,4,18,t027,THE NORTHERN TRUST,2020,weekly
+T37,,Cameron Smith,4,18,t027,THE NORTHERN TRUST,2020,weekly
+T37,,Jon Rahm,4,18,t027,THE NORTHERN TRUST,2020,weekly
+T37,T1,Denny McCarthy,4,18,t027,THE NORTHERN TRUST,2020,weekly
+T37,,Wyndham Clark,4,18,t027,THE NORTHERN TRUST,2020,weekly
+T45,T20,Mark Hubbard,4,17,t027,THE NORTHERN TRUST,2020,weekly
+T45,,Corey Conners,4,17,t027,THE NORTHERN TRUST,2020,weekly
+T45,T7,Tyler Duncan,4,17,t027,THE NORTHERN TRUST,2020,weekly
+T45,,Emiliano Grillo,4,17,t027,THE NORTHERN TRUST,2020,weekly
+T45,T67,Troy Merritt,4,17,t027,THE NORTHERN TRUST,2020,weekly
+T45,,Tiger Woods,4,17,t027,THE NORTHERN TRUST,2020,weekly
+T45,,Kevin Na,4,17,t027,THE NORTHERN TRUST,2020,weekly
+T52,,Charles Howell III,4,16,t027,THE NORTHERN TRUST,2020,weekly
+T52,,Ian Poulter,4,16,t027,THE NORTHERN TRUST,2020,weekly
+T52,,Adam Scott,4,16,t027,THE NORTHERN TRUST,2020,weekly
+T52,,Brendan Steele,4,16,t027,THE NORTHERN TRUST,2020,weekly
+T52,,Brendon Todd,4,16,t027,THE NORTHERN TRUST,2020,weekly
+T52,,Justin Thomas,4,16,t027,THE NORTHERN TRUST,2020,weekly
+T52,,Beau Hossler,4,16,t027,THE NORTHERN TRUST,2020,weekly
+T59,,Rickie Fowler,4,15,t027,THE NORTHERN TRUST,2020,weekly
+T59,T39,Andrew Landry,4,15,t027,THE NORTHERN TRUST,2020,weekly
+T59,,Cameron Tringale,4,15,t027,THE NORTHERN TRUST,2020,weekly
+T59,,Richy Werenski,4,15,t027,THE NORTHERN TRUST,2020,weekly
+T59,,Xander Schauffele,4,15,t027,THE NORTHERN TRUST,2020,weekly
+T59,,Chez Reavie,4,15,t027,THE NORTHERN TRUST,2020,weekly
+65,,J.T. Poston,4,14,t027,THE NORTHERN TRUST,2020,weekly
+T66,,Scott Harrington,4,13,t027,THE NORTHERN TRUST,2020,weekly
+T66,T30,Adam Long,4,13,t027,THE NORTHERN TRUST,2020,weekly
+T66,T72,Patrick Rodgers,4,13,t027,THE NORTHERN TRUST,2020,weekly
+T66,,Kevin Streelman,4,13,t027,THE NORTHERN TRUST,2020,weekly
+T66,T30,Paul Casey,4,13,t027,THE NORTHERN TRUST,2020,weekly
+T1,,Jason Kokrak,4,25,t013,Wyndham Championship,2020,weekly
+T1,T37,Si Woo Kim,4,25,t013,Wyndham Championship,2020,weekly
+T1,T69,Denny McCarthy,4,25,t013,Wyndham Championship,2020,weekly
+T4,,Kris Ventura,4,24,t013,Wyndham Championship,2020,weekly
+T4,T75,Webb Simpson,4,24,t013,Wyndham Championship,2020,weekly
+T4,T23,Billy Horschel,4,24,t013,Wyndham Championship,2020,weekly
+T7,T5,Kevin Kisner,4,23,t013,Wyndham Championship,2020,weekly
+T7,T61,Jim Herman,4,23,t013,Wyndham Championship,2020,weekly
+T7,,Tyler Duncan,4,23,t013,Wyndham Championship,2020,weekly
+T10,T61,Harris English,4,22,t013,Wyndham Championship,2020,weekly
+T10,,Peter Malnati,4,22,t013,Wyndham Championship,2020,weekly
+T10,,Cam Davis,4,22,t013,Wyndham Championship,2020,weekly
+T10,,Zach Johnson,4,22,t013,Wyndham Championship,2020,weekly
+T14,,Roger Sloan,4,21,t013,Wyndham Championship,2020,weekly
+T14,T54,Russell Henley,4,21,t013,Wyndham Championship,2020,weekly
+T14,T15,Harold Varner III,4,21,t013,Wyndham Championship,2020,weekly
+T14,,Talor Gooch,4,21,t013,Wyndham Championship,2020,weekly
+T14,T23,Doc Redman,4,21,t013,Wyndham Championship,2020,weekly
+T14,,Rob Oppenheim,4,21,t013,Wyndham Championship,2020,weekly
+T20,,Chris Baker,4,20,t013,Wyndham Championship,2020,weekly
+T20,,Chesson Hadley,4,20,t013,Wyndham Championship,2020,weekly
+T20,T61,Mark Hubbard,4,20,t013,Wyndham Championship,2020,weekly
+T20,,Sungjae Im,4,20,t013,Wyndham Championship,2020,weekly
+T24,,Rafa Cabrera Bello,4,19,t013,Wyndham Championship,2020,weekly
+T24,,Josh Teater,4,19,t013,Wyndham Championship,2020,weekly
+T24,,Seamus Power,4,19,t013,Wyndham Championship,2020,weekly
+T24,,Scott Stallings,4,19,t013,Wyndham Championship,2020,weekly
+T24,T23,Shane Lowry,4,19,t013,Wyndham Championship,2020,weekly
+T24,,Ryan Armour,4,19,t013,Wyndham Championship,2020,weekly
+T30,T18,Paul Casey,4,18,t013,Wyndham Championship,2020,weekly
+T30,,Ryan Brehm,4,18,t013,Wyndham Championship,2020,weekly
+T30,T18,Tommy Fleetwood,4,18,t013,Wyndham Championship,2020,weekly
+T30,,Brian Stuard,4,18,t013,Wyndham Championship,2020,weekly
+T30,T37,Adam Long,4,18,t013,Wyndham Championship,2020,weekly
+T30,T69,Tom Hoge,4,18,t013,Wyndham Championship,2020,weekly
+T30,,Christiaan Bezuidenhout,4,18,t013,Wyndham Championship,2020,weekly
+T30,,Sam Burns,4,18,t013,Wyndham Championship,2020,weekly
+T30,,Vincent Whaley,4,18,t013,Wyndham Championship,2020,weekly
+T39,T23,Bud Cauley,4,17,t013,Wyndham Championship,2020,weekly
+T39,,Austin Cook,4,17,t013,Wyndham Championship,2020,weekly
+T39,,Adam Schenk,4,17,t013,Wyndham Championship,2020,weekly
+T39,,Hank Lebioda,4,17,t013,Wyndham Championship,2020,weekly
+T39,T75,Brian Harman,4,17,t013,Wyndham Championship,2020,weekly
+T39,T47,Brandt Snedeker,4,17,t013,Wyndham Championship,2020,weekly
+T39,,Matt Every,4,17,t013,Wyndham Championship,2020,weekly
+T39,,C.T. Pan,4,17,t013,Wyndham Championship,2020,weekly
+T39,,Andrew Landry,4,17,t013,Wyndham Championship,2020,weekly
+T48,,Scott Brown,4,16,t013,Wyndham Championship,2020,weekly
+T48,,Chris Kirk,4,16,t013,Wyndham Championship,2020,weekly
+T48,,Patton Kizzire,4,16,t013,Wyndham Championship,2020,weekly
+T48,T37,Patrick Reed,4,16,t013,Wyndham Championship,2020,weekly
+T48,,Scott Piercy,4,16,t013,Wyndham Championship,2020,weekly
+T53,,Jason Dufner,4,15,t013,Wyndham Championship,2020,weekly
+T53,,Sergio Garcia,4,15,t013,Wyndham Championship,2020,weekly
+T53,,Joaquin Niemann,4,15,t013,Wyndham Championship,2020,weekly
+T53,T61,Luke List,4,15,t013,Wyndham Championship,2020,weekly
+T53,T23,Dylan Frittelli,4,15,t013,Wyndham Championship,2020,weekly
+T53,,Michael Gligic,4,15,t013,Wyndham Championship,2020,weekly
+T59,,Matt Jones,4,14,t013,Wyndham Championship,2020,weekly
+T59,,Henrik Norlander,4,14,t013,Wyndham Championship,2020,weekly
+T59,,Bo Hoag,4,14,t013,Wyndham Championship,2020,weekly
+T59,,Tom Lewis,4,14,t013,Wyndham Championship,2020,weekly
+T59,,Matthew NeSmith,4,14,t013,Wyndham Championship,2020,weekly
+T59,,Brinson Paolini,4,14,t013,Wyndham Championship,2020,weekly
+T59,,Sebastián Muñoz,4,14,t013,Wyndham Championship,2020,weekly
+T59,,Kramer Hickok,4,14,t013,Wyndham Championship,2020,weekly
+T67,,Ben Martin,4,13,t013,Wyndham Championship,2020,weekly
+T67,,Will Gordon,4,13,t013,Wyndham Championship,2020,weekly
+T67,,Peter Uihlein,4,13,t013,Wyndham Championship,2020,weekly
+T67,,Troy Merritt,4,13,t013,Wyndham Championship,2020,weekly
+T67,,Davis Love III,4,13,t013,Wyndham Championship,2020,weekly
+T72,T54,Nate Lashley,4,12,t013,Wyndham Championship,2020,weekly
+T72,,Russell Knox,4,12,t013,Wyndham Championship,2020,weekly
+T72,,Patrick Rodgers,4,12,t013,Wyndham Championship,2020,weekly
+T72,,Wesley Bryan,4,12,t013,Wyndham Championship,2020,weekly
+76,,Matthias Schwab,4,11,t013,Wyndham Championship,2020,weekly
+77,T54,Jordan Spieth,4,10,t013,Wyndham Championship,2020,weekly
+1,T4,Bryson DeChambeau,4,23,t033,PGA Championship,2020,weekly
+T2,T48,Scottie Scheffler,4,21,t033,PGA Championship,2020,weekly
+T2,T4,Dustin Johnson,4,21,t033,PGA Championship,2020,weekly
+4,,Justin Rose,4,20,t033,PGA Championship,2020,weekly
+T5,T56,Ian Poulter,4,19,t033,PGA Championship,2020,weekly
+T5,,Charl Schwartzel,4,19,t033,PGA Championship,2020,weekly
+T5,T13,Kevin Kisner,4,19,t033,PGA Championship,2020,weekly
+T5,T19,Cameron Champ,4,19,t033,PGA Championship,2020,weekly
+T9,T8,Justin Thomas,4,18,t033,PGA Championship,2020,weekly
+T9,T19,Daniel Berger,4,18,t033,PGA Championship,2020,weekly
+T9,,Kurt Kitayama,4,18,t033,PGA Championship,2020,weekly
+T9,T34,Collin Morikawa,4,18,t033,PGA Championship,2020,weekly
+T9,T48,Bernd Wiesberger,4,18,t033,PGA Championship,2020,weekly
+T9,T72,Tony Finau,4,18,t033,PGA Championship,2020,weekly
+T15,T8,Joel Dahmen,4,17,t033,PGA Championship,2020,weekly
+T15,,Harold Varner III,4,17,t033,PGA Championship,2020,weekly
+T15,T41,Xander Schauffele,4,17,t033,PGA Championship,2020,weekly
+T18,2,Brooks Koepka,4,16,t033,PGA Championship,2020,weekly
+T18,T66,Rory McIlroy,4,16,t033,PGA Championship,2020,weekly
+T18,,Michael Lorenzo-Vera,4,16,t033,PGA Championship,2020,weekly
+T18,T34,Tommy Fleetwood,4,16,t033,PGA Championship,2020,weekly
+T18,T66,Paul Casey,4,16,t033,PGA Championship,2020,weekly
+T23,T28,Louis Oosthuizen,4,15,t033,PGA Championship,2020,weekly
+T23,T28,Kevin Streelman,4,15,t033,PGA Championship,2020,weekly
+T23,T8,Jason Day,4,15,t033,PGA Championship,2020,weekly
+T23,T4,Billy Horschel,4,15,t033,PGA Championship,2020,weekly
+T23,,Danny Lee,4,15,t033,PGA Championship,2020,weekly
+T23,,Dylan Frittelli,4,15,t033,PGA Championship,2020,weekly
+T23,T19,Brendon Todd,4,15,t033,PGA Championship,2020,weekly
+T23,T28,Shane Lowry,4,15,t033,PGA Championship,2020,weekly
+T23,3,Byeong Hun An,4,15,t033,PGA Championship,2020,weekly
+T23,,Bud Cauley,4,15,t033,PGA Championship,2020,weekly
+T23,T56,Haotong Li,4,15,t033,PGA Championship,2020,weekly
+T23,T19,Jon Rahm,4,15,t033,PGA Championship,2020,weekly
+T23,T28,Victor Perez,4,15,t033,PGA Championship,2020,weekly
+T23,,Doc Redman,4,15,t033,PGA Championship,2020,weekly
+T37,T34,Patrick Reed,4,14,t033,PGA Championship,2020,weekly
+T37,,Adam Long,4,14,t033,PGA Championship,2020,weekly
+T37,T56,Cameron Smith,4,14,t033,PGA Championship,2020,weekly
+T37,,Si Woo Kim,4,14,t033,PGA Championship,2020,weekly
+T37,T13,Erik van Rooyen,4,14,t033,PGA Championship,2020,weekly
+T37,T19,Matthew Wolff,4,14,t033,PGA Championship,2020,weekly
+T37,,Alex Noren,4,14,t033,PGA Championship,2020,weekly
+T37,,Brendan Steele,4,14,t033,PGA Championship,2020,weekly
+T37,T41,Ryan Palmer,4,14,t033,PGA Championship,2020,weekly
+T37,,Tiger Woods,4,14,t033,PGA Championship,2020,weekly
+T47,T75,Brandt Snedeker,4,13,t033,PGA Championship,2020,weekly
+T47,T34,Hideki Matsuyama,4,13,t033,PGA Championship,2020,weekly
+T47,,Lanto Griffin,4,13,t033,PGA Championship,2020,weekly
+T47,T19,Abraham Ancer,4,13,t033,PGA Championship,2020,weekly
+T47,T56,Viktor Hovland,4,13,t033,PGA Championship,2020,weekly
+T47,T34,J.T. Poston,4,13,t033,PGA Championship,2020,weekly
+T47,,Sepp Straka,4,13,t033,PGA Championship,2020,weekly
+T54,T8,Jordan Spieth,4,12,t033,PGA Championship,2020,weekly
+T54,,Russell Henley,4,12,t033,PGA Championship,2020,weekly
+T54,T34,Mackenzie Hughes,4,12,t033,PGA Championship,2020,weekly
+T54,,Keith Mitchell,4,12,t033,PGA Championship,2020,weekly
+T54,,Joost Luiten,4,12,t033,PGA Championship,2020,weekly
+T54,,Nate Lashley,4,12,t033,PGA Championship,2020,weekly
+T54,,Adam Scott,4,12,t033,PGA Championship,2020,weekly
+T61,,Rory Sabbatini,4,11,t033,PGA Championship,2020,weekly
+T61,T13,Bubba Watson,4,11,t033,PGA Championship,2020,weekly
+T61,,Luke List,4,11,t033,PGA Championship,2020,weekly
+T61,,Jim Herman,4,11,t033,PGA Championship,2020,weekly
+T61,,Emiliano Grillo,4,11,t033,PGA Championship,2020,weekly
+T61,,Harris English,4,11,t033,PGA Championship,2020,weekly
+T61,T28,Patrick Cantlay,4,11,t033,PGA Championship,2020,weekly
+T61,,Mark Hubbard,4,11,t033,PGA Championship,2020,weekly
+T69,,Tom Hoge,4,10,t033,PGA Championship,2020,weekly
+T69,,Denny McCarthy,4,10,t033,PGA Championship,2020,weekly
+T69,T41,Robert MacIntyre,4,10,t033,PGA Championship,2020,weekly
+T69,T48,Chez Reavie,4,10,t033,PGA Championship,2020,weekly
+T69,T56,Gary Woodland,4,10,t033,PGA Championship,2020,weekly
+T69,T72,Adam Hadwin,4,10,t033,PGA Championship,2020,weekly
+T75,,Brian Harman,4,9,t033,PGA Championship,2020,weekly
+T75,T13,Webb Simpson,4,9,t033,PGA Championship,2020,weekly
+T75,T48,Matt Wallace,4,9,t033,PGA Championship,2020,weekly
+T78,T28,Sung Kang,4,8,t033,PGA Championship,2020,weekly
+T78,T4,Phil Mickelson,4,8,t033,PGA Championship,2020,weekly
+1,NA,Tom Lewis,4,24,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+2,NA,Brooks Koepka,4,22,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+3,NA,Byeong Hun An,4,21,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T4,NA,Dustin Johnson,4,20,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T4,NA,Bryson DeChambeau,4,20,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T4,NA,Phil Mickelson,4,20,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T4,NA,Billy Horschel,4,20,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T8,NA,Kevin Na,4,19,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T8,NA,Jason Day,4,19,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T8,NA,Justin Thomas,4,19,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T8,NA,Jordan Spieth,4,19,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T8,NA,Joel Dahmen,4,19,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T13,NA,Erik van Rooyen,4,18,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T13,NA,Joaquin Niemann,4,18,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T13,NA,Christiaan Bezuidenhout,4,18,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T13,NA,Bubba Watson,4,18,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T13,NA,Webb Simpson,4,18,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T13,NA,Kevin Kisner,4,18,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T19,NA,Brendon Todd,4,17,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T19,NA,Jason Kokrak,4,17,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T19,NA,Rickie Fowler,4,17,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T19,NA,Daniel Berger,4,17,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T19,NA,Matt Fitzpatrick,4,17,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T19,NA,Abraham Ancer,4,17,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T19,NA,Jon Rahm,4,17,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T19,NA,Cameron Champ,4,17,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T19,NA,Matthew Wolff,4,17,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T28,NA,Shane Lowry,4,16,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T28,NA,Patrick Cantlay,4,16,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T28,NA,Victor Perez,4,16,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T28,NA,Sung Kang,4,16,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T28,NA,Kevin Streelman,4,16,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T28,NA,Louis Oosthuizen,4,16,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T34,NA,Sergio Garcia,4,15,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T34,NA,Tommy Fleetwood,4,15,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T34,NA,Hideki Matsuyama,4,15,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T34,NA,Patrick Reed,4,15,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T34,NA,Mackenzie Hughes,4,15,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T34,NA,J.T. Poston,4,15,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T34,NA,Collin Morikawa,4,15,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T41,NA,Andrew Landry,4,14,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T41,NA,Corey Conners,4,14,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T41,NA,Xander Schauffele,4,14,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T41,NA,Robert MacIntyre,4,14,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T41,NA,Ryan Palmer,4,14,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T41,NA,Matt Jones,4,14,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T41,NA,Marc Leishman,4,14,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T48,NA,Matt Kuchar,4,13,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T48,NA,Chez Reavie,4,13,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T48,NA,Bernd Wiesberger,4,13,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T48,NA,Tyrrell Hatton,4,13,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T48,NA,Sungjae Im,4,13,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T48,NA,Scottie Scheffler,4,13,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T48,NA,Jazz Janewattananond,4,13,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T48,NA,Matt Wallace,4,13,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Gary Woodland,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Danny Willett,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Keegan Bradley,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Haotong Li,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Cameron Smith,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Lucas Herbert,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Tyler Duncan,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Viktor Hovland,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Nick Taylor,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T56,NA,Ian Poulter,4,12,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T66,NA,Paul Casey,4,11,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T66,NA,Graeme McDowell,4,11,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T66,NA,Rory McIlroy,4,11,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T66,NA,Michael Thompson,4,11,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T66,NA,Max Homa,4,11,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T66,NA,Sebastian Soderberg,4,11,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T72,NA,Adam Hadwin,4,10,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T72,NA,Tony Finau,4,10,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T72,NA,C.T. Pan,4,10,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T75,NA,Brandt Snedeker,4,9,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T75,NA,Rafa Cabrera Bello,4,9,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T75,NA,Shaun Norris,4,9,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+78,NA,Henrik Stenson,4,5,t476,World Golf Championships-FedEx St. Jude Invitational,2020,weekly
+T1,,Omar Uresti,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Dicky Pride,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Charley Hoffman,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Brian Gay,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T55,Alex Cejka,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T50,Arjun Atwal,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Brian Davis,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Cameron Percy,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T36,Pat Perez,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T66,Tim Wilkinson,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T14,Ryan Moore,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,David Hearn,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T26,Alex Noren,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Rob Oppenheim,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Seamus Power,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Sangmoon Bae,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Fabián Gómez,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T55,Peter Uihlein,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Brendan Steele,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T14,Kyle Stanley,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T50,Scott Stallings,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T2,Emiliano Grillo,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Roberto Castro,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Kevin Tway,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Rhein Gibson,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Troy Merritt,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T14,Michael Gligic,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T62,K.H. Lee,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Mark Anderson,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Russell Knox,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T26,Chris Baker,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Roger Sloan,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T7,Bo Hoag,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Bud Cauley,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Russell Henley,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Joseph Bramlett,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Robert Streb,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Peter Malnati,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Chesson Hadley,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T36,Matthias Schwab,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Lanto Griffin,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Beau Hossler,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Kris Ventura,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T46,Patrick Rodgers,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Matthew NeSmith,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Sam Ryder,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T21,Si Woo Kim,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,J.J. Spaun,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Tyler McCumber,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Zac Blair,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T14,Cam Davis,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T36,Austin Cook,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T7,Robby Shelton,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Maverick McNealy,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T36,Brandon Hagy,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T4,Richy Werenski,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T26,Adam Schenk,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T21,Denny McCarthy,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T36,Michael Gellerman,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Aaron Wise,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Justin Suh,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Sahith Theegala,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Wyndham Clark,4,NA,t472,Barracuda Championship,2020,weekly
+T1,T26,Doug Ghim,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Will Gordon,4,NA,t472,Barracuda Championship,2020,weekly
+T1,,Peter Kuest,4,NA,t472,Barracuda Championship,2020,weekly
+1,T21,Dylan Frittelli,4,25,t525,3M Open,2020,weekly
+T2,,Brian Harman,4,24,t525,3M Open,2020,weekly
+T2,,Emiliano Grillo,4,24,t525,3M Open,2020,weekly
+T4,T58,Harris English,4,23,t525,3M Open,2020,weekly
+T4,,Richy Werenski,4,23,t525,3M Open,2020,weekly
+T4,T58,Charles Howell III,4,23,t525,3M Open,2020,weekly
+T7,,Cameron Tringale,4,22,t525,3M Open,2020,weekly
+T7,T21,Bo Hoag,4,22,t525,3M Open,2020,weekly
+T7,,Adam Long,4,22,t525,3M Open,2020,weekly
+T7,,Max Homa,4,22,t525,3M Open,2020,weekly
+T7,,Robby Shelton,4,22,t525,3M Open,2020,weekly
+T7,,Charl Schwartzel,4,22,t525,3M Open,2020,weekly
+T7,,Michael Thompson,4,22,t525,3M Open,2020,weekly
+T14,T17,Ryan Moore,4,21,t525,3M Open,2020,weekly
+T14,,Bernd Wiesberger,4,21,t525,3M Open,2020,weekly
+T14,,Kyle Stanley,4,21,t525,3M Open,2020,weekly
+T14,T39,Xinjun Zhang,4,21,t525,3M Open,2020,weekly
+T14,,Michael Gligic,4,21,t525,3M Open,2020,weekly
+T14,,Cam Davis,4,21,t525,3M Open,2020,weekly
+T14,,Chase Koepka,4,21,t525,3M Open,2020,weekly
+T21,T3,Si Woo Kim,4,20,t525,3M Open,2020,weekly
+T21,T35,Denny McCarthy,4,20,t525,3M Open,2020,weekly
+T21,1,Tony Finau,4,20,t525,3M Open,2020,weekly
+T21,,Danny Lee,4,20,t525,3M Open,2020,weekly
+T21,T6,Henrik Norlander,4,20,t525,3M Open,2020,weekly
+T26,T58,Luke List,4,19,t525,3M Open,2020,weekly
+T26,,Alex Noren,4,19,t525,3M Open,2020,weekly
+T26,,Chris Baker,4,19,t525,3M Open,2020,weekly
+T26,,Adam Schenk,4,19,t525,3M Open,2020,weekly
+T26,,Sam Burns,4,19,t525,3M Open,2020,weekly
+T26,T49,Sepp Straka,4,19,t525,3M Open,2020,weekly
+T26,,Doug Ghim,4,19,t525,3M Open,2020,weekly
+T26,T6,Matthew Wolff,4,19,t525,3M Open,2020,weekly
+T26,,Aaron Baddeley,4,19,t525,3M Open,2020,weekly
+T26,,Robert Garrigus,4,19,t525,3M Open,2020,weekly
+T36,,Pat Perez,4,18,t525,3M Open,2020,weekly
+T36,,Matthias Schwab,4,18,t525,3M Open,2020,weekly
+T36,,Austin Cook,4,18,t525,3M Open,2020,weekly
+T36,,Brandon Hagy,4,18,t525,3M Open,2020,weekly
+T36,,Michael Gellerman,4,18,t525,3M Open,2020,weekly
+T36,,Hank Lebioda,4,18,t525,3M Open,2020,weekly
+T36,T58,Jason Dufner,4,18,t525,3M Open,2020,weekly
+T36,,Rafa Cabrera Bello,4,18,t525,3M Open,2020,weekly
+T36,,Nick Watney,4,18,t525,3M Open,2020,weekly
+T36,,Chris Kirk,4,18,t525,3M Open,2020,weekly
+T46,,Bronson Burgoon,4,17,t525,3M Open,2020,weekly
+T46,,Patton Kizzire,4,17,t525,3M Open,2020,weekly
+T46,T17,Patrick Rodgers,4,17,t525,3M Open,2020,weekly
+T46,,Talor Gooch,4,17,t525,3M Open,2020,weekly
+T50,,Josh Teater,4,16,t525,3M Open,2020,weekly
+T50,,Brice Garnett,4,16,t525,3M Open,2020,weekly
+T50,,Scott Stallings,4,16,t525,3M Open,2020,weekly
+T50,,Arjun Atwal,4,16,t525,3M Open,2020,weekly
+T50,,K.J. Choi,4,16,t525,3M Open,2020,weekly
+T55,,Alex Cejka,4,15,t525,3M Open,2020,weekly
+T55,,Peter Uihlein,4,15,t525,3M Open,2020,weekly
+T57,,Bill Haas,4,14,t525,3M Open,2020,weekly
+T57,,Tom Lewis,4,14,t525,3M Open,2020,weekly
+T57,,Tom Hoge,4,14,t525,3M Open,2020,weekly
+T57,,Kramer Hickok,4,14,t525,3M Open,2020,weekly
+T57,,George McNeill,4,14,t525,3M Open,2020,weekly
+T62,74,Stewart Cink,4,13,t525,3M Open,2020,weekly
+T62,,Bo Van Pelt,4,13,t525,3M Open,2020,weekly
+T62,,John Merrick,4,13,t525,3M Open,2020,weekly
+T62,,K.H. Lee,4,13,t525,3M Open,2020,weekly
+T66,,Tim Wilkinson,4,11,t525,3M Open,2020,weekly
+T66,,Tommy Gainey,4,11,t525,3M Open,2020,weekly
+68,,Matt Every,4,10,t525,3M Open,2020,weekly
+1,,Tony Finau,4,21,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+2,T50,Matt Wallace,4,20,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T3,T64,Si Woo Kim,4,18,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T3,T1,Viktor Hovland,4,18,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T3,T13,Jon Rahm,4,18,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T6,T59,Mackenzie Hughes,4,17,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T6,,Matthew Wolff,4,17,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T6,T23,Henrik Norlander,4,17,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T6,,Danny Willett,4,17,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T6,T23,Patrick Reed,4,17,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T6,,Kevin Na,4,17,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T6,,Scott Piercy,4,17,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T13,T4,Jason Day,4,16,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T13,,Rory McIlroy,4,16,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T13,T8,Billy Horschel,4,16,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T13,T36,Patrick Cantlay,4,16,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T17,,Brooks Koepka,4,15,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T17,,Patrick Rodgers,4,15,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T17,,Ryan Moore,4,15,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T17,,Bubba Watson,4,15,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Jimmy Walker,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Carl Pettersson,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Tiger Woods,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Ryan Palmer,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Marc Leishman,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Scott Harrington,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,T50,C.T. Pan,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Dylan Frittelli,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Brendon Todd,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,T4,Gary Woodland,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Bo Hoag,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Jordan Spieth,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Erik van Rooyen,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T21,,Scottie Scheffler,4,14,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T35,,Keith Mitchell,4,13,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T35,,Denny McCarthy,4,13,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T35,T8,Justin Thomas,4,13,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T35,,Lucas Glover,4,13,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,T50,Louis Oosthuizen,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,T42,Matt Kuchar,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,,Sergio Garcia,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,T16,Kevin Streelman,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,,Xinjun Zhang,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,T50,Keegan Bradley,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,T64,Carlos Ortiz,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,T8,Matt Fitzpatrick,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,,Christiaan Bezuidenhout,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T39,T16,Xander Schauffele,4,12,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T49,,Mark Hubbard,4,11,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T49,T36,Corey Conners,4,11,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T49,,Tyler Duncan,4,11,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T49,T8,Sepp Straka,4,11,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T49,T50,Brendan Steele,4,11,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T49,T50,Adam Hadwin,4,11,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T49,,Lanto Griffin,4,11,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T49,T23,Zach Johnson,4,11,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T49,,Jim Furyk,4,11,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,T50,Phil Mickelson,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,,Charles Howell III,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,T50,Jason Dufner,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,,Luke List,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,,Sung Kang,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,,William McGirt,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,,Bud Cauley,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,,Harris English,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,,Abraham Ancer,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T58,,Sebastián Muñoz,4,10,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T68,,Cameron Smith,4,9,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T68,T1,Collin Morikawa,4,9,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T68,T23,Chez Reavie,4,9,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T68,T23,Steve Stricker,4,9,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T68,,Vijay Singh,4,9,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+73,,Joel Dahmen,4,8,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+74,T59,Stewart Cink,4,5,t023,the Memorial Tournament presented by Nationwide,2020,weekly
+T1,T39,Viktor Hovland,4,24,t533,Workday Charity Open,2020,weekly
+T1,,Collin Morikawa,4,24,t533,Workday Charity Open,2020,weekly
+3,,Sam Ryder,4,23,t533,Workday Charity Open,2020,weekly
+T4,,Matt Jones,4,22,t533,Workday Charity Open,2020,weekly
+T4,,Jason Day,4,22,t533,Workday Charity Open,2020,weekly
+T4,,Gary Woodland,4,22,t533,Workday Charity Open,2020,weekly
+T4,,Ian Poulter,4,22,t533,Workday Charity Open,2020,weekly
+T8,,Billy Horschel,4,21,t533,Workday Charity Open,2020,weekly
+T8,,Justin Thomas,4,21,t533,Workday Charity Open,2020,weekly
+T8,,Chase Seiffert,4,21,t533,Workday Charity Open,2020,weekly
+T8,,Matt Fitzpatrick,4,21,t533,Workday Charity Open,2020,weekly
+T8,T29,Sepp Straka,4,21,t533,Workday Charity Open,2020,weekly
+T13,,Chesson Hadley,4,20,t533,Workday Charity Open,2020,weekly
+T13,,Jon Rahm,4,20,t533,Workday Charity Open,2020,weekly
+T13,,Shane Lowry,4,20,t533,Workday Charity Open,2020,weekly
+T16,,Kevin Streelman,4,19,t533,Workday Charity Open,2020,weekly
+T16,,Tim Wilkinson,4,19,t533,Workday Charity Open,2020,weekly
+T16,,MJ Daffue,4,19,t533,Workday Charity Open,2020,weekly
+T16,,Joaquin Niemann,4,19,t533,Workday Charity Open,2020,weekly
+T16,T29,Richy Werenski,4,19,t533,Workday Charity Open,2020,weekly
+T16,T19,Sam Burns,4,19,t533,Workday Charity Open,2020,weekly
+T16,,Xander Schauffele,4,19,t533,Workday Charity Open,2020,weekly
+T23,,Patrick Reed,4,18,t533,Workday Charity Open,2020,weekly
+T23,T3,J.J. Spaun,4,18,t533,Workday Charity Open,2020,weekly
+T23,T29,Sungjae Im,4,18,t533,Workday Charity Open,2020,weekly
+T23,,Talor Gooch,4,18,t533,Workday Charity Open,2020,weekly
+T23,,Graeme McDowell,4,18,t533,Workday Charity Open,2020,weekly
+T23,T61,Steve Stricker,4,18,t533,Workday Charity Open,2020,weekly
+T23,,Jerry Kelly,4,18,t533,Workday Charity Open,2020,weekly
+T23,,Charley Hoffman,4,18,t533,Workday Charity Open,2020,weekly
+T23,,Brian Gay,4,18,t533,Workday Charity Open,2020,weekly
+T23,,Zach Johnson,4,18,t533,Workday Charity Open,2020,weekly
+T23,,Chez Reavie,4,18,t533,Workday Charity Open,2020,weekly
+T23,T39,Henrik Norlander,4,18,t533,Workday Charity Open,2020,weekly
+T23,T39,Rickie Fowler,4,18,t533,Workday Charity Open,2020,weekly
+T36,T56,K.H. Lee,4,17,t533,Workday Charity Open,2020,weekly
+T36,,Rory Sabbatini,4,17,t533,Workday Charity Open,2020,weekly
+T36,,Patrick Cantlay,4,17,t533,Workday Charity Open,2020,weekly
+T36,,Corey Conners,4,17,t533,Workday Charity Open,2020,weekly
+T36,T56,Austin Cook,4,17,t533,Workday Charity Open,2020,weekly
+T36,65,Adam Schenk,4,17,t533,Workday Charity Open,2020,weekly
+T42,,Roger Sloan,4,16,t533,Workday Charity Open,2020,weekly
+T42,,Russell Henley,4,16,t533,Workday Charity Open,2020,weekly
+T42,,Peter Malnati,4,16,t533,Workday Charity Open,2020,weekly
+T42,,Matt Kuchar,4,16,t533,Workday Charity Open,2020,weekly
+T42,T29,Chris Stroud,4,16,t533,Workday Charity Open,2020,weekly
+T42,T19,Scott Stallings,4,16,t533,Workday Charity Open,2020,weekly
+T42,T56,Troy Merritt,4,16,t533,Workday Charity Open,2020,weekly
+T42,T3,Hideki Matsuyama,4,16,t533,Workday Charity Open,2020,weekly
+T50,,Jason Dufner,4,15,t533,Workday Charity Open,2020,weekly
+T50,,Louis Oosthuizen,4,15,t533,Workday Charity Open,2020,weekly
+T50,,Bronson Burgoon,4,15,t533,Workday Charity Open,2020,weekly
+T50,,Brendan Steele,4,15,t533,Workday Charity Open,2020,weekly
+T50,,C.T. Pan,4,15,t533,Workday Charity Open,2020,weekly
+T50,T47,Keegan Bradley,4,15,t533,Workday Charity Open,2020,weekly
+T50,T29,Adam Hadwin,4,15,t533,Workday Charity Open,2020,weekly
+T50,,Phil Mickelson,4,15,t533,Workday Charity Open,2020,weekly
+T50,T13,Matt Wallace,4,15,t533,Workday Charity Open,2020,weekly
+T59,,Andrew Putnam,4,14,t533,Workday Charity Open,2020,weekly
+T59,,Mackenzie Hughes,4,14,t533,Workday Charity Open,2020,weekly
+T59,,Stewart Cink,4,14,t533,Workday Charity Open,2020,weekly
+T59,,Nick Taylor,4,14,t533,Workday Charity Open,2020,weekly
+T59,T47,Pat Perez,4,14,t533,Workday Charity Open,2020,weekly
+T64,,Carlos Ortiz,4,13,t533,Workday Charity Open,2020,weekly
+T64,,Adam Long,4,13,t533,Workday Charity Open,2020,weekly
+T64,T56,Si Woo Kim,4,13,t533,Workday Charity Open,2020,weekly
+T64,T3,Cameron Champ,4,13,t533,Workday Charity Open,2020,weekly
+1,,Matthew Wolff,4,30,t524,Rocket Mortgage Classic,2020,weekly
+2,T17,Bryson DeChambeau,4,27,t524,Rocket Mortgage Classic,2020,weekly
+T3,,Tyrrell Hatton,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T3,,Tom Lewis,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T3,T36,Mark Hubbard,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T3,,J.J. Spaun,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T3,T36,Wesley Bryan,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T3,,Cameron Champ,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T3,T28,Doc Redman,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T3,,Kevin Kisner,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T3,,Hideki Matsuyama,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T3,T12,Lucas Glover,4,22,t524,Rocket Mortgage Classic,2020,weekly
+T13,4,Ryan Armour,4,21,t524,Rocket Mortgage Classic,2020,weekly
+T13,,Webb Simpson,4,21,t524,Rocket Mortgage Classic,2020,weekly
+T13,,Chris Kirk,4,21,t524,Rocket Mortgage Classic,2020,weekly
+T13,,Danny Willett,4,21,t524,Rocket Mortgage Classic,2020,weekly
+T13,,Maverick McNealy,4,21,t524,Rocket Mortgage Classic,2020,weekly
+T13,,Matt Wallace,4,21,t524,Rocket Mortgage Classic,2020,weekly
+T19,,Hudson Swafford,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T19,T8,Sam Burns,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T19,,Luke List,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T19,,Fabián Gómez,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T19,,Tony Finau,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T19,T28,Scott Stallings,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T19,T28,Brian Stuard,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T19,,Chris Baker,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T19,,Cameron Tringale,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T19,,George McNeill,4,20,t524,Rocket Mortgage Classic,2020,weekly
+T29,,Chris Stroud,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T29,,Seamus Power,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T29,T63,Emiliano Grillo,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T29,,Rhein Gibson,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T29,,Adam Hadwin,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T29,T48,Lanto Griffin,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T29,,Kris Ventura,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T29,T58,Sungjae Im,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T29,T48,Richy Werenski,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T29,,Sepp Straka,4,19,t524,Rocket Mortgage Classic,2020,weekly
+T39,7,Harold Varner III,4,18,t524,Rocket Mortgage Classic,2020,weekly
+T39,T36,Viktor Hovland,4,18,t524,Rocket Mortgage Classic,2020,weekly
+T39,,Michael Gellerman,4,18,t524,Rocket Mortgage Classic,2020,weekly
+T39,T58,Henrik Norlander,4,18,t524,Rocket Mortgage Classic,2020,weekly
+T39,,Rickie Fowler,4,18,t524,Rocket Mortgage Classic,2020,weekly
+T39,T28,Kevin Chappell,4,18,t524,Rocket Mortgage Classic,2020,weekly
+T39,,Jonathan Byrd,4,18,t524,Rocket Mortgage Classic,2020,weekly
+T39,68,Luke Donald,4,18,t524,Rocket Mortgage Classic,2020,weekly
+T47,,Pat Perez,4,17,t524,Rocket Mortgage Classic,2020,weekly
+T47,,Johnson Wagner,4,17,t524,Rocket Mortgage Classic,2020,weekly
+T47,,Scott Harrington,4,17,t524,Rocket Mortgage Classic,2020,weekly
+T47,,"Ted Potter, Jr.",4,17,t524,Rocket Mortgage Classic,2020,weekly
+T47,T17,Brendon Todd,4,17,t524,Rocket Mortgage Classic,2020,weekly
+T47,,Keegan Bradley,4,17,t524,Rocket Mortgage Classic,2020,weekly
+T47,,Patrick Rodgers,4,17,t524,Rocket Mortgage Classic,2020,weekly
+T47,T17,Tyler Duncan,4,17,t524,Rocket Mortgage Classic,2020,weekly
+T47,,Brandon Hagy,4,17,t524,Rocket Mortgage Classic,2020,weekly
+T56,T12,Si Woo Kim,4,16,t524,Rocket Mortgage Classic,2020,weekly
+T56,T36,Austin Cook,4,16,t524,Rocket Mortgage Classic,2020,weekly
+T56,T17,Michael Thompson,4,16,t524,Rocket Mortgage Classic,2020,weekly
+T56,T28,Troy Merritt,4,16,t524,Rocket Mortgage Classic,2020,weekly
+T56,,K.H. Lee,4,16,t524,Rocket Mortgage Classic,2020,weekly
+T61,,Mark Anderson,4,15,t524,Rocket Mortgage Classic,2020,weekly
+T61,,Zac Blair,4,15,t524,Rocket Mortgage Classic,2020,weekly
+T61,,Arjun Atwal,4,15,t524,Rocket Mortgage Classic,2020,weekly
+T61,,Steve Stricker,4,15,t524,Rocket Mortgage Classic,2020,weekly
+65,,Adam Schenk,4,14,t524,Rocket Mortgage Classic,2020,weekly
+66,,Zack Sucher,4,13,t524,Rocket Mortgage Classic,2020,weekly
+T67,,Josh Teater,4,12,t524,Rocket Mortgage Classic,2020,weekly
+T67,T36,Seung-Yul Noh,4,12,t524,Rocket Mortgage Classic,2020,weekly
+T67,,Harry Higgs,4,12,t524,Rocket Mortgage Classic,2020,weekly
+70,,Bo Van Pelt,4,11,t524,Rocket Mortgage Classic,2020,weekly
+1,,Will Gordon,4,27,t034,Travelers Championship,2020,weekly
+T2,,Brendan Steele,4,25,t034,Travelers Championship,2020,weekly
+T2,T22,Dustin Johnson,4,25,t034,Travelers Championship,2020,weekly
+4,73,Ryan Armour,4,24,t034,Travelers Championship,2020,weekly
+T5,,Patton Kizzire,4,23,t034,Travelers Championship,2020,weekly
+T5,,Patrick Cantlay,4,23,t034,Travelers Championship,2020,weekly
+7,,Harold Varner III,4,22,t034,Travelers Championship,2020,weekly
+T8,T45,Jordan Spieth,4,21,t034,Travelers Championship,2020,weekly
+T8,,Russell Henley,4,21,t034,Travelers Championship,2020,weekly
+T8,,Sam Burns,4,21,t034,Travelers Championship,2020,weekly
+T8,,Kevin Streelman,4,21,t034,Travelers Championship,2020,weekly
+T12,T31,Jhonattan Vegas,4,20,t034,Travelers Championship,2020,weekly
+T12,T45,Rory McIlroy,4,20,t034,Travelers Championship,2020,weekly
+T12,T45,Mackenzie Hughes,4,20,t034,Travelers Championship,2020,weekly
+T12,,Si Woo Kim,4,20,t034,Travelers Championship,2020,weekly
+T12,T22,Lucas Glover,4,20,t034,Travelers Championship,2020,weekly
+T17,,Kevin Na,4,19,t034,Travelers Championship,2020,weekly
+T17,,Phil Mickelson,4,19,t034,Travelers Championship,2020,weekly
+T17,,Zach Johnson,4,19,t034,Travelers Championship,2020,weekly
+T17,,Tom Hoge,4,19,t034,Travelers Championship,2020,weekly
+T17,T3,Abraham Ancer,4,19,t034,Travelers Championship,2020,weekly
+T17,T45,Tyler Duncan,4,19,t034,Travelers Championship,2020,weekly
+T17,T13,Bryson DeChambeau,4,19,t034,Travelers Championship,2020,weekly
+T17,T13,Xander Schauffele,4,19,t034,Travelers Championship,2020,weekly
+T17,,Hank Lebioda,4,19,t034,Travelers Championship,2020,weekly
+T17,,Brendon Todd,4,19,t034,Travelers Championship,2020,weekly
+T17,T22,Michael Thompson,4,19,t034,Travelers Championship,2020,weekly
+T28,,Rafa Cabrera Bello,4,18,t034,Travelers Championship,2020,weekly
+T28,,Brandt Snedeker,4,18,t034,Travelers Championship,2020,weekly
+T28,T66,Scott Stallings,4,18,t034,Travelers Championship,2020,weekly
+T28,T66,Brian Stuard,4,18,t034,Travelers Championship,2020,weekly
+T28,,Kevin Chappell,4,18,t034,Travelers Championship,2020,weekly
+T28,T74,Troy Merritt,4,18,t034,Travelers Championship,2020,weekly
+T28,T63,Doc Redman,4,18,t034,Travelers Championship,2020,weekly
+T28,1,Sergio Garcia,4,18,t034,Travelers Championship,2020,weekly
+T36,,Louis Oosthuizen,4,17,t034,Travelers Championship,2020,weekly
+T36,T54,Joel Dahmen,4,17,t034,Travelers Championship,2020,weekly
+T36,,Patrick Reed,4,17,t034,Travelers Championship,2020,weekly
+T36,,Adam Long,4,17,t034,Travelers Championship,2020,weekly
+T36,T54,Mark Hubbard,4,17,t034,Travelers Championship,2020,weekly
+T36,,Austin Cook,4,17,t034,Travelers Championship,2020,weekly
+T36,T66,Viktor Hovland,4,17,t034,Travelers Championship,2020,weekly
+T36,T54,Jon Rahm,4,17,t034,Travelers Championship,2020,weekly
+T36,T54,Wesley Bryan,4,17,t034,Travelers Championship,2020,weekly
+T36,,Aaron Wise,4,17,t034,Travelers Championship,2020,weekly
+T36,,Seung-Yul Noh,4,17,t034,Travelers Championship,2020,weekly
+T36,,Kyle Stanley,4,17,t034,Travelers Championship,2020,weekly
+T48,,Joseph Bramlett,4,16,t034,Travelers Championship,2020,weekly
+T48,,Lanto Griffin,4,16,t034,Travelers Championship,2020,weekly
+T48,,Richy Werenski,4,16,t034,Travelers Championship,2020,weekly
+T48,,Charley Hoffman,4,16,t034,Travelers Championship,2020,weekly
+T52,T7,Joaquin Niemann,4,15,t034,Travelers Championship,2020,weekly
+T52,72,Chez Reavie,4,15,t034,Travelers Championship,2020,weekly
+T52,,Marc Leishman,4,15,t034,Travelers Championship,2020,weekly
+T52,,Jason Day,4,15,t034,Travelers Championship,2020,weekly
+T52,,Scott Brown,4,15,t034,Travelers Championship,2020,weekly
+T52,,Shane Lowry,4,15,t034,Travelers Championship,2020,weekly
+T58,,Sung Kang,4,14,t034,Travelers Championship,2020,weekly
+T58,,Henrik Norlander,4,14,t034,Travelers Championship,2020,weekly
+T58,,Byeong Hun An,4,14,t034,Travelers Championship,2020,weekly
+T58,,Sungjae Im,4,14,t034,Travelers Championship,2020,weekly
+T58,,Jim Furyk,4,14,t034,Travelers Championship,2020,weekly
+T63,,Greg Chalmers,4,13,t034,Travelers Championship,2020,weekly
+T63,T3,Ian Poulter,4,13,t034,Travelers Championship,2020,weekly
+T63,,Paul Casey,4,13,t034,Travelers Championship,2020,weekly
+T63,,Emiliano Grillo,4,13,t034,Travelers Championship,2020,weekly
+67,,Roger Sloan,4,12,t034,Travelers Championship,2020,weekly
+68,,Luke Donald,4,11,t034,Travelers Championship,2020,weekly
+1,,Sergio Garcia,4,27,t012,RBC Heritage,2020,weekly
+2,,Webb Simpson,4,25,t012,RBC Heritage,2020,weekly
+T3,T33,Ian Poulter,4,23,t012,RBC Heritage,2020,weekly
+T3,,Tyrrell Hatton,4,23,t012,RBC Heritage,2020,weekly
+T3,,Christiaan Bezuidenhout,4,23,t012,RBC Heritage,2020,weekly
+T3,T25,Abraham Ancer,4,23,t012,RBC Heritage,2020,weekly
+T7,T33,Brooks Koepka,4,22,t012,RBC Heritage,2020,weekly
+T7,T2,Daniel Berger,4,22,t012,RBC Heritage,2020,weekly
+T7,T25,Joaquin Niemann,4,22,t012,RBC Heritage,2020,weekly
+T7,T25,J.T. Poston,4,22,t012,RBC Heritage,2020,weekly
+T7,T58,Alex Noren,4,22,t012,RBC Heritage,2020,weekly
+T7,,Dylan Frittelli,4,22,t012,RBC Heritage,2020,weekly
+T13,T14,Tony Finau,4,21,t012,RBC Heritage,2020,weekly
+T13,T14,Gary Woodland,4,21,t012,RBC Heritage,2020,weekly
+T13,T25,Justin Thomas,4,21,t012,RBC Heritage,2020,weekly
+T13,T11,Corey Conners,4,21,t012,RBC Heritage,2020,weekly
+T13,,Erik van Rooyen,4,21,t012,RBC Heritage,2020,weekly
+T13,T25,Matt Fitzpatrick,4,21,t012,RBC Heritage,2020,weekly
+T13,T25,Bryson DeChambeau,4,21,t012,RBC Heritage,2020,weekly
+T13,T7,Xander Schauffele,4,21,t012,RBC Heritage,2020,weekly
+T13,,Wyndham Clark,4,21,t012,RBC Heritage,2020,weekly
+T22,T58,Matthew NeSmith,4,20,t012,RBC Heritage,2020,weekly
+T22,,Max Homa,4,20,t012,RBC Heritage,2020,weekly
+T22,,Sepp Straka,4,20,t012,RBC Heritage,2020,weekly
+T22,T5,Lucas Glover,4,20,t012,RBC Heritage,2020,weekly
+T22,,Dustin Johnson,4,20,t012,RBC Heritage,2020,weekly
+T22,,Michael Thompson,4,20,t012,RBC Heritage,2020,weekly
+T22,T19,Adam Hadwin,4,20,t012,RBC Heritage,2020,weekly
+T22,T65,Andrew Landry,4,20,t012,RBC Heritage,2020,weekly
+T22,,Matt Kuchar,4,20,t012,RBC Heritage,2020,weekly
+T31,,Ryan Palmer,4,19,t012,RBC Heritage,2020,weekly
+T31,,Vaughn Taylor,4,19,t012,RBC Heritage,2020,weekly
+T31,,Ernie Els,4,19,t012,RBC Heritage,2020,weekly
+T31,1,Justin Rose,4,19,t012,RBC Heritage,2020,weekly
+T31,T50,Matt Jones,4,19,t012,RBC Heritage,2020,weekly
+T31,T45,Jhonattan Vegas,4,19,t012,RBC Heritage,2020,weekly
+T31,T25,Brian Harman,4,19,t012,RBC Heritage,2020,weekly
+T31,,Chris Stroud,4,19,t012,RBC Heritage,2020,weekly
+T31,,Danny Lee,4,19,t012,RBC Heritage,2020,weekly
+T31,,Jim Herman,4,19,t012,RBC Heritage,2020,weekly
+T31,,Carlos Ortiz,4,19,t012,RBC Heritage,2020,weekly
+T31,,Harris English,4,19,t012,RBC Heritage,2020,weekly
+T31,T19,Chesson Hadley,4,19,t012,RBC Heritage,2020,weekly
+T31,,Sebastián Muñoz,4,19,t012,RBC Heritage,2020,weekly
+T45,T2,Jordan Spieth,4,18,t012,RBC Heritage,2020,weekly
+T45,,Mackenzie Hughes,4,18,t012,RBC Heritage,2020,weekly
+T45,,Sam Ryder,4,18,t012,RBC Heritage,2020,weekly
+T45,T19,Tyler Duncan,4,18,t012,RBC Heritage,2020,weekly
+T45,,Charl Schwartzel,4,18,t012,RBC Heritage,2020,weekly
+T45,T33,Rory McIlroy,4,18,t012,RBC Heritage,2020,weekly
+T45,,Brice Garnett,4,18,t012,RBC Heritage,2020,weekly
+T45,T14,Branden Grace,4,18,t012,RBC Heritage,2020,weekly
+T45,T11,Rory Sabbatini,4,18,t012,RBC Heritage,2020,weekly
+T54,,Stewart Cink,4,17,t012,RBC Heritage,2020,weekly
+T54,,Bill Haas,4,17,t012,RBC Heritage,2020,weekly
+T54,,C.T. Pan,4,17,t012,RBC Heritage,2020,weekly
+T54,T19,Harry Higgs,4,17,t012,RBC Heritage,2020,weekly
+T54,T7,Joel Dahmen,4,17,t012,RBC Heritage,2020,weekly
+T54,T54,Mark Hubbard,4,17,t012,RBC Heritage,2020,weekly
+T54,,Jon Rahm,4,17,t012,RBC Heritage,2020,weekly
+T54,,Wesley Bryan,4,17,t012,RBC Heritage,2020,weekly
+T54,T2,Collin Morikawa,4,17,t012,RBC Heritage,2020,weekly
+T63,,Peter Malnati,4,16,t012,RBC Heritage,2020,weekly
+T63,T33,Doc Redman,4,16,t012,RBC Heritage,2020,weekly
+T63,,Bernhard Langer,4,16,t012,RBC Heritage,2020,weekly
+T66,T11,Bubba Watson,4,15,t012,RBC Heritage,2020,weekly
+T66,,Scott Stallings,4,15,t012,RBC Heritage,2020,weekly
+T66,T33,Brian Stuard,4,15,t012,RBC Heritage,2020,weekly
+T66,T54,Maverick McNealy,4,15,t012,RBC Heritage,2020,weekly
+T66,T33,Viktor Hovland,4,15,t012,RBC Heritage,2020,weekly
+T66,,Matt Wallace,4,15,t012,RBC Heritage,2020,weekly
+72,,Chez Reavie,4,14,t012,RBC Heritage,2020,weekly
+73,,Ryan Armour,4,13,t012,RBC Heritage,2020,weekly
+T74,T50,Jason Dufner,4,12,t012,RBC Heritage,2020,weekly
+T74,,Troy Merritt,4,12,t012,RBC Heritage,2020,weekly
+1,,Justin Rose,4,23,t021,Charles Schwab Challenge,2020,weekly
+T2,,Jordan Spieth,4,22,t021,Charles Schwab Challenge,2020,weekly
+T2,,Daniel Berger,4,22,t021,Charles Schwab Challenge,2020,weekly
+T2,T21,Collin Morikawa,4,22,t021,Charles Schwab Challenge,2020,weekly
+T5,,Lucas Glover,4,21,t021,Charles Schwab Challenge,2020,weekly
+T5,T42,Jason Kokrak,4,21,t021,Charles Schwab Challenge,2020,weekly
+T7,T28,Joel Dahmen,4,20,t021,Charles Schwab Challenge,2020,weekly
+T7,T13,Patrick Reed,4,20,t021,Charles Schwab Challenge,2020,weekly
+T7,T54,Patrick Rodgers,4,20,t021,Charles Schwab Challenge,2020,weekly
+T7,T28,Xander Schauffele,4,20,t021,Charles Schwab Challenge,2020,weekly
+T11,,Corey Conners,4,19,t021,Charles Schwab Challenge,2020,weekly
+T11,,Bubba Watson,4,19,t021,Charles Schwab Challenge,2020,weekly
+T11,T21,Rory Sabbatini,4,19,t021,Charles Schwab Challenge,2020,weekly
+T14,,Peter Uihlein,4,18,t021,Charles Schwab Challenge,2020,weekly
+T14,,Tony Finau,4,18,t021,Charles Schwab Challenge,2020,weekly
+T14,,Branden Grace,4,18,t021,Charles Schwab Challenge,2020,weekly
+T14,,Gary Woodland,4,18,t021,Charles Schwab Challenge,2020,weekly
+T14,T5,Sungjae Im,4,18,t021,Charles Schwab Challenge,2020,weekly
+T19,,Chesson Hadley,4,17,t021,Charles Schwab Challenge,2020,weekly
+T19,T28,Harold Varner III,4,17,t021,Charles Schwab Challenge,2020,weekly
+T19,,Tyler Duncan,4,17,t021,Charles Schwab Challenge,2020,weekly
+T19,,Cameron Champ,4,17,t021,Charles Schwab Challenge,2020,weekly
+T19,,Adam Hadwin,4,17,t021,Charles Schwab Challenge,2020,weekly
+T19,T13,Harry Higgs,4,17,t021,Charles Schwab Challenge,2020,weekly
+T25,,Brian Harman,4,16,t021,Charles Schwab Challenge,2020,weekly
+T25,,Justin Thomas,4,16,t021,Charles Schwab Challenge,2020,weekly
+T25,T28,Matt Fitzpatrick,4,16,t021,Charles Schwab Challenge,2020,weekly
+T25,,Joaquin Niemann,4,16,t021,Charles Schwab Challenge,2020,weekly
+T25,T68,Abraham Ancer,4,16,t021,Charles Schwab Challenge,2020,weekly
+T25,T7,Talor Gooch,4,16,t021,Charles Schwab Challenge,2020,weekly
+T25,T7,Bryson DeChambeau,4,16,t021,Charles Schwab Challenge,2020,weekly
+T25,,J.T. Poston,4,16,t021,Charles Schwab Challenge,2020,weekly
+T33,T28,Brooks Koepka,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,T28,Viktor Hovland,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,T42,Doc Redman,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,T42,Matthew Wolff,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,,Rafa Cabrera Bello,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,T21,Rory McIlroy,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,,Bronson Burgoon,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,T28,Billy Horschel,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,,Brian Stuard,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,,Charles Howell III,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,T54,Ian Poulter,4,15,t021,Charles Schwab Challenge,2020,weekly
+T33,,Pat Perez,4,15,t021,Charles Schwab Challenge,2020,weekly
+T45,,Jhonattan Vegas,4,14,t021,Charles Schwab Challenge,2020,weekly
+T45,,Kevin Kisner,4,14,t021,Charles Schwab Challenge,2020,weekly
+T45,T54,Keegan Bradley,4,14,t021,Charles Schwab Challenge,2020,weekly
+T45,T42,Byeong Hun An,4,14,t021,Charles Schwab Challenge,2020,weekly
+T45,,Adam Schenk,4,14,t021,Charles Schwab Challenge,2020,weekly
+T50,T62,Bud Cauley,4,13,t021,Charles Schwab Challenge,2020,weekly
+T50,T42,Matt Jones,4,13,t021,Charles Schwab Challenge,2020,weekly
+T50,,Jason Dufner,4,13,t021,Charles Schwab Challenge,2020,weekly
+T50,,Jim Furyk,4,13,t021,Charles Schwab Challenge,2020,weekly
+T54,,Mark Hubbard,4,12,t021,Charles Schwab Challenge,2020,weekly
+T54,T28,Scottie Scheffler,4,12,t021,Charles Schwab Challenge,2020,weekly
+T54,,Maverick McNealy,4,12,t021,Charles Schwab Challenge,2020,weekly
+T54,,Richy Werenski,4,12,t021,Charles Schwab Challenge,2020,weekly
+T58,,Matthew NeSmith,4,11,t021,Charles Schwab Challenge,2020,weekly
+T58,T13,Zac Blair,4,11,t021,Charles Schwab Challenge,2020,weekly
+T58,,Denny McCarthy,4,11,t021,Charles Schwab Challenge,2020,weekly
+T58,T54,Zach Johnson,4,11,t021,Charles Schwab Challenge,2020,weekly
+T58,,Scott Piercy,4,11,t021,Charles Schwab Challenge,2020,weekly
+T58,,Louis Oosthuizen,4,11,t021,Charles Schwab Challenge,2020,weekly
+T58,,Alex Noren,4,11,t021,Charles Schwab Challenge,2020,weekly
+T65,,Andrew Landry,4,10,t021,Charles Schwab Challenge,2020,weekly
+T65,T1,Keith Mitchell,4,10,t021,Charles Schwab Challenge,2020,weekly
+67,,Chris Kirk,4,9,t021,Charles Schwab Challenge,2020,weekly
+T1,,Sung Kang,4,17,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T1,,Keith Mitchell,4,17,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T3,T50,Sam Burns,4,16,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T3,,Tyrrell Hatton,4,16,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T5,,Danny Willett,4,15,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T5,T1,Sungjae Im,4,15,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T7,,Christiaan Bezuidenhout,4,14,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T7,T18,Talor Gooch,4,14,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T7,,Bryson DeChambeau,4,14,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T7,,Graeme McDowell,4,14,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T7,T18,Danny Lee,4,14,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T7,T35,Harris English,4,14,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T13,,Marc Leishman,4,13,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T13,T56,Dylan Frittelli,4,13,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T13,,Hideki Matsuyama,4,13,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T13,T64,Harry Higgs,4,13,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T13,,Patrick Reed,4,13,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T13,,Tom Hoge,4,13,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T13,,Charley Hoffman,4,13,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T13,,Zac Blair,4,13,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T21,,Collin Morikawa,4,12,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T21,T10,Vaughn Taylor,4,12,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T21,T56,Rory Sabbatini,4,12,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T21,,Scott Harrington,4,12,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T21,,Rory McIlroy,4,12,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T21,,Brendon Todd,4,12,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T21,,Rickie Fowler,4,12,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,T41,Billy Horschel,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Scott Brown,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Troy Merritt,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Joel Dahmen,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Brooks Koepka,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,T64,Harold Varner III,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,T50,Stewart Cink,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Max Homa,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Matt Fitzpatrick,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Scottie Scheffler,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,T5,Robby Shelton,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Viktor Hovland,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Xander Schauffele,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T28,,Matt Wallace,4,11,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,T18,Wyndham Clark,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,,Doc Redman,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,T50,Matthew Wolff,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,T56,Matt Jones,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,,Kevin Na,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,,Nick Taylor,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,,Brian Gay,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,,Jason Kokrak,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,,Xinjun Zhang,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,T56,K.H. Lee,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,T18,Byeong Hun An,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T42,,Lanto Griffin,4,10,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T54,,Ryan Moore,4,9,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T54,,Keegan Bradley,4,9,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T54,T18,Adam Long,4,9,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T54,T62,Beau Hossler,4,9,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T54,T10,Patrick Rodgers,4,9,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T54,T50,Zach Johnson,4,9,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T54,T41,Ian Poulter,4,9,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T54,,Rod Perry,4,9,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T62,T10,Jimmy Walker,4,8,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T62,,Davis Love III,4,8,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T62,,Steve Stricker,4,8,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T62,,Kevin Chappell,4,8,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T62,T64,Bud Cauley,4,8,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+67,,Sam Saunders,4,7,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T68,,Rob Oppenheim,4,6,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T68,,Abraham Ancer,4,6,t009,Arnold Palmer Invitational presented by Mastercard,2020,weekly
+T1,,Mackenzie Hughes,4,19,t010,The Honda Classic,2020,weekly
+T1,T34,Sungjae Im,4,19,t010,The Honda Classic,2020,weekly
+T3,,Mark Hubbard,4,18,t010,The Honda Classic,2020,weekly
+T3,T16,Tommy Fleetwood,4,18,t010,The Honda Classic,2020,weekly
+T5,T20,Gary Woodland,4,15,t010,The Honda Classic,2020,weekly
+T5,,Daniel Berger,4,15,t010,The Honda Classic,2020,weekly
+T5,,Robby Shelton,4,15,t010,The Honda Classic,2020,weekly
+T5,,Brandon Hagy,4,15,t010,The Honda Classic,2020,weekly
+T5,,Charl Schwartzel,4,15,t010,The Honda Classic,2020,weekly
+T10,,Jimmy Walker,4,14,t010,The Honda Classic,2020,weekly
+T10,,Ryan Palmer,4,14,t010,The Honda Classic,2020,weekly
+T10,,Vaughn Taylor,4,14,t010,The Honda Classic,2020,weekly
+T10,,Patrick Rodgers,4,14,t010,The Honda Classic,2020,weekly
+T10,,Kramer Hickok,4,14,t010,The Honda Classic,2020,weekly
+T10,,Hayden Buckley,4,14,t010,The Honda Classic,2020,weekly
+T10,T49,Shane Lowry,4,14,t010,The Honda Classic,2020,weekly
+T10,,Grayson Murray,4,14,t010,The Honda Classic,2020,weekly
+T18,,Jhonattan Vegas,4,13,t010,The Honda Classic,2020,weekly
+T18,,Brian Harman,4,13,t010,The Honda Classic,2020,weekly
+T18,,Brendan Steele,4,13,t010,The Honda Classic,2020,weekly
+T18,,Brice Garnett,4,13,t010,The Honda Classic,2020,weekly
+T18,,Danny Lee,4,13,t010,The Honda Classic,2020,weekly
+T18,,Cameron Tringale,4,13,t010,The Honda Classic,2020,weekly
+T18,T59,Byeong Hun An,4,13,t010,The Honda Classic,2020,weekly
+T18,,Hudson Swafford,4,13,t010,The Honda Classic,2020,weekly
+T18,,Adam Long,4,13,t010,The Honda Classic,2020,weekly
+T18,,Sam Ryder,4,13,t010,The Honda Classic,2020,weekly
+T18,,Talor Gooch,4,13,t010,The Honda Classic,2020,weekly
+T18,,Maverick McNealy,4,13,t010,The Honda Classic,2020,weekly
+T18,T49,Kurt Kitayama,4,13,t010,The Honda Classic,2020,weekly
+T18,,J.T. Poston,4,13,t010,The Honda Classic,2020,weekly
+T18,,Aaron Wise,4,13,t010,The Honda Classic,2020,weekly
+T18,,Wyndham Clark,4,13,t010,The Honda Classic,2020,weekly
+T18,,Luke Donald,4,13,t010,The Honda Classic,2020,weekly
+T35,T29,Lee Westwood,4,12,t010,The Honda Classic,2020,weekly
+T35,,Nick Watney,4,12,t010,The Honda Classic,2020,weekly
+T35,,Kevin Streelman,4,12,t010,The Honda Classic,2020,weekly
+T35,,Fabián Gómez,4,12,t010,The Honda Classic,2020,weekly
+T35,,Russell Henley,4,12,t010,The Honda Classic,2020,weekly
+T35,,Harris English,4,12,t010,The Honda Classic,2020,weekly
+T41,T20,Billy Horschel,4,11,t010,The Honda Classic,2020,weekly
+T41,,Jamie Lovemark,4,11,t010,The Honda Classic,2020,weekly
+T41,,Scott Stallings,4,11,t010,The Honda Classic,2020,weekly
+T41,,Brian Stuard,4,11,t010,The Honda Classic,2020,weekly
+T41,,Patton Kizzire,4,11,t010,The Honda Classic,2020,weekly
+T41,,Cam Davis,4,11,t010,The Honda Classic,2020,weekly
+T41,,Austin Cook,4,11,t010,The Honda Classic,2020,weekly
+T41,,Sepp Straka,4,11,t010,The Honda Classic,2020,weekly
+T41,,Ian Poulter,4,11,t010,The Honda Classic,2020,weekly
+T50,,Stewart Cink,4,10,t010,The Honda Classic,2020,weekly
+T50,,Zach Johnson,4,10,t010,The Honda Classic,2020,weekly
+T50,,Jason Dufner,4,10,t010,The Honda Classic,2020,weekly
+T50,,Sam Burns,4,10,t010,The Honda Classic,2020,weekly
+T50,,Matthew Wolff,4,10,t010,The Honda Classic,2020,weekly
+T50,,Michael Thompson,4,10,t010,The Honda Classic,2020,weekly
+T56,,Dylan Frittelli,4,9,t010,The Honda Classic,2020,weekly
+T56,,K.H. Lee,4,9,t010,The Honda Classic,2020,weekly
+T56,,Richy Werenski,4,9,t010,The Honda Classic,2020,weekly
+T56,,Matt Jones,4,9,t010,The Honda Classic,2020,weekly
+T56,,Cameron Percy,4,9,t010,The Honda Classic,2020,weekly
+T56,,Rory Sabbatini,4,9,t010,The Honda Classic,2020,weekly
+T62,,Tom Lewis,4,8,t010,The Honda Classic,2020,weekly
+T62,,Beau Hossler,4,8,t010,The Honda Classic,2020,weekly
+T64,,Matthew NeSmith,4,7,t010,The Honda Classic,2020,weekly
+T64,,Harold Varner III,4,7,t010,The Honda Classic,2020,weekly
+T64,,Mark Anderson,4,7,t010,The Honda Classic,2020,weekly
+T64,,Chris Baker,4,7,t010,The Honda Classic,2020,weekly
+T64,,Harry Higgs,4,7,t010,The Honda Classic,2020,weekly
+T64,,Bud Cauley,4,7,t010,The Honda Classic,2020,weekly
+T1,NA,Patrick Reed,4,25,t473,World Golf Championships-Mexico Championship,2020,weekly
+T1,NA,Bryson DeChambeau,4,25,t473,World Golf Championships-Mexico Championship,2020,weekly
+3,NA,Jon Rahm,4,24,t473,World Golf Championships-Mexico Championship,2020,weekly
+T4,NA,Hideki Matsuyama,4,23,t473,World Golf Championships-Mexico Championship,2020,weekly
+T4,NA,Erik van Rooyen,4,23,t473,World Golf Championships-Mexico Championship,2020,weekly
+6,NA,Justin Thomas,4,22,t473,World Golf Championships-Mexico Championship,2020,weekly
+T7,NA,Zander Lombard,4,21,t473,World Golf Championships-Mexico Championship,2020,weekly
+T7,NA,Kevin Na,4,21,t473,World Golf Championships-Mexico Championship,2020,weekly
+T7,NA,Brandt Snedeker,4,21,t473,World Golf Championships-Mexico Championship,2020,weekly
+T10,NA,Benjamin Hebert,4,20,t473,World Golf Championships-Mexico Championship,2020,weekly
+T10,NA,Tyrrell Hatton,4,20,t473,World Golf Championships-Mexico Championship,2020,weekly
+T12,NA,Abraham Ancer,4,19,t473,World Golf Championships-Mexico Championship,2020,weekly
+T12,NA,Sebastián Muñoz,4,19,t473,World Golf Championships-Mexico Championship,2020,weekly
+T12,NA,Ryan Fox,4,19,t473,World Golf Championships-Mexico Championship,2020,weekly
+T12,NA,Paul Casey,4,19,t473,World Golf Championships-Mexico Championship,2020,weekly
+T16,NA,Rory McIlroy,4,18,t473,World Golf Championships-Mexico Championship,2020,weekly
+T16,NA,Bernd Wiesberger,4,18,t473,World Golf Championships-Mexico Championship,2020,weekly
+T16,NA,Tommy Fleetwood,4,18,t473,World Golf Championships-Mexico Championship,2020,weekly
+T16,NA,Matt Fitzpatrick,4,18,t473,World Golf Championships-Mexico Championship,2020,weekly
+T20,NA,Gary Woodland,4,17,t473,World Golf Championships-Mexico Championship,2020,weekly
+T20,NA,Cameron Smith,4,17,t473,World Golf Championships-Mexico Championship,2020,weekly
+T20,NA,Scottie Scheffler,4,17,t473,World Golf Championships-Mexico Championship,2020,weekly
+T20,NA,Victor Perez,4,17,t473,World Golf Championships-Mexico Championship,2020,weekly
+T20,NA,Kevin Kisner,4,17,t473,World Golf Championships-Mexico Championship,2020,weekly
+T20,NA,Billy Horschel,4,17,t473,World Golf Championships-Mexico Championship,2020,weekly
+T20,NA,Louis Oosthuizen,4,17,t473,World Golf Championships-Mexico Championship,2020,weekly
+T20,NA,Marc Leishman,4,17,t473,World Golf Championships-Mexico Championship,2020,weekly
+T20,NA,Matt Kuchar,4,17,t473,World Golf Championships-Mexico Championship,2020,weekly
+T29,NA,Lee Westwood,4,16,t473,World Golf Championships-Mexico Championship,2020,weekly
+T29,NA,Bubba Watson,4,16,t473,World Golf Championships-Mexico Championship,2020,weekly
+T29,NA,Carlos Ortiz,4,16,t473,World Golf Championships-Mexico Championship,2020,weekly
+T29,NA,Jordan Spieth,4,16,t473,World Golf Championships-Mexico Championship,2020,weekly
+T29,NA,Lanto Griffin,4,16,t473,World Golf Championships-Mexico Championship,2020,weekly
+T34,NA,Brendon Todd,4,15,t473,World Golf Championships-Mexico Championship,2020,weekly
+T34,NA,Sungjae Im,4,15,t473,World Golf Championships-Mexico Championship,2020,weekly
+T34,NA,Shaun Norris,4,15,t473,World Golf Championships-Mexico Championship,2020,weekly
+T34,NA,Sergio Garcia,4,15,t473,World Golf Championships-Mexico Championship,2020,weekly
+T34,NA,Justin Harding,4,15,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Adam Scott,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Graeme McDowell,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Lucas Glover,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Rafa Cabrera Bello,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Danny Willett,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Matthias Schwab,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Christiaan Bezuidenhout,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Matt Wallace,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Collin Morikawa,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T39,NA,Robert MacIntyre,4,14,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Shane Lowry,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Zach Murray,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Xander Schauffele,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Kurt Kitayama,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Chez Reavie,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Charles Howell III,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Scott Hend,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Sung Kang,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Michael Lorenzo-Vera,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T49,NA,Branden Grace,4,13,t473,World Golf Championships-Mexico Championship,2020,weekly
+T59,NA,Francesco Molinari,4,12,t473,World Golf Championships-Mexico Championship,2020,weekly
+T59,NA,Byeong Hun An,4,12,t473,World Golf Championships-Mexico Championship,2020,weekly
+T59,NA,Jazz Janewattananond,4,12,t473,World Golf Championships-Mexico Championship,2020,weekly
+T62,NA,Dustin Johnson,4,11,t473,World Golf Championships-Mexico Championship,2020,weekly
+T62,NA,Jason Kokrak,4,11,t473,World Golf Championships-Mexico Championship,2020,weekly
+T62,NA,Jorge Campillo,4,11,t473,World Golf Championships-Mexico Championship,2020,weekly
+T62,NA,Shugo Imahira,4,11,t473,World Golf Championships-Mexico Championship,2020,weekly
+T62,NA,Corey Conners,4,11,t473,World Golf Championships-Mexico Championship,2020,weekly
+T62,NA,Pablo Larrazabal,4,11,t473,World Golf Championships-Mexico Championship,2020,weekly
+T62,NA,Webb Simpson,4,11,t473,World Golf Championships-Mexico Championship,2020,weekly
+T69,NA,Ryo Ishikawa,4,10,t473,World Golf Championships-Mexico Championship,2020,weekly
+T69,NA,Lucas Herbert,4,10,t473,World Golf Championships-Mexico Championship,2020,weekly
+71,NA,Tae Hee Lee,4,8,t473,World Golf Championships-Mexico Championship,2020,weekly
+72,NA,Marcus Kinhult,4,7,t473,World Golf Championships-Mexico Championship,2020,weekly
+1,,Vincent Whaley,4,25,t483,Puerto Rico Open,2020,weekly
+T2,,Seamus Power,4,23,t483,Puerto Rico Open,2020,weekly
+T2,68,Kyle Stanley,4,23,t483,Puerto Rico Open,2020,weekly
+T2,,Rhein Gibson,4,23,t483,Puerto Rico Open,2020,weekly
+T5,,Emiliano Grillo,4,22,t483,Puerto Rico Open,2020,weekly
+T5,,Viktor Hovland,4,22,t483,Puerto Rico Open,2020,weekly
+7,T22,K.H. Lee,4,21,t483,Puerto Rico Open,2020,weekly
+T8,,Jhonattan Vegas,4,20,t483,Puerto Rico Open,2020,weekly
+T8,,Josh Teater,4,20,t483,Puerto Rico Open,2020,weekly
+T8,,Peter Uihlein,4,20,t483,Puerto Rico Open,2020,weekly
+T8,,Anirban Lahiri,4,20,t483,Puerto Rico Open,2020,weekly
+T8,,Xinjun Zhang,4,20,t483,Puerto Rico Open,2020,weekly
+T8,,Ben Martin,4,20,t483,Puerto Rico Open,2020,weekly
+T8,,Shawn Stefani,4,20,t483,Puerto Rico Open,2020,weekly
+T8,,Robert Streb,4,20,t483,Puerto Rico Open,2020,weekly
+T8,,Matthew NeSmith,4,20,t483,Puerto Rico Open,2020,weekly
+T8,,Sam Ryder,4,20,t483,Puerto Rico Open,2020,weekly
+T18,,Rob Oppenheim,4,19,t483,Puerto Rico Open,2020,weekly
+T18,,Zack Sucher,4,19,t483,Puerto Rico Open,2020,weekly
+T18,,David Lingmerth,4,19,t483,Puerto Rico Open,2020,weekly
+T18,,Nelson Ledesma,4,19,t483,Puerto Rico Open,2020,weekly
+T22,,Sangmoon Bae,4,18,t483,Puerto Rico Open,2020,weekly
+T22,,Henrik Norlander,4,18,t483,Puerto Rico Open,2020,weekly
+T22,,Wes Roach,4,18,t483,Puerto Rico Open,2020,weekly
+T22,T22,Patrick Rodgers,4,18,t483,Puerto Rico Open,2020,weekly
+T22,,John Senden,4,18,t483,Puerto Rico Open,2020,weekly
+T22,,D.J. Trahan,4,18,t483,Puerto Rico Open,2020,weekly
+T22,,Tim Wilkinson,4,18,t483,Puerto Rico Open,2020,weekly
+T29,,George McNeill,4,17,t483,Puerto Rico Open,2020,weekly
+T29,,Bill Haas,4,17,t483,Puerto Rico Open,2020,weekly
+T29,,Maverick McNealy,4,17,t483,Puerto Rico Open,2020,weekly
+T29,T59,Adam Schenk,4,17,t483,Puerto Rico Open,2020,weekly
+T29,,Will Gordon,4,17,t483,Puerto Rico Open,2020,weekly
+T29,,Ryan Brehm,4,17,t483,Puerto Rico Open,2020,weekly
+T29,,Brice Garnett,4,17,t483,Puerto Rico Open,2020,weekly
+T29,T38,Joseph Bramlett,4,17,t483,Puerto Rico Open,2020,weekly
+T29,,Derek Ernst,4,17,t483,Puerto Rico Open,2020,weekly
+T38,T22,Martin Laird,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Julián Etulain,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Roberto Castro,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Bo Hoag,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Sebastian Cappelen,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Tyler McCumber,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Austin Cook,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Michael Gellerman,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Doug Ghim,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Chris Couch,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Arjun Atwal,4,16,t483,Puerto Rico Open,2020,weekly
+T38,,Cameron Percy,4,16,t483,Puerto Rico Open,2020,weekly
+T50,,MJ Daffue,4,15,t483,Puerto Rico Open,2020,weekly
+T50,,Brandon Hagy,4,15,t483,Puerto Rico Open,2020,weekly
+T50,,"Ted Potter, Jr.",4,15,t483,Puerto Rico Open,2020,weekly
+T50,,Beau Hossler,4,15,t483,Puerto Rico Open,2020,weekly
+T54,,Kiradech Aphibarnrat,4,14,t483,Puerto Rico Open,2020,weekly
+T54,,Mark Anderson,4,14,t483,Puerto Rico Open,2020,weekly
+T54,,Kris Ventura,4,14,t483,Puerto Rico Open,2020,weekly
+T54,,Cam Davis,4,14,t483,Puerto Rico Open,2020,weekly
+T58,,Chase Seiffert,4,13,t483,Puerto Rico Open,2020,weekly
+T58,,Robby Shelton,4,13,t483,Puerto Rico Open,2020,weekly
+T58,,Brendon de Jonge,4,13,t483,Puerto Rico Open,2020,weekly
+T58,,Johnson Wagner,4,13,t483,Puerto Rico Open,2020,weekly
+T58,,Fabián Gómez,4,13,t483,Puerto Rico Open,2020,weekly
+T58,T5,Scott Brown,4,13,t483,Puerto Rico Open,2020,weekly
+T64,,J.J. Henry,4,12,t483,Puerto Rico Open,2020,weekly
+T64,,Bo Van Pelt,4,12,t483,Puerto Rico Open,2020,weekly
+T64,,Alex Cejka,4,12,t483,Puerto Rico Open,2020,weekly
+T67,,Daniel Chopra,4,11,t483,Puerto Rico Open,2020,weekly
+T67,,Jay McLuen,4,11,t483,Puerto Rico Open,2020,weekly
+69,,Roger Sloan,4,10,t483,Puerto Rico Open,2020,weekly
+T1,,Sung Kang,4,21,t007,The Genesis Invitational,2020,weekly
+T1,,Adam Scott,4,21,t007,The Genesis Invitational,2020,weekly
+T3,T37,Paul Casey,4,19,t007,The Genesis Invitational,2020,weekly
+T3,,Patrick Reed,4,19,t007,The Genesis Invitational,2020,weekly
+T5,,Scott Brown,4,18,t007,The Genesis Invitational,2020,weekly
+T5,,Brooks Koepka,4,18,t007,The Genesis Invitational,2020,weekly
+T5,,Denny McCarthy,4,18,t007,The Genesis Invitational,2020,weekly
+T8,,Harold Varner III,4,17,t007,The Genesis Invitational,2020,weekly
+T8,T21,Max Homa,4,17,t007,The Genesis Invitational,2020,weekly
+T8,,Scottie Scheffler,4,17,t007,The Genesis Invitational,2020,weekly
+T8,,Brian Stuard,4,17,t007,The Genesis Invitational,2020,weekly
+T8,T10,Matt Kuchar,4,17,t007,The Genesis Invitational,2020,weekly
+T8,,Vaughn Taylor,4,17,t007,The Genesis Invitational,2020,weekly
+T14,,Rafa Cabrera Bello,4,16,t007,The Genesis Invitational,2020,weekly
+T14,,Hideki Matsuyama,4,16,t007,The Genesis Invitational,2020,weekly
+T14,,Andrew Landry,4,16,t007,The Genesis Invitational,2020,weekly
+T14,T28,Joel Dahmen,4,16,t007,The Genesis Invitational,2020,weekly
+T14,,Martin Trainer,4,16,t007,The Genesis Invitational,2020,weekly
+T14,,Talor Gooch,4,16,t007,The Genesis Invitational,2020,weekly
+T14,,Collin Morikawa,4,16,t007,The Genesis Invitational,2020,weekly
+T14,T21,Wyndham Clark,4,16,t007,The Genesis Invitational,2020,weekly
+T22,,Patrick Rodgers,4,15,t007,The Genesis Invitational,2020,weekly
+T22,,Si Woo Kim,4,15,t007,The Genesis Invitational,2020,weekly
+T22,,Martin Laird,4,15,t007,The Genesis Invitational,2020,weekly
+T22,,K.H. Lee,4,15,t007,The Genesis Invitational,2020,weekly
+T22,T66,Cameron Tringale,4,15,t007,The Genesis Invitational,2020,weekly
+T22,T10,Patrick Cantlay,4,15,t007,The Genesis Invitational,2020,weekly
+T22,T15,Scott Piercy,4,15,t007,The Genesis Invitational,2020,weekly
+T29,T4,Chez Reavie,4,14,t007,The Genesis Invitational,2020,weekly
+T29,,Brian Harman,4,14,t007,The Genesis Invitational,2020,weekly
+T29,,Rory McIlroy,4,14,t007,The Genesis Invitational,2020,weekly
+T29,,James Hahn,4,14,t007,The Genesis Invitational,2020,weekly
+T29,,Adam Hadwin,4,14,t007,The Genesis Invitational,2020,weekly
+T29,,Bryson DeChambeau,4,14,t007,The Genesis Invitational,2020,weekly
+T29,,Xander Schauffele,4,14,t007,The Genesis Invitational,2020,weekly
+T29,,Sebastián Muñoz,4,14,t007,The Genesis Invitational,2020,weekly
+T29,,J.T. Poston,4,14,t007,The Genesis Invitational,2020,weekly
+T38,,J.J. Spaun,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Tyler Duncan,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Jon Rahm,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Sam Burns,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Luke List,4,13,t007,The Genesis Invitational,2020,weekly
+T38,T28,J.B. Holmes,4,13,t007,The Genesis Invitational,2020,weekly
+T38,T28,Dustin Johnson,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Carlos Ortiz,4,13,t007,The Genesis Invitational,2020,weekly
+T38,T10,Joseph Bramlett,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Ryan Moore,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Justin Rose,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Rory Sabbatini,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Ryan Palmer,4,13,t007,The Genesis Invitational,2020,weekly
+T38,,Sergio Garcia,4,13,t007,The Genesis Invitational,2020,weekly
+T52,,Charles Howell III,4,12,t007,The Genesis Invitational,2020,weekly
+T52,T37,Jason Dufner,4,12,t007,The Genesis Invitational,2020,weekly
+T52,,Bud Cauley,4,12,t007,The Genesis Invitational,2020,weekly
+T52,,Russell Henley,4,12,t007,The Genesis Invitational,2020,weekly
+T52,T15,Lanto Griffin,4,12,t007,The Genesis Invitational,2020,weekly
+T52,T51,Matt Fitzpatrick,4,12,t007,The Genesis Invitational,2020,weekly
+T52,,Abraham Ancer,4,12,t007,The Genesis Invitational,2020,weekly
+T59,T37,Adam Schenk,4,11,t007,The Genesis Invitational,2020,weekly
+T59,T37,Alex Noren,4,11,t007,The Genesis Invitational,2020,weekly
+T59,,Tony Finau,4,11,t007,The Genesis Invitational,2020,weekly
+T59,,Steve Stricker,4,11,t007,The Genesis Invitational,2020,weekly
+T63,,Pat Perez,4,9,t007,The Genesis Invitational,2020,weekly
+T63,,Marc Leishman,4,9,t007,The Genesis Invitational,2020,weekly
+T63,T15,Jordan Spieth,4,9,t007,The Genesis Invitational,2020,weekly
+T66,,Brendon Todd,4,8,t007,The Genesis Invitational,2020,weekly
+T66,,Tiger Woods,4,8,t007,The Genesis Invitational,2020,weekly
+68,,Kyle Stanley,4,7,t007,The Genesis Invitational,2020,weekly
+1,,Kevin Streelman,4,23,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+2,,Phil Mickelson,4,22,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+3,T56,Nick Taylor,4,21,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T4,,Matt Jones,4,20,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T4,,Chez Reavie,4,20,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T6,,Jason Day,4,19,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T6,,Matt Every,4,19,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T6,,Troy Merritt,4,19,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T6,T5,Keith Mitchell,4,19,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T10,,Joseph Bramlett,4,18,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T10,,Patrick Cantlay,4,18,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T10,,Cameron Champ,4,18,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T10,,Kevin Chappell,4,18,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T10,T27,Matt Kuchar,4,18,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T15,T27,Scott Piercy,4,17,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T15,,Lucas Glover,4,17,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T15,,Charl Schwartzel,4,17,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T15,,Jordan Spieth,4,17,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T15,,Lanto Griffin,4,17,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T15,,Matthew NeSmith,4,17,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T21,T38,Harry Higgs,4,16,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T21,,Peter Malnati,4,16,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T21,T5,Max Homa,4,16,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T21,,Viktor Hovland,4,16,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T21,T14,Wyndham Clark,4,16,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T21,1,Xinjun Zhang,4,16,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T21,,Luke Donald,4,16,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T28,T38,Aaron Baddeley,4,15,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T28,,Stewart Cink,4,15,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T28,,Kevin Na,4,15,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T28,T14,J.B. Holmes,4,15,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T28,,Dustin Johnson,4,15,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T28,,Jim Herman,4,15,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T28,,Joel Dahmen,4,15,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T28,,Zac Blair,4,15,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T28,,Brandon Wu,4,15,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Chris Baker,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,T14,Daniel Berger,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Tyler McCumber,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Maverick McNealy,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Adam Schenk,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Kurt Kitayama,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Vincent Whaley,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,T27,Doc Redman,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Paul Casey,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Jason Dufner,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Alex Noren,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Seamus Power,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Alex Cejka,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T37,,Brian Gay,4,14,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,,Tim Wilkinson,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,,Ryan Brehm,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,,Kevin Kisner,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,,Michael Gligic,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,T2,Chesson Hadley,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,T63,Beau Hossler,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,,Wes Roach,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,,Matt Fitzpatrick,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,,Cam Davis,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T51,,Aaron Wise,4,13,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+61,,Sean O'Hair,4,12,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T62,,Rob Oppenheim,4,11,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T62,,Henrik Norlander,4,11,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T62,T5,Tom Hoge,4,11,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T62,,Chase Seiffert,4,11,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T66,,Cameron Tringale,4,10,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+T66,,John Senden,4,10,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+68,,Ben Martin,4,9,t005,AT&T Pebble Beach Pro-Am,2020,weekly
+1,T71,Xinjun Zhang,4,26,t003,Waste Management Phoenix Open,2020,weekly
+T2,,Webb Simpson,4,21,t003,Waste Management Phoenix Open,2020,weekly
+T2,,Chesson Hadley,4,21,t003,Waste Management Phoenix Open,2020,weekly
+T2,,Sebastián Muñoz,4,21,t003,Waste Management Phoenix Open,2020,weekly
+T5,,Adam Long,4,20,t003,Waste Management Phoenix Open,2020,weekly
+T5,T16,Tom Hoge,4,20,t003,Waste Management Phoenix Open,2020,weekly
+T5,,Keith Mitchell,4,20,t003,Waste Management Phoenix Open,2020,weekly
+T5,T24,Max Homa,4,20,t003,Waste Management Phoenix Open,2020,weekly
+T5,T7,Jon Rahm,4,20,t003,Waste Management Phoenix Open,2020,weekly
+T5,T43,Bubba Watson,4,20,t003,Waste Management Phoenix Open,2020,weekly
+T5,T43,Billy Horschel,4,20,t003,Waste Management Phoenix Open,2020,weekly
+T5,,Branden Grace,4,20,t003,Waste Management Phoenix Open,2020,weekly
+T5,T56,Hideki Matsuyama,4,20,t003,Waste Management Phoenix Open,2020,weekly
+T14,,Nate Lashley,4,19,t003,Waste Management Phoenix Open,2020,weekly
+T14,,Justin Thomas,4,19,t003,Waste Management Phoenix Open,2020,weekly
+T14,T1,J.B. Holmes,4,19,t003,Waste Management Phoenix Open,2020,weekly
+T14,T1,Charley Hoffman,4,19,t003,Waste Management Phoenix Open,2020,weekly
+T14,,Daniel Berger,4,19,t003,Waste Management Phoenix Open,2020,weekly
+T14,,Brandon Hagy,4,19,t003,Waste Management Phoenix Open,2020,weekly
+T14,,Xander Schauffele,4,19,t003,Waste Management Phoenix Open,2020,weekly
+T14,,Wyndham Clark,4,19,t003,Waste Management Phoenix Open,2020,weekly
+T22,T43,Patrick Rodgers,4,18,t003,Waste Management Phoenix Open,2020,weekly
+T22,,Mark Hubbard,4,18,t003,Waste Management Phoenix Open,2020,weekly
+T22,,Sam Ryder,4,18,t003,Waste Management Phoenix Open,2020,weekly
+T22,T34,Sung Kang,4,18,t003,Waste Management Phoenix Open,2020,weekly
+T22,T16,John Huh,4,18,t003,Waste Management Phoenix Open,2020,weekly
+T27,T7,Tony Finau,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,,Gary Woodland,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,,Rickie Fowler,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,,James Hahn,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,T16,Russell Knox,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,,Hudson Swafford,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,T65,Doc Redman,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,,Matt Kuchar,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,T12,Jimmy Walker,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,,Scott Piercy,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T27,T34,Luke List,4,17,t003,Waste Management Phoenix Open,2020,weekly
+T38,T43,Aaron Baddeley,4,16,t003,Waste Management Phoenix Open,2020,weekly
+T38,,Corey Conners,4,16,t003,Waste Management Phoenix Open,2020,weekly
+T38,,Brian Harman,4,16,t003,Waste Management Phoenix Open,2020,weekly
+T38,,Patton Kizzire,4,16,t003,Waste Management Phoenix Open,2020,weekly
+T38,,Andrew Landry,4,16,t003,Waste Management Phoenix Open,2020,weekly
+T38,T24,Harry Higgs,4,16,t003,Waste Management Phoenix Open,2020,weekly
+T38,T43,Byeong Hun An,4,16,t003,Waste Management Phoenix Open,2020,weekly
+T38,79,Harris English,4,16,t003,Waste Management Phoenix Open,2020,weekly
+T46,,Danny Lee,4,15,t003,Waste Management Phoenix Open,2020,weekly
+T46,T34,Kevin Tway,4,15,t003,Waste Management Phoenix Open,2020,weekly
+T46,,Bud Cauley,4,15,t003,Waste Management Phoenix Open,2020,weekly
+T46,T34,Grayson Murray,4,15,t003,Waste Management Phoenix Open,2020,weekly
+T46,T65,Talor Gooch,4,15,t003,Waste Management Phoenix Open,2020,weekly
+T46,T56,Denny McCarthy,4,15,t003,Waste Management Phoenix Open,2020,weekly
+T46,,J.T. Poston,4,15,t003,Waste Management Phoenix Open,2020,weekly
+T46,,K.J. Choi,4,15,t003,Waste Management Phoenix Open,2020,weekly
+T54,,Brice Garnett,4,14,t003,Waste Management Phoenix Open,2020,weekly
+T54,,Carlos Ortiz,4,14,t003,Waste Management Phoenix Open,2020,weekly
+T56,,C.T. Pan,4,13,t003,Waste Management Phoenix Open,2020,weekly
+T56,,Nick Taylor,4,13,t003,Waste Management Phoenix Open,2020,weekly
+T56,T43,Sungjae Im,4,13,t003,Waste Management Phoenix Open,2020,weekly
+T59,T56,J.J. Spaun,4,12,t003,Waste Management Phoenix Open,2020,weekly
+T59,,Bryson DeChambeau,4,12,t003,Waste Management Phoenix Open,2020,weekly
+T59,T16,Collin Morikawa,4,12,t003,Waste Management Phoenix Open,2020,weekly
+T59,T24,Dylan Frittelli,4,12,t003,Waste Management Phoenix Open,2020,weekly
+T63,T56,Martin Laird,4,11,t003,Waste Management Phoenix Open,2020,weekly
+T63,,Adam Hadwin,4,11,t003,Waste Management Phoenix Open,2020,weekly
+T63,T12,Beau Hossler,4,11,t003,Waste Management Phoenix Open,2020,weekly
+66,T56,Keegan Bradley,4,10,t003,Waste Management Phoenix Open,2020,weekly
+T1,,J.B. Holmes,4,21,t004,Farmers Insurance Open,2020,weekly
+T1,,Rory McIlroy,4,21,t004,Farmers Insurance Open,2020,weekly
+T1,T59,Charley Hoffman,4,21,t004,Farmers Insurance Open,2020,weekly
+T1,,Marc Leishman,4,21,t004,Farmers Insurance Open,2020,weekly
+T5,,Ryan Palmer,4,20,t004,Farmers Insurance Open,2020,weekly
+T5,,Brandt Snedeker,4,20,t004,Farmers Insurance Open,2020,weekly
+T7,5,Tony Finau,4,19,t004,Farmers Insurance Open,2020,weekly
+T7,,Jason Kokrak,4,19,t004,Farmers Insurance Open,2020,weekly
+T7,,Patrick Reed,4,19,t004,Farmers Insurance Open,2020,weekly
+T7,,Jon Rahm,4,19,t004,Farmers Insurance Open,2020,weekly
+T7,T7,Cameron Champ,4,19,t004,Farmers Insurance Open,2020,weekly
+T12,,Beau Hossler,4,18,t004,Farmers Insurance Open,2020,weekly
+T12,,Jason Day,4,18,t004,Farmers Insurance Open,2020,weekly
+T12,,Tiger Woods,4,18,t004,Farmers Insurance Open,2020,weekly
+T12,,Jimmy Walker,4,18,t004,Farmers Insurance Open,2020,weekly
+T16,T16,Russell Knox,4,17,t004,Farmers Insurance Open,2020,weekly
+T16,T54,John Huh,4,17,t004,Farmers Insurance Open,2020,weekly
+T16,,Joseph Bramlett,4,17,t004,Farmers Insurance Open,2020,weekly
+T16,T23,Tom Hoge,4,17,t004,Farmers Insurance Open,2020,weekly
+T16,T7,Cam Davis,4,17,t004,Farmers Insurance Open,2020,weekly
+T16,,Robby Shelton,4,17,t004,Farmers Insurance Open,2020,weekly
+T16,,Collin Morikawa,4,17,t004,Farmers Insurance Open,2020,weekly
+T16,,Will Gordon,4,17,t004,Farmers Insurance Open,2020,weekly
+T24,T23,Sebastian Cappelen,4,16,t004,Farmers Insurance Open,2020,weekly
+T24,T16,Max Homa,4,16,t004,Farmers Insurance Open,2020,weekly
+T24,T23,Zac Blair,4,16,t004,Farmers Insurance Open,2020,weekly
+T24,,Trey Mullinax,4,16,t004,Farmers Insurance Open,2020,weekly
+T24,T46,Matthew Wolff,4,16,t004,Farmers Insurance Open,2020,weekly
+T24,,Kevin Streelman,4,16,t004,Farmers Insurance Open,2020,weekly
+T24,,Dylan Frittelli,4,16,t004,Farmers Insurance Open,2020,weekly
+T24,,Mark Anderson,4,16,t004,Farmers Insurance Open,2020,weekly
+T24,,Harry Higgs,4,16,t004,Farmers Insurance Open,2020,weekly
+T24,T64,Jhonattan Vegas,4,16,t004,Farmers Insurance Open,2020,weekly
+T34,,Luke List,4,15,t004,Farmers Insurance Open,2020,weekly
+T34,T59,Jason Dufner,4,15,t004,Farmers Insurance Open,2020,weekly
+T34,,Sung Kang,4,15,t004,Farmers Insurance Open,2020,weekly
+T34,,Kevin Tway,4,15,t004,Farmers Insurance Open,2020,weekly
+T34,,Jordan Spieth,4,15,t004,Farmers Insurance Open,2020,weekly
+T34,,Joel Dahmen,4,15,t004,Farmers Insurance Open,2020,weekly
+T34,2,Grayson Murray,4,15,t004,Farmers Insurance Open,2020,weekly
+T34,T54,Tyler McCumber,4,15,t004,Farmers Insurance Open,2020,weekly
+T34,T46,Maverick McNealy,4,15,t004,Farmers Insurance Open,2020,weekly
+T43,T46,Patrick Rodgers,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,6,Sungjae Im,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Richy Werenski,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Ben Taylor,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Brandon Wu,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Billy Horschel,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Jamie Lovemark,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,T46,Cameron Tringale,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Zack Sucher,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Byeong Hun An,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Bubba Watson,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Aaron Baddeley,4,14,t004,Farmers Insurance Open,2020,weekly
+T43,,Stewart Cink,4,14,t004,Farmers Insurance Open,2020,weekly
+T56,,Lucas Glover,4,13,t004,Farmers Insurance Open,2020,weekly
+T56,,Martin Laird,4,13,t004,Farmers Insurance Open,2020,weekly
+T56,,Rhein Gibson,4,13,t004,Farmers Insurance Open,2020,weekly
+T56,,Hideki Matsuyama,4,13,t004,Farmers Insurance Open,2020,weekly
+T56,,Keegan Bradley,4,13,t004,Farmers Insurance Open,2020,weekly
+T56,,Cameron Smith,4,13,t004,Farmers Insurance Open,2020,weekly
+T56,T23,Matthew NeSmith,4,13,t004,Farmers Insurance Open,2020,weekly
+T56,,J.J. Spaun,4,13,t004,Farmers Insurance Open,2020,weekly
+T56,T23,Denny McCarthy,4,13,t004,Farmers Insurance Open,2020,weekly
+T65,,Dominic Bozzelli,4,12,t004,Farmers Insurance Open,2020,weekly
+T65,,Joaquin Niemann,4,12,t004,Farmers Insurance Open,2020,weekly
+T65,T3,Talor Gooch,4,12,t004,Farmers Insurance Open,2020,weekly
+T65,T7,Sam Burns,4,12,t004,Farmers Insurance Open,2020,weekly
+T65,T37,Doc Redman,4,12,t004,Farmers Insurance Open,2020,weekly
+T65,,Chris Baker,4,12,t004,Farmers Insurance Open,2020,weekly
+T71,T69,Ryan Brehm,4,11,t004,Farmers Insurance Open,2020,weekly
+T71,T69,Scott Stallings,4,11,t004,Farmers Insurance Open,2020,weekly
+T71,,Xinjun Zhang,4,11,t004,Farmers Insurance Open,2020,weekly
+T71,,Matt Jones,4,11,t004,Farmers Insurance Open,2020,weekly
+T71,,Cameron Percy,4,11,t004,Farmers Insurance Open,2020,weekly
+T71,,Bill Haas,4,11,t004,Farmers Insurance Open,2020,weekly
+T71,T37,Chase Seiffert,4,11,t004,Farmers Insurance Open,2020,weekly
+78,,Pat Perez,4,10,t004,Farmers Insurance Open,2020,weekly
+79,T69,Harris English,4,8,t004,Farmers Insurance Open,2020,weekly
+1,,Andrew Landry,4,31,t002,The American Express,2020,weekly
+2,,Grayson Murray,4,27,t002,The American Express,2020,weekly
+T3,T21,Abraham Ancer,4,26,t002,The American Express,2020,weekly
+T3,T58,Talor Gooch,4,26,t002,The American Express,2020,weekly
+5,,Tony Finau,4,25,t002,The American Express,2020,weekly
+6,T6,Sungjae Im,4,24,t002,The American Express,2020,weekly
+T7,T50,Andrew Putnam,4,23,t002,The American Express,2020,weekly
+T7,T10,Cam Davis,4,23,t002,The American Express,2020,weekly
+T7,,Brandon Hagy,4,23,t002,The American Express,2020,weekly
+T7,,Adam Schenk,4,23,t002,The American Express,2020,weekly
+T7,,Sam Burns,4,23,t002,The American Express,2020,weekly
+T7,T50,Sepp Straka,4,23,t002,The American Express,2020,weekly
+T7,,Cameron Champ,4,23,t002,The American Express,2020,weekly
+T7,,Ryan Moore,4,23,t002,The American Express,2020,weekly
+T7,,Kevin Na,4,23,t002,The American Express,2020,weekly
+T16,,Bronson Burgoon,4,22,t002,The American Express,2020,weekly
+T16,,K.H. Lee,4,22,t002,The American Express,2020,weekly
+T16,T58,Russell Knox,4,22,t002,The American Express,2020,weekly
+T16,,Bud Cauley,4,22,t002,The American Express,2020,weekly
+T16,,Chesson Hadley,4,22,t002,The American Express,2020,weekly
+T16,,Max Homa,4,22,t002,The American Express,2020,weekly
+T16,,Scottie Scheffler,4,22,t002,The American Express,2020,weekly
+T23,,Sebastian Cappelen,4,21,t002,The American Express,2020,weekly
+T23,T6,Tom Hoge,4,21,t002,The American Express,2020,weekly
+T23,T21,Matthew NeSmith,4,21,t002,The American Express,2020,weekly
+T23,T21,Sam Ryder,4,21,t002,The American Express,2020,weekly
+T23,T43,Zac Blair,4,21,t002,The American Express,2020,weekly
+T23,,Denny McCarthy,4,21,t002,The American Express,2020,weekly
+T23,,Hank Lebioda,4,21,t002,The American Express,2020,weekly
+T23,,J.T. Poston,4,21,t002,The American Express,2020,weekly
+T23,,Vincent Whaley,4,21,t002,The American Express,2020,weekly
+T23,T21,Alex Noren,4,21,t002,The American Express,2020,weekly
+T23,,Matt Every,4,21,t002,The American Express,2020,weekly
+T23,3,Brendan Steele,4,21,t002,The American Express,2020,weekly
+T23,,Anirban Lahiri,4,21,t002,The American Express,2020,weekly
+T23,,Rickie Fowler,4,21,t002,The American Express,2020,weekly
+T37,T10,"Ted Potter, Jr.",4,20,t002,The American Express,2020,weekly
+T37,T21,Ben Martin,4,20,t002,The American Express,2020,weekly
+T37,T10,Vaughn Taylor,4,20,t002,The American Express,2020,weekly
+T37,T43,Rory Sabbatini,4,20,t002,The American Express,2020,weekly
+T37,T21,Tim Wilkinson,4,20,t002,The American Express,2020,weekly
+T37,,Mark Hubbard,4,20,t002,The American Express,2020,weekly
+T37,T21,Chase Seiffert,4,20,t002,The American Express,2020,weekly
+T37,,Sebastián Muñoz,4,20,t002,The American Express,2020,weekly
+T37,,Doc Redman,4,20,t002,The American Express,2020,weekly
+T46,T50,Patrick Rodgers,4,19,t002,The American Express,2020,weekly
+T46,,Maverick McNealy,4,19,t002,The American Express,2020,weekly
+T46,,Matthew Wolff,4,19,t002,The American Express,2020,weekly
+T46,,Paul Casey,4,19,t002,The American Express,2020,weekly
+T46,T10,Brian Harman,4,19,t002,The American Express,2020,weekly
+T46,T50,Brian Stuard,4,19,t002,The American Express,2020,weekly
+T46,,Michael Gligic,4,19,t002,The American Express,2020,weekly
+T46,,Cameron Tringale,4,19,t002,The American Express,2020,weekly
+T54,,Fabián Gómez,4,18,t002,The American Express,2020,weekly
+T54,T43,Brendon Todd,4,18,t002,The American Express,2020,weekly
+T54,,John Huh,4,18,t002,The American Express,2020,weekly
+T54,T50,Daniel Berger,4,18,t002,The American Express,2020,weekly
+T54,,Tyler McCumber,4,18,t002,The American Express,2020,weekly
+T59,,Tyler Duncan,4,17,t002,The American Express,2020,weekly
+T59,,David Hearn,4,17,t002,The American Express,2020,weekly
+T59,T10,Henrik Norlander,4,17,t002,The American Express,2020,weekly
+T59,,Jason Dufner,4,17,t002,The American Express,2020,weekly
+T59,,Charley Hoffman,4,17,t002,The American Express,2020,weekly
+T64,,Jhonattan Vegas,4,16,t002,The American Express,2020,weekly
+T64,,Nick Watney,4,16,t002,The American Express,2020,weekly
+T64,,Josh Teater,4,16,t002,The American Express,2020,weekly
+T64,,Troy Merritt,4,16,t002,The American Express,2020,weekly
+T64,T16,Carlos Ortiz,4,16,t002,The American Express,2020,weekly
+T69,,Harris English,4,15,t002,The American Express,2020,weekly
+T69,,Ryan Brehm,4,15,t002,The American Express,2020,weekly
+T69,,Scott Stallings,4,15,t002,The American Express,2020,weekly
+T72,T21,Scott Piercy,4,14,t002,The American Express,2020,weekly
+T72,,Wes Roach,4,14,t002,The American Express,2020,weekly
+74,T21,D.J. Trahan,4,13,t002,The American Express,2020,weekly
+T1,,Webb Simpson,4,21,t006,Sony Open in Hawaii,2020,weekly
+T1,,Cameron Smith,4,21,t006,Sony Open in Hawaii,2020,weekly
+3,,Brendan Steele,4,19,t006,Sony Open in Hawaii,2020,weekly
+T4,,Michael Gellerman,4,18,t006,Sony Open in Hawaii,2020,weekly
+T4,T22,Graeme McDowell,4,18,t006,Sony Open in Hawaii,2020,weekly
+T6,T11,Ryan Palmer,4,17,t006,Sony Open in Hawaii,2020,weekly
+T6,,Tom Hoge,4,17,t006,Sony Open in Hawaii,2020,weekly
+T6,,Sungjae Im,4,17,t006,Sony Open in Hawaii,2020,weekly
+T6,T19,Corey Conners,4,17,t006,Sony Open in Hawaii,2020,weekly
+T10,,Cam Davis,4,16,t006,Sony Open in Hawaii,2020,weekly
+T10,,"Ted Potter, Jr.",4,16,t006,Sony Open in Hawaii,2020,weekly
+T10,,Brian Harman,4,16,t006,Sony Open in Hawaii,2020,weekly
+T10,,Henrik Norlander,4,16,t006,Sony Open in Hawaii,2020,weekly
+T10,,Rhein Gibson,4,16,t006,Sony Open in Hawaii,2020,weekly
+T10,,Vaughn Taylor,4,16,t006,Sony Open in Hawaii,2020,weekly
+T16,,Jerry Kelly,4,15,t006,Sony Open in Hawaii,2020,weekly
+T16,,Brandt Snedeker,4,15,t006,Sony Open in Hawaii,2020,weekly
+T16,T15,Kevin Kisner,4,15,t006,Sony Open in Hawaii,2020,weekly
+T16,,Carlos Ortiz,4,15,t006,Sony Open in Hawaii,2020,weekly
+T16,,Hudson Swafford,4,15,t006,Sony Open in Hawaii,2020,weekly
+T21,T19,Lanto Griffin,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Matthew NeSmith,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Sam Ryder,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Chase Seiffert,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,T6,Joaquin Niemann,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Abraham Ancer,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Kramer Hickok,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,3,Collin Morikawa,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Rob Oppenheim,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Mark Anderson,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Ben Martin,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Bo Hoag,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Charles Howell III,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,D.J. Trahan,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Zach Johnson,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Pat Perez,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Tim Wilkinson,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Nick Taylor,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Jimmy Walker,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Scott Piercy,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Marc Leishman,4,14,t006,Sony Open in Hawaii,2020,weekly
+T21,,Alex Noren,4,14,t006,Sony Open in Hawaii,2020,weekly
+T43,,Matt Jones,4,13,t006,Sony Open in Hawaii,2020,weekly
+T43,,Rory Sabbatini,4,13,t006,Sony Open in Hawaii,2020,weekly
+T43,T33,Brendon Todd,4,13,t006,Sony Open in Hawaii,2020,weekly
+T43,,Emiliano Grillo,4,13,t006,Sony Open in Hawaii,2020,weekly
+T43,,Keegan Bradley,4,13,t006,Sony Open in Hawaii,2020,weekly
+T43,,Harry Higgs,4,13,t006,Sony Open in Hawaii,2020,weekly
+T43,,Zac Blair,4,13,t006,Sony Open in Hawaii,2020,weekly
+T50,,Mikumu Horikawa,4,12,t006,Sony Open in Hawaii,2020,weekly
+T50,,Patrick Rodgers,4,12,t006,Sony Open in Hawaii,2020,weekly
+T50,,Daniel Berger,4,12,t006,Sony Open in Hawaii,2020,weekly
+T50,,Sepp Straka,4,12,t006,Sony Open in Hawaii,2020,weekly
+T50,,Brian Stuard,4,12,t006,Sony Open in Hawaii,2020,weekly
+T50,,Michael Thompson,4,12,t006,Sony Open in Hawaii,2020,weekly
+T50,,Hideki Matsuyama,4,12,t006,Sony Open in Hawaii,2020,weekly
+T50,,Andrew Putnam,4,12,t006,Sony Open in Hawaii,2020,weekly
+T58,,Satoshi Kodaira,4,11,t006,Sony Open in Hawaii,2020,weekly
+T58,,Russell Knox,4,11,t006,Sony Open in Hawaii,2020,weekly
+T58,,Joel Dahmen,4,11,t006,Sony Open in Hawaii,2020,weekly
+T58,,Peter Malnati,4,11,t006,Sony Open in Hawaii,2020,weekly
+T58,,Talor Gooch,4,11,t006,Sony Open in Hawaii,2020,weekly
+T58,,Rikuya Hoshino,4,11,t006,Sony Open in Hawaii,2020,weekly
+64,,Joseph Bramlett,4,10,t006,Sony Open in Hawaii,2020,weekly
+T65,,Scott Harrington,4,9,t006,Sony Open in Hawaii,2020,weekly
+T65,T19,Nate Lashley,4,9,t006,Sony Open in Hawaii,2020,weekly
+1,,Justin Thomas,4,24,t016,Sentry Tournament of Champions,2020,weekly
+2,,Patrick Reed,4,23,t016,Sentry Tournament of Champions,2020,weekly
+3,,Collin Morikawa,4,20,t016,Sentry Tournament of Champions,2020,weekly
+T4,T2,Sebastián Muñoz,4,19,t016,Sentry Tournament of Champions,2020,weekly
+T4,,Patrick Cantlay,4,19,t016,Sentry Tournament of Champions,2020,weekly
+T6,,Rickie Fowler,4,17,t016,Sentry Tournament of Champions,2020,weekly
+T6,,Cameron Champ,4,17,t016,Sentry Tournament of Champions,2020,weekly
+T6,,Matthew Wolff,4,17,t016,Sentry Tournament of Champions,2020,weekly
+T6,,Joaquin Niemann,4,17,t016,Sentry Tournament of Champions,2020,weekly
+T6,,Xander Schauffele,4,17,t016,Sentry Tournament of Champions,2020,weekly
+T11,,Dustin Johnson,4,16,t016,Sentry Tournament of Champions,2020,weekly
+T11,,Ryan Palmer,4,16,t016,Sentry Tournament of Champions,2020,weekly
+T11,,Paul Casey,4,16,t016,Sentry Tournament of Champions,2020,weekly
+T11,,Sung Kang,4,16,t016,Sentry Tournament of Champions,2020,weekly
+T15,,Kevin Kisner,4,15,t016,Sentry Tournament of Champions,2020,weekly
+T15,T7,J.T. Poston,4,15,t016,Sentry Tournament of Champions,2020,weekly
+T15,,Gary Woodland,4,15,t016,Sentry Tournament of Champions,2020,weekly
+T15,T21,Jim Herman,4,15,t016,Sentry Tournament of Champions,2020,weekly
+T19,,Corey Conners,4,14,t016,Sentry Tournament of Champions,2020,weekly
+T19,,Lanto Griffin,4,14,t016,Sentry Tournament of Champions,2020,weekly
+T19,,Nate Lashley,4,14,t016,Sentry Tournament of Champions,2020,weekly
+T22,,J.B. Holmes,4,13,t016,Sentry Tournament of Champions,2020,weekly
+T22,,Graeme McDowell,4,13,t016,Sentry Tournament of Champions,2020,weekly
+T22,T65,Adam Long,4,13,t016,Sentry Tournament of Champions,2020,weekly
+T22,T21,Tyler Duncan,4,13,t016,Sentry Tournament of Champions,2020,weekly
+T26,,Jon Rahm,4,12,t016,Sentry Tournament of Champions,2020,weekly
+T26,T4,Keith Mitchell,4,12,t016,Sentry Tournament of Champions,2020,weekly
+T28,,Max Homa,4,11,t016,Sentry Tournament of Champions,2020,weekly
+T28,,Chez Reavie,4,11,t016,Sentry Tournament of Champions,2020,weekly
+T28,,Kevin Na,4,11,t016,Sentry Tournament of Champions,2020,weekly
+T28,,Matt Kuchar,4,11,t016,Sentry Tournament of Champions,2020,weekly
+32,T52,Dylan Frittelli,4,10,t016,Sentry Tournament of Champions,2020,weekly
+T33,T2,Brendon Todd,4,9,t016,Sentry Tournament of Champions,2020,weekly
+T33,,Martin Trainer,4,9,t016,Sentry Tournament of Champions,2020,weekly
+1,,Webb Simpson,4,25,t493,The RSM Classic,2020,weekly
+T2,T1,Brendon Todd,4,22,t493,The RSM Classic,2020,weekly
+T2,,Sebastián Muñoz,4,22,t493,The RSM Classic,2020,weekly
+T4,,Keith Mitchell,4,21,t493,The RSM Classic,2020,weekly
+T4,,K.H. Lee,4,21,t493,The RSM Classic,2020,weekly
+T4,,D.J. Trahan,4,21,t493,The RSM Classic,2020,weekly
+T7,T1,Vaughn Taylor,4,20,t493,The RSM Classic,2020,weekly
+T7,,Rhein Gibson,4,20,t493,The RSM Classic,2020,weekly
+T7,,Troy Merritt,4,20,t493,The RSM Classic,2020,weekly
+T7,T77,Scott Brown,4,20,t493,The RSM Classic,2020,weekly
+T7,,Nick Watney,4,20,t493,The RSM Classic,2020,weekly
+T7,T19,Scottie Scheffler,4,20,t493,The RSM Classic,2020,weekly
+T7,T16,J.T. Poston,4,20,t493,The RSM Classic,2020,weekly
+T14,,Tyler McCumber,4,19,t493,The RSM Classic,2020,weekly
+T14,,Fabián Gómez,4,19,t493,The RSM Classic,2020,weekly
+T14,,Chesson Hadley,4,19,t493,The RSM Classic,2020,weekly
+T14,T68,Harry Higgs,4,19,t493,The RSM Classic,2020,weekly
+T14,,Kyle Stanley,4,19,t493,The RSM Classic,2020,weekly
+T14,,Ricky Barnes,4,19,t493,The RSM Classic,2020,weekly
+T14,,Alex Noren,4,19,t493,The RSM Classic,2020,weekly
+T21,T55,Scott Harrington,4,18,t493,The RSM Classic,2020,weekly
+T21,,Jim Furyk,4,18,t493,The RSM Classic,2020,weekly
+T21,,Stewart Cink,4,18,t493,The RSM Classic,2020,weekly
+T21,T77,Jim Herman,4,18,t493,The RSM Classic,2020,weekly
+T21,T55,Brian Stuard,4,18,t493,The RSM Classic,2020,weekly
+T21,T26,Russell Knox,4,18,t493,The RSM Classic,2020,weekly
+T21,T73,Cameron Tringale,4,18,t493,The RSM Classic,2020,weekly
+T21,T68,Tyler Duncan,4,18,t493,The RSM Classic,2020,weekly
+T21,T55,Chase Seiffert,4,18,t493,The RSM Classic,2020,weekly
+T21,,Austin Cook,4,18,t493,The RSM Classic,2020,weekly
+T21,T46,Will Gordon,4,18,t493,The RSM Classic,2020,weekly
+T21,,Brandon Hagy,4,18,t493,The RSM Classic,2020,weekly
+T21,T73,Denny McCarthy,4,18,t493,The RSM Classic,2020,weekly
+T34,T77,Talor Gooch,4,17,t493,The RSM Classic,2020,weekly
+T34,,David Lingmerth,4,17,t493,The RSM Classic,2020,weekly
+T34,T26,Henrik Norlander,4,17,t493,The RSM Classic,2020,weekly
+T34,T19,David Hearn,4,17,t493,The RSM Classic,2020,weekly
+T34,,Peter Uihlein,4,17,t493,The RSM Classic,2020,weekly
+T34,,Kyle Reifers,4,17,t493,The RSM Classic,2020,weekly
+T34,T55,Luke Donald,4,17,t493,The RSM Classic,2020,weekly
+T34,T26,Zach Johnson,4,17,t493,The RSM Classic,2020,weekly
+T34,T46,Brian Harman,4,17,t493,The RSM Classic,2020,weekly
+T34,,Bill Haas,4,17,t493,The RSM Classic,2020,weekly
+T34,,Doc Redman,4,17,t493,The RSM Classic,2020,weekly
+T45,,Tim Wilkinson,4,16,t493,The RSM Classic,2020,weekly
+T45,,Alex Cejka,4,16,t493,The RSM Classic,2020,weekly
+T45,,Tim Herron,4,16,t493,The RSM Classic,2020,weekly
+T45,T26,Ryan Brehm,4,16,t493,The RSM Classic,2020,weekly
+T45,T55,Patton Kizzire,4,16,t493,The RSM Classic,2020,weekly
+T45,,Kramer Hickok,4,16,t493,The RSM Classic,2020,weekly
+T45,,Hank Lebioda,4,16,t493,The RSM Classic,2020,weekly
+T52,,Davis Thompson,4,15,t493,The RSM Classic,2020,weekly
+T52,T55,Mark Hubbard,4,15,t493,The RSM Classic,2020,weekly
+T52,,Adam Hadwin,4,15,t493,The RSM Classic,2020,weekly
+T52,,Mark Anderson,4,15,t493,The RSM Classic,2020,weekly
+T52,T19,Scott Stallings,4,15,t493,The RSM Classic,2020,weekly
+T52,,Luke List,4,15,t493,The RSM Classic,2020,weekly
+T52,T10,Dylan Frittelli,4,15,t493,The RSM Classic,2020,weekly
+T52,T46,Ryan Armour,4,15,t493,The RSM Classic,2020,weekly
+T60,,Ben Crane,4,14,t493,The RSM Classic,2020,weekly
+T60,T26,Rory Sabbatini,4,14,t493,The RSM Classic,2020,weekly
+T60,,Anirban Lahiri,4,14,t493,The RSM Classic,2020,weekly
+T60,,Michael Thompson,4,14,t493,The RSM Classic,2020,weekly
+T60,T26,Maverick McNealy,4,14,t493,The RSM Classic,2020,weekly
+T65,,Vincent Whaley,4,13,t493,The RSM Classic,2020,weekly
+T65,,Doug Ghim,4,13,t493,The RSM Classic,2020,weekly
+T65,T68,Shawn Stefani,4,13,t493,The RSM Classic,2020,weekly
+T65,T10,Matthew NeSmith,4,13,t493,The RSM Classic,2020,weekly
+T65,T1,Adam Long,4,13,t493,The RSM Classic,2020,weekly
+T65,,Mackenzie Hughes,4,13,t493,The RSM Classic,2020,weekly
+T65,T46,Wes Roach,4,13,t493,The RSM Classic,2020,weekly
+T72,T10,Matt Jones,4,12,t493,The RSM Classic,2020,weekly
+T72,,Rob Oppenheim,4,12,t493,The RSM Classic,2020,weekly
+74,,Davis Riley,4,11,t493,The RSM Classic,2020,weekly
+75,T26,Bo Hoag,4,10,t493,The RSM Classic,2020,weekly
+76,72,Satoshi Kodaira,4,8,t493,The RSM Classic,2020,weekly
+T1,,Brendon Todd,4,24,t457,Mayakoba Golf Classic,2020,weekly
+T1,,Carlos Ortiz,4,24,t457,Mayakoba Golf Classic,2020,weekly
+T1,,Harris English,4,24,t457,Mayakoba Golf Classic,2020,weekly
+T1,,Adam Long,4,24,t457,Mayakoba Golf Classic,2020,weekly
+T1,,Vaughn Taylor,4,24,t457,Mayakoba Golf Classic,2020,weekly
+T6,,Matt Kuchar,4,22,t457,Mayakoba Golf Classic,2020,weekly
+T6,,Robby Shelton,4,22,t457,Mayakoba Golf Classic,2020,weekly
+T8,,Aaron Baddeley,4,21,t457,Mayakoba Golf Classic,2020,weekly
+T8,,Bronson Burgoon,4,21,t457,Mayakoba Golf Classic,2020,weekly
+T10,T6,Billy Horschel,4,20,t457,Mayakoba Golf Classic,2020,weekly
+T10,,Dylan Frittelli,4,20,t457,Mayakoba Golf Classic,2020,weekly
+T10,,Ben Martin,4,20,t457,Mayakoba Golf Classic,2020,weekly
+T10,,Pat Perez,4,20,t457,Mayakoba Golf Classic,2020,weekly
+T10,,Matt Jones,4,20,t457,Mayakoba Golf Classic,2020,weekly
+T10,,Matthew NeSmith,4,20,t457,Mayakoba Golf Classic,2020,weekly
+T16,T10,J.T. Poston,4,19,t457,Mayakoba Golf Classic,2020,weekly
+T16,,Cameron Champ,4,19,t457,Mayakoba Golf Classic,2020,weekly
+T16,,Brice Garnett,4,19,t457,Mayakoba Golf Classic,2020,weekly
+T19,,Brendan Steele,4,18,t457,Mayakoba Golf Classic,2020,weekly
+T19,,Scott Stallings,4,18,t457,Mayakoba Golf Classic,2020,weekly
+T19,,Rafael Campos,4,18,t457,Mayakoba Golf Classic,2020,weekly
+T19,,Zac Blair,4,18,t457,Mayakoba Golf Classic,2020,weekly
+T19,,Scottie Scheffler,4,18,t457,Mayakoba Golf Classic,2020,weekly
+T19,,David Hearn,4,18,t457,Mayakoba Golf Classic,2020,weekly
+T19,T29,Charles Howell III,4,18,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Brian Gay,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Zach Johnson,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Rory Sabbatini,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Alvaro Ortiz,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,J.J. Spaun,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,T3,Abraham Ancer,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Maverick McNealy,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Chris Stroud,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Ryan Brehm,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,C.T. Pan,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Danny Lee,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Henrik Norlander,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Chris Kirk,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,T29,Xinjun Zhang,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Kevin Chappell,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Russell Knox,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Bo Hoag,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Joel Dahmen,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Robert Streb,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T26,,Peter Malnati,4,17,t457,Mayakoba Golf Classic,2020,weekly
+T46,,Emiliano Grillo,4,16,t457,Mayakoba Golf Classic,2020,weekly
+T46,,Sebastian Cappelen,4,16,t457,Mayakoba Golf Classic,2020,weekly
+T46,,Wes Roach,4,16,t457,Mayakoba Golf Classic,2020,weekly
+T46,,Harold Varner III,4,16,t457,Mayakoba Golf Classic,2020,weekly
+T46,,Brandon Wu,4,16,t457,Mayakoba Golf Classic,2020,weekly
+T46,,Will Gordon,4,16,t457,Mayakoba Golf Classic,2020,weekly
+T46,,Ryan Armour,4,16,t457,Mayakoba Golf Classic,2020,weekly
+T46,,Graeme McDowell,4,16,t457,Mayakoba Golf Classic,2020,weekly
+T46,,Brian Harman,4,16,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Scott Harrington,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Scott Piercy,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Nick Taylor,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,T66,Chez Reavie,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Luke Donald,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Patrick Rodgers,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Mark Hubbard,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Chase Seiffert,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Brian Stuard,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Patton Kizzire,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Chris Baker,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Lanto Griffin,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T55,,Beau Hossler,4,15,t457,Mayakoba Golf Classic,2020,weekly
+T68,,Shawn Stefani,4,14,t457,Mayakoba Golf Classic,2020,weekly
+T68,,Harry Higgs,4,14,t457,Mayakoba Golf Classic,2020,weekly
+T68,,Tyler Duncan,4,14,t457,Mayakoba Golf Classic,2020,weekly
+T68,,Graham DeLaet,4,14,t457,Mayakoba Golf Classic,2020,weekly
+72,,Satoshi Kodaira,4,13,t457,Mayakoba Golf Classic,2020,weekly
+T73,,Cameron Tringale,4,12,t457,Mayakoba Golf Classic,2020,weekly
+T73,,Hudson Swafford,4,12,t457,Mayakoba Golf Classic,2020,weekly
+T73,,Denny McCarthy,4,12,t457,Mayakoba Golf Classic,2020,weekly
+T73,,Calum Hill,4,12,t457,Mayakoba Golf Classic,2020,weekly
+T77,,Sam Ryder,4,11,t457,Mayakoba Golf Classic,2020,weekly
+T77,,Talor Gooch,4,11,t457,Mayakoba Golf Classic,2020,weekly
+T77,T10,Kevin Kisner,4,11,t457,Mayakoba Golf Classic,2020,weekly
+T77,,Scott Brown,4,11,t457,Mayakoba Golf Classic,2020,weekly
+T77,,Jim Herman,4,11,t457,Mayakoba Golf Classic,2020,weekly
+T77,,James Hahn,4,11,t457,Mayakoba Golf Classic,2020,weekly
+1,NA,Xander Schauffele,4,28,t489,World Golf Championships-HSBC Champions,2020,weekly
+2,NA,Tyrrell Hatton,4,23,t489,World Golf Championships-HSBC Champions,2020,weekly
+T3,NA,Abraham Ancer,4,22,t489,World Golf Championships-HSBC Champions,2020,weekly
+T3,NA,Louis Oosthuizen,4,22,t489,World Golf Championships-HSBC Champions,2020,weekly
+T3,NA,Rory McIlroy,4,22,t489,World Golf Championships-HSBC Champions,2020,weekly
+T6,NA,Billy Horschel,4,20,t489,World Golf Championships-HSBC Champions,2020,weekly
+T6,NA,Adam Scott,4,20,t489,World Golf Championships-HSBC Champions,2020,weekly
+T6,NA,Paul Waring,4,20,t489,World Golf Championships-HSBC Champions,2020,weekly
+T6,NA,Hideki Matsuyama,4,20,t489,World Golf Championships-HSBC Champions,2020,weekly
+T10,NA,Byeong Hun An,4,19,t489,World Golf Championships-HSBC Champions,2020,weekly
+T10,NA,Sungjae Im,4,19,t489,World Golf Championships-HSBC Champions,2020,weekly
+T10,NA,Matt Fitzpatrick,4,19,t489,World Golf Championships-HSBC Champions,2020,weekly
+T10,NA,Jazz Janewattananond,4,19,t489,World Golf Championships-HSBC Champions,2020,weekly
+T10,NA,J.T. Poston,4,19,t489,World Golf Championships-HSBC Champions,2020,weekly
+T10,NA,Kevin Kisner,4,19,t489,World Golf Championships-HSBC Champions,2020,weekly
+T16,NA,Justin Harding,4,18,t489,World Golf Championships-HSBC Champions,2020,weekly
+T16,NA,Justin Rose,4,18,t489,World Golf Championships-HSBC Champions,2020,weekly
+T16,NA,Jason Kokrak,4,18,t489,World Golf Championships-HSBC Champions,2020,weekly
+T16,NA,Masahiro Kawamura,4,18,t489,World Golf Championships-HSBC Champions,2020,weekly
+T16,NA,Adam Hadwin,4,18,t489,World Golf Championships-HSBC Champions,2020,weekly
+T16,NA,Matthias Schwab,4,18,t489,World Golf Championships-HSBC Champions,2020,weekly
+T16,NA,Haotong Li,4,18,t489,World Golf Championships-HSBC Champions,2020,weekly
+T16,NA,Christiaan Bezuidenhout,4,18,t489,World Golf Championships-HSBC Champions,2020,weekly
+T24,NA,Erik van Rooyen,4,17,t489,World Golf Championships-HSBC Champions,2020,weekly
+T24,NA,Kurt Kitayama,4,17,t489,World Golf Championships-HSBC Champions,2020,weekly
+T24,NA,Matt Wallace,4,17,t489,World Golf Championships-HSBC Champions,2020,weekly
+T24,NA,Robert MacIntyre,4,17,t489,World Golf Championships-HSBC Champions,2020,weekly
+T24,NA,Francesco Molinari,4,17,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Charles Howell III,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Scott Hend,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Phil Mickelson,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Xinjun Zhang,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Jordan Spieth,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Andrew Putnam,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Patrick Reed,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Mikumu Horikawa,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Cameron Smith,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Corey Conners,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Victor Perez,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T29,NA,Carl Yuan,4,16,t489,World Golf Championships-HSBC Champions,2020,weekly
+T41,NA,Ryo Ishikawa,4,15,t489,World Golf Championships-HSBC Champions,2020,weekly
+T41,NA,Jorge Campillo,4,15,t489,World Golf Championships-HSBC Champions,2020,weekly
+T41,NA,Keegan Bradley,4,15,t489,World Golf Championships-HSBC Champions,2020,weekly
+T41,NA,Shane Lowry,4,15,t489,World Golf Championships-HSBC Champions,2020,weekly
+T41,NA,Chan Kim,4,15,t489,World Golf Championships-HSBC Champions,2020,weekly
+T41,NA,Tae Hee Lee,4,15,t489,World Golf Championships-HSBC Champions,2020,weekly
+T41,NA,Bubba Watson,4,15,t489,World Golf Championships-HSBC Champions,2020,weekly
+T41,NA,Andrea Pavan,4,15,t489,World Golf Championships-HSBC Champions,2020,weekly
+T41,NA,Tony Finau,4,15,t489,World Golf Championships-HSBC Champions,2020,weekly
+T50,NA,Bernd Wiesberger,4,14,t489,World Golf Championships-HSBC Champions,2020,weekly
+T50,NA,Jbe' Kruger,4,14,t489,World Golf Championships-HSBC Champions,2020,weekly
+T50,NA,Lucas Glover,4,14,t489,World Golf Championships-HSBC Champions,2020,weekly
+T50,NA,Paul Casey,4,14,t489,World Golf Championships-HSBC Champions,2020,weekly
+T50,NA,Sergio Garcia,4,14,t489,World Golf Championships-HSBC Champions,2020,weekly
+T50,NA,Henrik Stenson,4,14,t489,World Golf Championships-HSBC Champions,2020,weekly
+T50,NA,Yosuke Asaji,4,14,t489,World Golf Championships-HSBC Champions,2020,weekly
+T50,NA,Romain Langasque,4,14,t489,World Golf Championships-HSBC Champions,2020,weekly
+T50,NA,Zander Lombard,4,14,t489,World Golf Championships-HSBC Champions,2020,weekly
+T59,NA,Jake McLeod,4,13,t489,World Golf Championships-HSBC Champions,2020,weekly
+T59,NA,Rafa Cabrera Bello,4,13,t489,World Golf Championships-HSBC Champions,2020,weekly
+T59,NA,Joost Luiten,4,13,t489,World Golf Championships-HSBC Champions,2020,weekly
+T59,NA,Michael Lorenzo-Vera,4,13,t489,World Golf Championships-HSBC Champions,2020,weekly
+T63,NA,Tommy Fleetwood,4,12,t489,World Golf Championships-HSBC Champions,2020,weekly
+T63,NA,Zecheng Dou,4,12,t489,World Golf Championships-HSBC Champions,2020,weekly
+T63,NA,Bobby Bai,4,12,t489,World Golf Championships-HSBC Champions,2020,weekly
+T66,NA,Danny Willett,4,11,t489,World Golf Championships-HSBC Champions,2020,weekly
+T66,NA,Kevin Tway,4,11,t489,World Golf Championships-HSBC Champions,2020,weekly
+T66,NA,Ashun Wu,4,11,t489,World Golf Championships-HSBC Champions,2020,weekly
+T66,NA,Neil Schietekat,4,11,t489,World Golf Championships-HSBC Champions,2020,weekly
+T66,NA,Chez Reavie,4,11,t489,World Golf Championships-HSBC Champions,2020,weekly
+T66,NA,WC Liang,4,11,t489,World Golf Championships-HSBC Champions,2020,weekly
+T72,NA,Matthew Millar,4,9,t489,World Golf Championships-HSBC Champions,2020,weekly
+T72,NA,Benjamin Hebert,4,9,t489,World Golf Championships-HSBC Champions,2020,weekly
+74,NA,Yi Keun Chang,4,8,t489,World Golf Championships-HSBC Champions,2020,weekly
+T75,NA,Daniel Nisbet,4,7,t489,World Golf Championships-HSBC Champions,2020,weekly
+T75,NA,Richard Sterne,4,7,t489,World Golf Championships-HSBC Champions,2020,weekly
+1,NA,Brendon Todd,4,27,t528,Bermuda Championship,2020,weekly
+2,NA,Beau Hossler,4,26,t528,Bermuda Championship,2020,weekly
+3,NA,Ryan Armour,4,25,t528,Bermuda Championship,2020,weekly
+T4,NA,Brian Gay,4,24,t528,Bermuda Championship,2020,weekly
+T4,NA,Scottie Scheffler,4,24,t528,Bermuda Championship,2020,weekly
+T6,NA,Hank Lebioda,4,22,t528,Bermuda Championship,2020,weekly
+T6,NA,David Hearn,4,22,t528,Bermuda Championship,2020,weekly
+T6,NA,Shawn Stefani,4,22,t528,Bermuda Championship,2020,weekly
+T6,NA,Bo Hoag,4,22,t528,Bermuda Championship,2020,weekly
+T10,NA,D.J. Trahan,4,21,t528,Bermuda Championship,2020,weekly
+T10,NA,Ricky Barnes,4,21,t528,Bermuda Championship,2020,weekly
+T10,NA,Josh Teater,4,21,t528,Bermuda Championship,2020,weekly
+T10,NA,John Merrick,4,21,t528,Bermuda Championship,2020,weekly
+T10,NA,Harry Higgs,4,21,t528,Bermuda Championship,2020,weekly
+T10,NA,Nelson Ledesma,4,21,t528,Bermuda Championship,2020,weekly
+T10,NA,Maverick McNealy,4,21,t528,Bermuda Championship,2020,weekly
+T10,NA,Denny McCarthy,4,21,t528,Bermuda Championship,2020,weekly
+T18,NA,Wes Roach,4,20,t528,Bermuda Championship,2020,weekly
+T18,NA,Tyler McCumber,4,20,t528,Bermuda Championship,2020,weekly
+T18,NA,Aaron Wise,4,20,t528,Bermuda Championship,2020,weekly
+T21,NA,Ted Purdy,4,19,t528,Bermuda Championship,2020,weekly
+T21,NA,Alex Noren,4,19,t528,Bermuda Championship,2020,weekly
+T21,NA,Rob Oppenheim,4,19,t528,Bermuda Championship,2020,weekly
+T21,NA,K.H. Lee,4,19,t528,Bermuda Championship,2020,weekly
+T21,NA,Russell Knox,4,19,t528,Bermuda Championship,2020,weekly
+T26,NA,Ben Crane,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Boo Weekley,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Scott Harrington,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Scott Stallings,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Chris Baker,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Joseph Bramlett,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Sebastian Cappelen,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Arjun Atwal,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Kris Ventura,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Dominic Bozzelli,4,18,t528,Bermuda Championship,2020,weekly
+T26,NA,Tyler Duncan,4,18,t528,Bermuda Championship,2020,weekly
+T37,NA,Kramer Hickok,4,17,t528,Bermuda Championship,2020,weekly
+T37,NA,Patrick Fishburn,4,17,t528,Bermuda Championship,2020,weekly
+T37,NA,Chip McDaniel,4,17,t528,Bermuda Championship,2020,weekly
+T37,NA,Rod Pampling,4,17,t528,Bermuda Championship,2020,weekly
+T37,NA,Ryan Brehm,4,17,t528,Bermuda Championship,2020,weekly
+T37,NA,Henrik Norlander,4,17,t528,Bermuda Championship,2020,weekly
+T37,NA,Rafael Campos,4,17,t528,Bermuda Championship,2020,weekly
+T37,NA,Michael Gligic,4,17,t528,Bermuda Championship,2020,weekly
+T37,NA,Roger Sloan,4,17,t528,Bermuda Championship,2020,weekly
+T37,NA,Roberto Díaz,4,17,t528,Bermuda Championship,2020,weekly
+T47,NA,Tim Wilkinson,4,16,t528,Bermuda Championship,2020,weekly
+T47,NA,Fabián Gómez,4,16,t528,Bermuda Championship,2020,weekly
+T47,NA,Brian Stuard,4,16,t528,Bermuda Championship,2020,weekly
+T47,NA,Robert Streb,4,16,t528,Bermuda Championship,2020,weekly
+T47,NA,Lanto Griffin,4,16,t528,Bermuda Championship,2020,weekly
+T47,NA,Mark Hubbard,4,16,t528,Bermuda Championship,2020,weekly
+T47,NA,Doc Redman,4,16,t528,Bermuda Championship,2020,weekly
+T54,NA,Chase Seiffert,4,15,t528,Bermuda Championship,2020,weekly
+T54,NA,Ben Taylor,4,15,t528,Bermuda Championship,2020,weekly
+T54,NA,Carlos Franco,4,15,t528,Bermuda Championship,2020,weekly
+T54,NA,Cameron Percy,4,15,t528,Bermuda Championship,2020,weekly
+T54,NA,Seamus Power,4,15,t528,Bermuda Championship,2020,weekly
+T54,NA,Rhein Gibson,4,15,t528,Bermuda Championship,2020,weekly
+60,NA,John Senden,4,14,t528,Bermuda Championship,2020,weekly
+T61,NA,Derek Ernst,4,13,t528,Bermuda Championship,2020,weekly
+T61,NA,Zac Blair,4,13,t528,Bermuda Championship,2020,weekly
+T61,NA,Parker McLachlin,4,13,t528,Bermuda Championship,2020,weekly
+T61,NA,Sangmoon Bae,4,13,t528,Bermuda Championship,2020,weekly
+65,NA,Robert Garrigus,4,12,t528,Bermuda Championship,2020,weekly
+66,NA,Alex Cejka,4,11,t528,Bermuda Championship,2020,weekly
+1,,Tiger Woods,4,27,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T2,76,Billy Horschel,4,20,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T2,T12,Hideki Matsuyama,4,20,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T2,,Keegan Bradley,4,20,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T2,T38,Sungjae Im,4,20,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T2,,Xander Schauffele,4,20,t527,ZOZO CHAMPIONSHIP,2020,weekly
+7,T23,Kevin Tway,4,19,t527,ZOZO CHAMPIONSHIP,2020,weekly
+8,,Shaun Norris,4,18,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T9,T56,Ian Poulter,4,17,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T9,,Rory McIlroy,4,17,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T9,T8,Gary Woodland,4,17,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T9,T23,Troy Merritt,4,17,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T9,4,Byeong Hun An,4,17,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T9,T38,Corey Conners,4,17,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T9,,Daniel Berger,4,17,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T9,,J.T. Poston,4,17,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T17,1,Justin Thomas,4,16,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T17,T8,Harold Varner III,4,16,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T17,T23,Keith Mitchell,4,16,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T17,T23,Joaquin Niemann,4,16,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T17,,Rikuya Hoshino,4,16,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T17,,Paul Casey,4,16,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T23,T12,Rafa Cabrera Bello,4,15,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T23,T16,Charles Howell III,4,15,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T23,T5,Sung Kang,4,15,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T23,3,Danny Lee,4,15,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T23,,Shane Lowry,4,15,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T23,,Patrick Reed,4,15,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T23,T67,Matthew Wolff,4,15,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T30,T51,Dylan Frittelli,4,14,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T30,T23,Tommy Fleetwood,4,14,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T30,T56,Adam Long,4,14,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T30,T16,Si Woo Kim,4,14,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T30,T23,Jazz Janewattananond,4,14,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T30,T16,Wyndham Clark,4,14,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T30,T23,Jason Day,4,14,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T30,T23,Lucas Glover,4,14,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T30,T44,Sergio Garcia,4,14,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T39,,Ryo Ishikawa,4,13,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T39,,Jason Kokrak,4,13,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T39,,Tomoharu Otsuki,4,13,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T39,,Satoshi Kodaira,4,13,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T39,T38,Collin Morikawa,4,13,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,T62,C.T. Pan,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,T23,Emiliano Grillo,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,T62,Sanghyun Park,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,,Jinichiro Kozuma,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,T56,Max Homa,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,T44,Adam Schenk,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,T5,Ryan Palmer,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,T62,Vaughn Taylor,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,T12,Rory Sabbatini,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,,Louis Oosthuizen,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,T38,Marc Leishman,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T44,,Kevin Kisner,4,12,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T56,T44,Kevin Na,4,11,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T56,,Adam Scott,4,11,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T56,T72,Scott Piercy,4,11,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T56,,Tony Finau,4,11,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T56,,Yosuke Asaji,4,11,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T56,,Chan Kim,4,11,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T56,,Mikumu Horikawa,4,11,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T56,T16,Viktor Hovland,4,11,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T64,T51,Andrew Putnam,4,10,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T64,T67,Abraham Ancer,4,10,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T64,T12,Pat Perez,4,10,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T64,,Seungsu Han,4,10,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T68,T44,Kevin Streelman,4,9,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T68,,Bubba Watson,4,9,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T68,,Adam Hadwin,4,9,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T68,2,Jordan Spieth,4,9,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T72,,Shugo Imahira,4,8,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T72,T16,Ryan Moore,4,8,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T74,T56,Chez Reavie,4,7,t527,ZOZO CHAMPIONSHIP,2020,weekly
+T74,T51,Joel Dahmen,4,7,t527,ZOZO CHAMPIONSHIP,2020,weekly
+76,,Matt Fitzpatrick,4,6,t527,ZOZO CHAMPIONSHIP,2020,weekly
+1,,Justin Thomas,4,27,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+2,,Jordan Spieth,4,25,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+3,,Danny Lee,4,23,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+4,,Byeong Hun An,4,22,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T5,,Chesson Hadley,4,21,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T5,,Ryan Palmer,4,21,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T5,,Sung Kang,4,21,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T8,,Charley Hoffman,4,20,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T8,,Kiradech Aphibarnrat,4,20,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T8,,Gary Woodland,4,20,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T8,,Harold Varner III,4,20,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T12,,Hideki Matsuyama,4,19,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T12,,Rory Sabbatini,4,19,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T12,,Pat Perez,4,19,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T12,,Rafa Cabrera Bello,4,19,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T16,,Ryan Moore,4,18,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T16,,Charles Howell III,4,18,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T16,,Kyongjun Moon,4,18,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T16,,Cameron Smith,4,18,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T16,,Si Woo Kim,4,18,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T16,,Viktor Hovland,4,18,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T16,,Wyndham Clark,4,18,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Tommy Fleetwood,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Emiliano Grillo,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Danny Willett,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Kevin Tway,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Troy Merritt,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,K.H. Lee,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Keith Mitchell,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Joaquin Niemann,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Jazz Janewattananond,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Phil Mickelson,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Jason Day,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Nate Lashley,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Lucas Glover,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,,Matt Jones,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T23,T45,Luke List,4,17,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T38,,K.J. Choi,4,16,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T38,,Marc Leishman,4,16,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T38,,Soomin Lee,4,16,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T38,,Sungjae Im,4,16,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T38,,Corey Conners,4,16,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T38,,Collin Morikawa,4,16,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T44,,Tyrrell Hatton,4,15,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T44,,Jung-gon Hwang,4,15,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T44,,Adam Schenk,4,15,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T44,,Yongjun Bae,4,15,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T44,,Kevin Na,4,15,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T44,,Sergio Garcia,4,15,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T44,,Kevin Streelman,4,15,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T51,,Graeme McDowell,4,14,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T51,,Jhonattan Vegas,4,14,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T51,,Dylan Frittelli,4,14,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T51,,Joel Dahmen,4,14,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T51,,Andrew Putnam,4,14,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T56,,Adam Long,4,13,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T56,,Hyungjoon Lee,4,13,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T56,,Michael Kim,4,13,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T56,,Max Homa,4,13,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T56,,Ian Poulter,4,13,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T56,,Chez Reavie,4,13,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T62,,Wonjoon Lee,4,12,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T62,,C.T. Pan,4,12,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T62,,Vaughn Taylor,4,12,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T62,,Sanghyun Park,4,12,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T62,,Chase Koepka,4,12,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T67,,Abraham Ancer,4,11,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T67,,Jeongwoo Ham,4,11,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T67,,Matthew Wolff,4,11,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T70,,Branden Grace,4,10,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T70,,Brian Stuard,4,10,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T72,,Whee Kim,4,9,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+T72,,Scott Piercy,4,9,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+74,,Yi Keun Chang,4,8,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+75,,Tae Hee Lee,4,6,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+76,,Billy Horschel,4,4,t521,THE CJ CUP @ NINE BRIDGES,2020,weekly
+1,T44,Lanto Griffin,4,24,t020,Houston Open,2020,weekly
+2,T20,Xinjun Zhang,4,23,t020,Houston Open,2020,weekly
+3,,Stewart Cink,4,22,t020,Houston Open,2020,weekly
+T4,T70,Carlos Ortiz,4,21,t020,Houston Open,2020,weekly
+T4,T4,Maverick McNealy,4,21,t020,Houston Open,2020,weekly
+T6,,Scott Harrington,4,20,t020,Houston Open,2020,weekly
+T6,,Michael Gligic,4,20,t020,Houston Open,2020,weekly
+T8,,Nick Watney,4,19,t020,Houston Open,2020,weekly
+T8,T36,Martin Laird,4,19,t020,Houston Open,2020,weekly
+T8,,Cameron Tringale,4,19,t020,Houston Open,2020,weekly
+T8,,Bud Cauley,4,19,t020,Houston Open,2020,weekly
+T8,,Wes Roach,4,19,t020,Houston Open,2020,weekly
+T8,,Tyler McCumber,4,19,t020,Houston Open,2020,weekly
+T8,,Sepp Straka,4,19,t020,Houston Open,2020,weekly
+T8,T9,Brian Gay,4,19,t020,Houston Open,2020,weekly
+T16,,Chad Campbell,4,18,t020,Houston Open,2020,weekly
+T16,,Ryan Armour,4,18,t020,Houston Open,2020,weekly
+T16,,Peter Malnati,4,18,t020,Houston Open,2020,weekly
+T16,T26,Beau Hossler,4,18,t020,Houston Open,2020,weekly
+T16,,Andy Zhang,4,18,t020,Houston Open,2020,weekly
+T16,T70,Scottie Scheffler,4,18,t020,Houston Open,2020,weekly
+T16,T70,Talor Gooch,4,18,t020,Houston Open,2020,weekly
+T16,,Austin Cook,4,18,t020,Houston Open,2020,weekly
+T16,,Sebastián Muñoz,4,18,t020,Houston Open,2020,weekly
+T16,,Chandler Phillips,4,18,t020,Houston Open,2020,weekly
+T16,T49,Matt Every,4,18,t020,Houston Open,2020,weekly
+T16,T61,Bronson Burgoon,4,18,t020,Houston Open,2020,weekly
+T16,,Lucas Bjerregaard,4,18,t020,Houston Open,2020,weekly
+T29,,Seamus Power,4,17,t020,Houston Open,2020,weekly
+T29,,Brendon Todd,4,17,t020,Houston Open,2020,weekly
+T29,,Harris English,4,17,t020,Houston Open,2020,weekly
+T29,,Mackenzie Hughes,4,17,t020,Houston Open,2020,weekly
+T29,T64,Mark Hubbard,4,17,t020,Houston Open,2020,weekly
+T29,,Dominic Bozzelli,4,17,t020,Houston Open,2020,weekly
+T29,1,Denny McCarthy,4,17,t020,Houston Open,2020,weekly
+T36,,Patrick Rodgers,4,16,t020,Houston Open,2020,weekly
+T36,T36,Sam Ryder,4,16,t020,Houston Open,2020,weekly
+T36,,Cole Hammer,4,16,t020,Houston Open,2020,weekly
+T36,,Ryan Brehm,4,16,t020,Houston Open,2020,weekly
+T36,T36,Kyle Stanley,4,16,t020,Houston Open,2020,weekly
+T36,T49,James Hahn,4,16,t020,Houston Open,2020,weekly
+T36,,J.J. Henry,4,16,t020,Houston Open,2020,weekly
+T36,,Rich Beem,4,16,t020,Houston Open,2020,weekly
+T36,,D.J. Trahan,4,16,t020,Houston Open,2020,weekly
+T45,,Robert Garrigus,4,15,t020,Houston Open,2020,weekly
+T45,,Ricky Barnes,4,15,t020,Houston Open,2020,weekly
+T45,,Bill Haas,4,15,t020,Houston Open,2020,weekly
+T45,T20,Luke List,4,15,t020,Houston Open,2020,weekly
+T45,,Rob Oppenheim,4,15,t020,Houston Open,2020,weekly
+T45,,Henrik Norlander,4,15,t020,Houston Open,2020,weekly
+T45,,Rafael Campos,4,15,t020,Houston Open,2020,weekly
+T45,,J.J. Spaun,4,15,t020,Houston Open,2020,weekly
+T45,,Zac Blair,4,15,t020,Houston Open,2020,weekly
+T45,,Cameron Champ,4,15,t020,Houston Open,2020,weekly
+T45,,Brandon Wu,4,15,t020,Houston Open,2020,weekly
+T45,,Braden Bailey,4,15,t020,Houston Open,2020,weekly
+T57,,Joseph Bramlett,4,14,t020,Houston Open,2020,weekly
+T57,,Robert Streb,4,14,t020,Houston Open,2020,weekly
+T57,T49,Russell Knox,4,14,t020,Houston Open,2020,weekly
+T57,,Shawn Stefani,4,14,t020,Houston Open,2020,weekly
+T57,T70,John Huh,4,14,t020,Houston Open,2020,weekly
+T57,,Boo Weekley,4,14,t020,Houston Open,2020,weekly
+T63,,Roberto Castro,4,13,t020,Houston Open,2020,weekly
+T63,,Sebastian Cappelen,4,13,t020,Houston Open,2020,weekly
+T63,T13,Doc Redman,4,13,t020,Houston Open,2020,weekly
+T66,,Nelson Ledesma,4,12,t020,Houston Open,2020,weekly
+T66,,Kramer Hickok,4,12,t020,Houston Open,2020,weekly
+T66,,Jim Herman,4,12,t020,Houston Open,2020,weekly
+T66,T64,Russell Henley,4,12,t020,Houston Open,2020,weekly
+T70,,Brice Garnett,4,11,t020,Houston Open,2020,weekly
+T70,,Rhein Gibson,4,11,t020,Houston Open,2020,weekly
+T70,T61,Bo Hoag,4,11,t020,Houston Open,2020,weekly
+T70,,Jeremy Gandon,4,11,t020,Houston Open,2020,weekly
+T70,,George McNeill,4,11,t020,Houston Open,2020,weekly
+T75,T20,Ben Taylor,4,10,t020,Houston Open,2020,weekly
+T75,,Graham DeLaet,4,10,t020,Houston Open,2020,weekly
+T77,T26,Chris Stroud,4,9,t020,Houston Open,2020,weekly
+T77,,Michael Gellerman,4,9,t020,Houston Open,2020,weekly
+1,,Denny McCarthy,4,28,t047,Shriners Hospitals for Children Open,2020,weekly
+2,T49,Kris Ventura,4,27,t047,Shriners Hospitals for Children Open,2020,weekly
+3,,Kevin Na,4,26,t047,Shriners Hospitals for Children Open,2020,weekly
+T4,,Ryan Moore,4,25,t047,Shriners Hospitals for Children Open,2020,weekly
+T4,T28,Patrick Cantlay,4,25,t047,Shriners Hospitals for Children Open,2020,weekly
+T4,T28,Maverick McNealy,4,25,t047,Shriners Hospitals for Children Open,2020,weekly
+T4,T14,Bryson DeChambeau,4,25,t047,Shriners Hospitals for Children Open,2020,weekly
+T4,T49,Brian Stuard,4,25,t047,Shriners Hospitals for Children Open,2020,weekly
+T9,,Cameron Smith,4,24,t047,Shriners Hospitals for Children Open,2020,weekly
+T9,,Matt Jones,4,24,t047,Shriners Hospitals for Children Open,2020,weekly
+T9,T4,Brian Gay,4,24,t047,Shriners Hospitals for Children Open,2020,weekly
+T9,,Ryan Palmer,4,24,t047,Shriners Hospitals for Children Open,2020,weekly
+T13,T10,Daniel Berger,4,23,t047,Shriners Hospitals for Children Open,2020,weekly
+T13,T22,Collin Morikawa,4,23,t047,Shriners Hospitals for Children Open,2020,weekly
+T13,,Doc Redman,4,23,t047,Shriners Hospitals for Children Open,2020,weekly
+T13,,Jack Trent,4,23,t047,Shriners Hospitals for Children Open,2020,weekly
+T13,,Brian Harman,4,23,t047,Shriners Hospitals for Children Open,2020,weekly
+T13,T1,Adam Hadwin,4,23,t047,Shriners Hospitals for Children Open,2020,weekly
+T13,,Joel Dahmen,4,23,t047,Shriners Hospitals for Children Open,2020,weekly
+T20,,Webb Simpson,4,22,t047,Shriners Hospitals for Children Open,2020,weekly
+T20,T1,Xinjun Zhang,4,22,t047,Shriners Hospitals for Children Open,2020,weekly
+T20,,Patton Kizzire,4,22,t047,Shriners Hospitals for Children Open,2020,weekly
+T20,,Ben Taylor,4,22,t047,Shriners Hospitals for Children Open,2020,weekly
+T20,,Pat Perez,4,22,t047,Shriners Hospitals for Children Open,2020,weekly
+T20,,Luke List,4,22,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,,Lucas Glover,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,,Charley Hoffman,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,T37,Aaron Baddeley,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,,Phil Mickelson,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,T37,Chesson Hadley,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,,Beau Hossler,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,,Matthew Wolff,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,,Chris Stroud,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,,Sung Kang,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T26,,Gary Woodland,4,21,t047,Shriners Hospitals for Children Open,2020,weekly
+T36,,Martin Laird,4,20,t047,Shriners Hospitals for Children Open,2020,weekly
+T36,T37,Brendan Steele,4,20,t047,Shriners Hospitals for Children Open,2020,weekly
+T36,,Tony Finau,4,20,t047,Shriners Hospitals for Children Open,2020,weekly
+T36,,Kyle Stanley,4,20,t047,Shriners Hospitals for Children Open,2020,weekly
+T36,,Troy Merritt,4,20,t047,Shriners Hospitals for Children Open,2020,weekly
+T36,,Hideki Matsuyama,4,20,t047,Shriners Hospitals for Children Open,2020,weekly
+T36,,Matthew NeSmith,4,20,t047,Shriners Hospitals for Children Open,2020,weekly
+T36,,Sam Ryder,4,20,t047,Shriners Hospitals for Children Open,2020,weekly
+T44,T28,Lanto Griffin,4,19,t047,Shriners Hospitals for Children Open,2020,weekly
+T44,T14,Harold Varner III,4,19,t047,Shriners Hospitals for Children Open,2020,weekly
+T44,T22,Adam Scott,4,19,t047,Shriners Hospitals for Children Open,2020,weekly
+T44,T22,Brandt Snedeker,4,19,t047,Shriners Hospitals for Children Open,2020,weekly
+T44,,Danny Lee,4,19,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,,Matt Every,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,,Kevin Tway,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,,James Hahn,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,,Russell Knox,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,,Keegan Bradley,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,,Andrew Putnam,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,T14,Jim Furyk,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,T28,Nick Taylor,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,T37,John Oda,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,T28,Si Woo Kim,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,T63,Robby Shelton,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T49,,Adam Schenk,4,18,t047,Shriners Hospitals for Children Open,2020,weekly
+T61,,Chase Koepka,4,17,t047,Shriners Hospitals for Children Open,2020,weekly
+T61,,Bronson Burgoon,4,17,t047,Shriners Hospitals for Children Open,2020,weekly
+T61,T49,Bo Hoag,4,17,t047,Shriners Hospitals for Children Open,2020,weekly
+T64,65,Fabián Gómez,4,16,t047,Shriners Hospitals for Children Open,2020,weekly
+T64,,Peter Uihlein,4,16,t047,Shriners Hospitals for Children Open,2020,weekly
+T64,,Russell Henley,4,16,t047,Shriners Hospitals for Children Open,2020,weekly
+T64,T10,Mark Hubbard,4,16,t047,Shriners Hospitals for Children Open,2020,weekly
+T64,T37,Isaiah Salinda,4,16,t047,Shriners Hospitals for Children Open,2020,weekly
+69,,Nate Lashley,4,15,t047,Shriners Hospitals for Children Open,2020,weekly
+T70,,Scott Stallings,4,14,t047,Shriners Hospitals for Children Open,2020,weekly
+T70,T28,Carlos Ortiz,4,14,t047,Shriners Hospitals for Children Open,2020,weekly
+T70,,John Huh,4,14,t047,Shriners Hospitals for Children Open,2020,weekly
+T70,,Scottie Scheffler,4,14,t047,Shriners Hospitals for Children Open,2020,weekly
+T70,T49,Talor Gooch,4,14,t047,Shriners Hospitals for Children Open,2020,weekly
+75,,Jason Kokrak,4,13,t047,Shriners Hospitals for Children Open,2020,weekly
+76,T10,Charles Howell III,4,12,t047,Shriners Hospitals for Children Open,2020,weekly
+T1,T60,Xinjun Zhang,4,22,t464,Safeway Open,2020,weekly
+T1,,Adam Hadwin,4,22,t464,Safeway Open,2020,weekly
+T1,,Corey Conners,4,22,t464,Safeway Open,2020,weekly
+T4,T54,Cameron Champ,4,21,t464,Safeway Open,2020,weekly
+T4,T67,Brian Gay,4,21,t464,Safeway Open,2020,weekly
+T4,,Nick Watney,4,21,t464,Safeway Open,2020,weekly
+T7,,Chez Reavie,4,20,t464,Safeway Open,2020,weekly
+T7,T3,Dylan Frittelli,4,20,t464,Safeway Open,2020,weekly
+T7,,Zac Blair,4,20,t464,Safeway Open,2020,weekly
+T10,,Mark Hubbard,4,19,t464,Safeway Open,2020,weekly
+T10,,Daniel Berger,4,19,t464,Safeway Open,2020,weekly
+T10,,Scott Harrington,4,19,t464,Safeway Open,2020,weekly
+T10,,Charles Howell III,4,19,t464,Safeway Open,2020,weekly
+T14,T6,Cameron Percy,4,18,t464,Safeway Open,2020,weekly
+T14,,Vaughn Taylor,4,18,t464,Safeway Open,2020,weekly
+T14,,Jim Furyk,4,18,t464,Safeway Open,2020,weekly
+T14,,Marc Leishman,4,18,t464,Safeway Open,2020,weekly
+T14,,Justin Thomas,4,18,t464,Safeway Open,2020,weekly
+T14,,Harry Higgs,4,18,t464,Safeway Open,2020,weekly
+T14,,Harold Varner III,4,18,t464,Safeway Open,2020,weekly
+T14,,Bryson DeChambeau,4,18,t464,Safeway Open,2020,weekly
+T22,T60,Patrick Rodgers,4,17,t464,Safeway Open,2020,weekly
+T22,,Collin Morikawa,4,17,t464,Safeway Open,2020,weekly
+T22,T47,Brandt Snedeker,4,17,t464,Safeway Open,2020,weekly
+T22,,Kevin Chappell,4,17,t464,Safeway Open,2020,weekly
+T22,,Francesco Molinari,4,17,t464,Safeway Open,2020,weekly
+T22,,Adam Scott,4,17,t464,Safeway Open,2020,weekly
+T28,,Nick Taylor,4,16,t464,Safeway Open,2020,weekly
+T28,,Rhein Gibson,4,16,t464,Safeway Open,2020,weekly
+T28,T16,Carlos Ortiz,4,16,t464,Safeway Open,2020,weekly
+T28,T16,Lanto Griffin,4,16,t464,Safeway Open,2020,weekly
+T28,T11,Adam Long,4,16,t464,Safeway Open,2020,weekly
+T28,,Patrick Cantlay,4,16,t464,Safeway Open,2020,weekly
+T28,T67,Si Woo Kim,4,16,t464,Safeway Open,2020,weekly
+T28,,Maverick McNealy,4,16,t464,Safeway Open,2020,weekly
+T28,T6,Sebastián Muñoz,4,16,t464,Safeway Open,2020,weekly
+T37,,Chesson Hadley,4,15,t464,Safeway Open,2020,weekly
+T37,,John Oda,4,15,t464,Safeway Open,2020,weekly
+T37,,Tyler Duncan,4,15,t464,Safeway Open,2020,weekly
+T37,,Hank Lebioda,4,15,t464,Safeway Open,2020,weekly
+T37,,Isaiah Salinda,4,15,t464,Safeway Open,2020,weekly
+T37,,Brendan Steele,4,15,t464,Safeway Open,2020,weekly
+T37,T47,Rafael Campos,4,15,t464,Safeway Open,2020,weekly
+T37,,Andrew Landry,4,15,t464,Safeway Open,2020,weekly
+T37,T16,Cameron Tringale,4,15,t464,Safeway Open,2020,weekly
+T37,,Bud Cauley,4,15,t464,Safeway Open,2020,weekly
+T37,T11,Harris English,4,15,t464,Safeway Open,2020,weekly
+T37,,Aaron Baddeley,4,15,t464,Safeway Open,2020,weekly
+T49,,Brice Garnett,4,14,t464,Safeway Open,2020,weekly
+T49,T47,Brian Stuard,4,14,t464,Safeway Open,2020,weekly
+T49,,Michael Thompson,4,14,t464,Safeway Open,2020,weekly
+T49,,Roger Sloan,4,14,t464,Safeway Open,2020,weekly
+T49,T60,Bo Hoag,4,14,t464,Safeway Open,2020,weekly
+T49,,Kris Ventura,4,14,t464,Safeway Open,2020,weekly
+T49,,Talor Gooch,4,14,t464,Safeway Open,2020,weekly
+T56,T1,Sungjae Im,4,13,t464,Safeway Open,2020,weekly
+T56,,Tyler McCumber,4,13,t464,Safeway Open,2020,weekly
+T56,,Rob Oppenheim,4,13,t464,Safeway Open,2020,weekly
+T56,,Michael Gligic,4,13,t464,Safeway Open,2020,weekly
+T56,,Bo Van Pelt,4,13,t464,Safeway Open,2020,weekly
+T56,T22,David Hearn,4,13,t464,Safeway Open,2020,weekly
+T56,,Jhonattan Vegas,4,13,t464,Safeway Open,2020,weekly
+T63,,Max Homa,4,12,t464,Safeway Open,2020,weekly
+T63,T37,Robby Shelton,4,12,t464,Safeway Open,2020,weekly
+65,T37,Fabián Gómez,4,11,t464,Safeway Open,2020,weekly
+66,T65,Ricky Barnes,4,10,t464,Safeway Open,2020,weekly
+67,,Scott Piercy,4,7,t464,Safeway Open,2020,weekly
+T1,T4,Sungjae Im,4,24,t054,Sanderson Farms Championship,2020,weekly
+T1,T47,Bronson Burgoon,4,24,t054,Sanderson Farms Championship,2020,weekly
+T3,,Dylan Frittelli,4,23,t054,Sanderson Farms Championship,2020,weekly
+T3,T62,Byeong Hun An,4,23,t054,Sanderson Farms Championship,2020,weekly
+5,,Kevin Streelman,4,22,t054,Sanderson Farms Championship,2020,weekly
+T6,T55,Cameron Percy,4,21,t054,Sanderson Farms Championship,2020,weekly
+T6,,Zach Johnson,4,21,t054,Sanderson Farms Championship,2020,weekly
+T6,T9,Dominic Bozzelli,4,21,t054,Sanderson Farms Championship,2020,weekly
+T6,T2,Scottie Scheffler,4,21,t054,Sanderson Farms Championship,2020,weekly
+T6,T47,Sebastián Muñoz,4,21,t054,Sanderson Farms Championship,2020,weekly
+T11,T4,Harris English,4,20,t054,Sanderson Farms Championship,2020,weekly
+T11,,Peter Malnati,4,20,t054,Sanderson Farms Championship,2020,weekly
+T11,T9,Adam Long,4,20,t054,Sanderson Farms Championship,2020,weekly
+T11,T27,J.J. Spaun,4,20,t054,Sanderson Farms Championship,2020,weekly
+T11,,Anirban Lahiri,4,20,t054,Sanderson Farms Championship,2020,weekly
+T16,T55,Cameron Tringale,4,19,t054,Sanderson Farms Championship,2020,weekly
+T16,,Charley Hoffman,4,19,t054,Sanderson Farms Championship,2020,weekly
+T16,,Carlos Ortiz,4,19,t054,Sanderson Farms Championship,2020,weekly
+T16,T27,Lanto Griffin,4,19,t054,Sanderson Farms Championship,2020,weekly
+T16,,Sam Burns,4,19,t054,Sanderson Farms Championship,2020,weekly
+T16,,J.T. Poston,4,19,t054,Sanderson Farms Championship,2020,weekly
+T22,,Chase Seiffert,4,18,t054,Sanderson Farms Championship,2020,weekly
+T22,T11,Denny McCarthy,4,18,t054,Sanderson Farms Championship,2020,weekly
+T22,,Aaron Wise,4,18,t054,Sanderson Farms Championship,2020,weekly
+T22,,Vincent Whaley,4,18,t054,Sanderson Farms Championship,2020,weekly
+T22,,Bill Haas,4,18,t054,Sanderson Farms Championship,2020,weekly
+T22,T55,David Hearn,4,18,t054,Sanderson Farms Championship,2020,weekly
+T22,,Emiliano Grillo,4,18,t054,Sanderson Farms Championship,2020,weekly
+T29,T11,Brian Harman,4,17,t054,Sanderson Farms Championship,2020,weekly
+T29,T62,Peter Uihlein,4,17,t054,Sanderson Farms Championship,2020,weekly
+T29,,George McNeill,4,17,t054,Sanderson Farms Championship,2020,weekly
+T29,T47,Robert Streb,4,17,t054,Sanderson Farms Championship,2020,weekly
+T29,T4,Tom Hoge,4,17,t054,Sanderson Farms Championship,2020,weekly
+T29,,Adam Schenk,4,17,t054,Sanderson Farms Championship,2020,weekly
+T29,,Davis Riley,4,17,t054,Sanderson Farms Championship,2020,weekly
+T29,T11,Doc Redman,4,17,t054,Sanderson Farms Championship,2020,weekly
+T37,T65,Russell Henley,4,16,t054,Sanderson Farms Championship,2020,weekly
+T37,,Cam Davis,4,16,t054,Sanderson Farms Championship,2020,weekly
+T37,1,Robby Shelton,4,16,t054,Sanderson Farms Championship,2020,weekly
+T37,T4,Richy Werenski,4,16,t054,Sanderson Farms Championship,2020,weekly
+T37,,Michael Gellerman,4,16,t054,Sanderson Farms Championship,2020,weekly
+T37,,Fabián Gómez,4,16,t054,Sanderson Farms Championship,2020,weekly
+T37,T18,Scott Brown,4,16,t054,Sanderson Farms Championship,2020,weekly
+T37,,Scott Stallings,4,16,t054,Sanderson Farms Championship,2020,weekly
+T37,,Tommy Gainey,4,16,t054,Sanderson Farms Championship,2020,weekly
+T37,T11,Zack Sucher,4,16,t054,Sanderson Farms Championship,2020,weekly
+T47,,Brandt Snedeker,4,15,t054,Sanderson Farms Championship,2020,weekly
+T47,,Brian Stuard,4,15,t054,Sanderson Farms Championship,2020,weekly
+T47,,Rafael Campos,4,15,t054,Sanderson Farms Championship,2020,weekly
+T47,T47,Roberto Castro,4,15,t054,Sanderson Farms Championship,2020,weekly
+T47,,Shawn Stefani,4,15,t054,Sanderson Farms Championship,2020,weekly
+T47,,Ben Crane,4,15,t054,Sanderson Farms Championship,2020,weekly
+T47,,Stewart Cink,4,15,t054,Sanderson Farms Championship,2020,weekly
+T54,,Jamie Lovemark,4,14,t054,Sanderson Farms Championship,2020,weekly
+T54,,Garrett Osborn,4,14,t054,Sanderson Farms Championship,2020,weekly
+T54,T47,Sebastian Cappelen,4,14,t054,Sanderson Farms Championship,2020,weekly
+T54,,Cameron Champ,4,14,t054,Sanderson Farms Championship,2020,weekly
+T58,T2,Joaquin Niemann,4,13,t054,Sanderson Farms Championship,2020,weekly
+T58,T38,Mark Anderson,4,13,t054,Sanderson Farms Championship,2020,weekly
+T60,,Xinjun Zhang,4,12,t054,Sanderson Farms Championship,2020,weekly
+T60,,Alex Cejka,4,12,t054,Sanderson Farms Championship,2020,weekly
+T60,T27,Jonathan Byrd,4,12,t054,Sanderson Farms Championship,2020,weekly
+T60,,Bo Hoag,4,12,t054,Sanderson Farms Championship,2020,weekly
+T60,T27,Patrick Rodgers,4,12,t054,Sanderson Farms Championship,2020,weekly
+T65,,Daniel Chopra,4,10,t054,Sanderson Farms Championship,2020,weekly
+T65,,Ricky Barnes,4,10,t054,Sanderson Farms Championship,2020,weekly
+T67,,Brian Gay,4,9,t054,Sanderson Farms Championship,2020,weekly
+T67,,Si Woo Kim,4,9,t054,Sanderson Farms Championship,2020,weekly
+1,NA,Robby Shelton,4,23,t490,A Military Tribute at The Greenbrier,2020,weekly
+T2,NA,Joaquin Niemann,4,22,t490,A Military Tribute at The Greenbrier,2020,weekly
+T2,NA,Scottie Scheffler,4,22,t490,A Military Tribute at The Greenbrier,2020,weekly
+T4,NA,Harris English,4,21,t490,A Military Tribute at The Greenbrier,2020,weekly
+T4,NA,Tom Hoge,4,21,t490,A Military Tribute at The Greenbrier,2020,weekly
+T4,NA,Sungjae Im,4,21,t490,A Military Tribute at The Greenbrier,2020,weekly
+T4,NA,Richy Werenski,4,21,t490,A Military Tribute at The Greenbrier,2020,weekly
+T4,NA,Nate Lashley,4,21,t490,A Military Tribute at The Greenbrier,2020,weekly
+T9,NA,Adam Long,4,20,t490,A Military Tribute at The Greenbrier,2020,weekly
+T9,NA,Dominic Bozzelli,4,20,t490,A Military Tribute at The Greenbrier,2020,weekly
+T11,NA,Mark Hubbard,4,19,t490,A Military Tribute at The Greenbrier,2020,weekly
+T11,NA,Sam Ryder,4,19,t490,A Military Tribute at The Greenbrier,2020,weekly
+T11,NA,Denny McCarthy,4,19,t490,A Military Tribute at The Greenbrier,2020,weekly
+T11,NA,Doc Redman,4,19,t490,A Military Tribute at The Greenbrier,2020,weekly
+T11,NA,Brian Harman,4,19,t490,A Military Tribute at The Greenbrier,2020,weekly
+T11,NA,Keegan Bradley,4,19,t490,A Military Tribute at The Greenbrier,2020,weekly
+T11,NA,Zack Sucher,4,19,t490,A Military Tribute at The Greenbrier,2020,weekly
+T18,NA,Scott Brown,4,18,t490,A Military Tribute at The Greenbrier,2020,weekly
+T18,NA,Viktor Hovland,4,18,t490,A Military Tribute at The Greenbrier,2020,weekly
+T18,NA,Hank Lebioda,4,18,t490,A Military Tribute at The Greenbrier,2020,weekly
+T21,NA,Bud Cauley,4,17,t490,A Military Tribute at The Greenbrier,2020,weekly
+T21,NA,Cameron Smith,4,17,t490,A Military Tribute at The Greenbrier,2020,weekly
+T21,NA,Matt Jones,4,17,t490,A Military Tribute at The Greenbrier,2020,weekly
+T21,NA,Danny Lee,4,17,t490,A Military Tribute at The Greenbrier,2020,weekly
+T21,NA,Kevin Chappell,4,17,t490,A Military Tribute at The Greenbrier,2020,weekly
+T21,NA,Nick Taylor,4,17,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Scott Piercy,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Jonathan Byrd,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Kevin Na,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Scott Harrington,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Harry Higgs,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Lanto Griffin,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Patrick Rodgers,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Harold Varner III,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,J.J. Spaun,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Tyler McCumber,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T27,NA,Doug Ghim,4,16,t490,A Military Tribute at The Greenbrier,2020,weekly
+T38,NA,Andrew Novak,4,15,t490,A Military Tribute at The Greenbrier,2020,weekly
+T38,NA,Rob Oppenheim,4,15,t490,A Military Tribute at The Greenbrier,2020,weekly
+T38,NA,Sung Kang,4,15,t490,A Military Tribute at The Greenbrier,2020,weekly
+T38,NA,Brendan Steele,4,15,t490,A Military Tribute at The Greenbrier,2020,weekly
+T38,NA,Rhein Gibson,4,15,t490,A Military Tribute at The Greenbrier,2020,weekly
+T38,NA,Vince Covello,4,15,t490,A Military Tribute at The Greenbrier,2020,weekly
+T38,NA,Mark Anderson,4,15,t490,A Military Tribute at The Greenbrier,2020,weekly
+T38,NA,D.J. Trahan,4,15,t490,A Military Tribute at The Greenbrier,2020,weekly
+T38,NA,Bubba Watson,4,15,t490,A Military Tribute at The Greenbrier,2020,weekly
+T47,NA,Bronson Burgoon,4,14,t490,A Military Tribute at The Greenbrier,2020,weekly
+T47,NA,Roberto Castro,4,14,t490,A Military Tribute at The Greenbrier,2020,weekly
+T47,NA,Joel Dahmen,4,14,t490,A Military Tribute at The Greenbrier,2020,weekly
+T47,NA,Grayson Murray,4,14,t490,A Military Tribute at The Greenbrier,2020,weekly
+T47,NA,Joseph Bramlett,4,14,t490,A Military Tribute at The Greenbrier,2020,weekly
+T47,NA,Sebastian Cappelen,4,14,t490,A Military Tribute at The Greenbrier,2020,weekly
+T47,NA,Robert Streb,4,14,t490,A Military Tribute at The Greenbrier,2020,weekly
+T47,NA,Sebastián Muñoz,4,14,t490,A Military Tribute at The Greenbrier,2020,weekly
+T55,NA,Austin Cook,4,13,t490,A Military Tribute at The Greenbrier,2020,weekly
+T55,NA,David Hearn,4,13,t490,A Military Tribute at The Greenbrier,2020,weekly
+T55,NA,Johnson Wagner,4,13,t490,A Military Tribute at The Greenbrier,2020,weekly
+T55,NA,Cameron Tringale,4,13,t490,A Military Tribute at The Greenbrier,2020,weekly
+T55,NA,Morgan Hoffmann,4,13,t490,A Military Tribute at The Greenbrier,2020,weekly
+T55,NA,Jason Dufner,4,13,t490,A Military Tribute at The Greenbrier,2020,weekly
+T55,NA,Cameron Percy,4,13,t490,A Military Tribute at The Greenbrier,2020,weekly
+T62,NA,Peter Uihlein,4,12,t490,A Military Tribute at The Greenbrier,2020,weekly
+T62,NA,Byeong Hun An,4,12,t490,A Military Tribute at The Greenbrier,2020,weekly
+T62,NA,Beau Hossler,4,12,t490,A Military Tribute at The Greenbrier,2020,weekly
+T65,NA,Russell Henley,4,11,t490,A Military Tribute at The Greenbrier,2020,weekly
+T65,NA,Martin Laird,4,11,t490,A Military Tribute at The Greenbrier,2020,weekly
+T65,NA,Brice Garnett,4,11,t490,A Military Tribute at The Greenbrier,2020,weekly

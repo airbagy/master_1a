@@ -1,0 +1,70 @@
+---
+title: "STA2453 Lab 2"
+author: "Yihan Duan"
+date: "15/10/2021"
+output: pdf_document
+---
+
+# Exercise 1
+
+## Scenario 1
+
+No, I don't think this is a ideal problem for linear regression. Because we are
+more interested in "whether" (the probability) that a customer makes a purchase,
+this is more of a classification problem. Ideally the output of this model
+should be a probability score between 0 and 1 (indicating the probability that
+the customer will make a purchase), instead of an estimation for quantity. As
+all regression models predicts a quantity and the estimation does not
+necessarily lays between 0 and 1, this scenario is not ideal for linear
+regression.
+
+However, if we rephrase the question to "predict a customer's total spending",
+this problem becomes more suitable for linear regression and can solved using
+the same data. We can perform a linear regression regarding times of visits and
+total length of stay as variables and the output as the total spending (0 if 
+nothing is purchased).
+
+## Scenario 2
+
+The dependent variable is 'child_inc30' and the potential independent variables
+are 'parents_inc50', 'child_gender' and 'child_edu'. We do not include the
+education level of the parents ('father_edu' and 'mother_edu') as they seems to
+have less affect on the child's salary. Assume the independent variables we
+chose are $x_1, x_2, x_3$ with their coefficients being $\beta_1, \beta_2, \beta_3$
+respectively, we make the assumption that $y = \beta_0 + \sum_{i=1}^{3} \beta_i x_i + \epsilon$
+where $\epsilon \sim Normal(0, \sigma)$. In other words, controlling for the
+child's gender and education level, his/her income should have a linear
+relation to the parents' income at 50.
+
+Beyond the simple linear model (with only the parents' income as independent
+variable), we could include the other variables like suggested above. Moreover,
+we could include the interaction terms between 'parents_inc50' and 'child_gender',
+or between 'parents_inc50' and 'child_edu'. These would help understand the main
+relationship as including them can help understand and control the affects other
+variables have on the child's income.
+
+## Scenario 3
+
+No, this is not a good candidate for a linear regression model.
+
+There are too few variables collected other than salary. Many other factors (for
+example age, marital status, health, stress...) may have a significant
+influence on the employee's happiness rating, but those factors are not included
+in the data. Therefore, I suspect that we can draw a reliable conclusion from
+a simple linear model. Not controlling for the other factors may give us
+misleading results.
+
+The happiness score presented in the data is highly biased as they are
+self-evaluated or self-measured scores. Without a reliable quantitative dependent
+variable, a linear model might not be suitable.
+
+I also suspect that the happiness one receives from salary has diminishing
+returns, meaning the more money we get, the less we benefits from the same 
+increment in salary. As the relationship is far from linear, I believe a
+linear model can not be used in this case.
+
+
+# Exercise 2
+
+
+
