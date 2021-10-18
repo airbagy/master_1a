@@ -66,5 +66,279 @@ linear model can not be used in this case.
 
 # Exercise 2
 
+```{R include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+# Read in the data
+ern_full <- read_csv('Earnings.csv')
+brd_full <- read_csv('Birdies.csv')
+drdis_full <- read_csv('Driving_Distance.csv')
+```
+
+Take a look at the data.
+
+```{R}
+head(ern_full)
+head(brd_full)
+head(drdis_full)
+```
+
+Check if player name + tournament id is the unique identifier for all 3 datasets.
+
+```{R}
+length(unique(paste(ern_full$player_name, ern_full$tournamet_id))) == nrow(ern_full)
+length(unique(paste(brd_full$player_name, brd_full$tournamet_id))) == nrow(brd_full)
+length(unique(paste(drdis_full$player_name, drdis_full$tournamet_id))) == nrow(drdis_full)
+```
+
+Merge 3 useful columns of the 3 data sets.
+
+```{R}
+ern = ern_full[c('player_name', 'tournamet_id', 'events', 'money')]
+brd = brd_full[c('player_name', 'tournamet_id', 'rounds', 'total')]
+drdis = drdis_full[c('player_name', 'tournamet_id', 'total_distance', 'total_drives')]
+
+# merge
+merged_df = ern %>%
+  merge(brd, by = c('player_name', 'tournamet_id'), all=TRUE) %>%
+  merge(drdis, by = c('player_name', 'tournamet_id'), all=TRUE)
+
+tail(merged_df)
+```
+
+There are obviously some NA's in the merged dataset. As we will be using the
+average, the inclusion of NA's might lead to inconsistent values, so we remove
+all the rows that contains NA's. An example of such is if a player is missing 
+total driving distance field for multiple events, then it would be wrong to use
+the sum of distance as a variable for estimating total earnings.
+
+```{R}
+merged_df <- na.omit(merged_df)
+```
+
+Now transform player-week table to player-year table.
+
+```{R}
+merged_df <- merged_df %>%
+  mutate(money = as.numeric(gsub('[$,]', '', money)))
+
+df <- aggregate(cbind(events, money, rounds, total, total_distance, total_drives) ~ player_name, merged_df, sum)
+```
+
+Now add average statistics the new player-year data frame
+
+```{R}
+# change column names
+colnames(df) <- c("player_name", "num_weeks", "total_earnings", 
+                  "num_rounds", "total_birdies", "total_driving_distance",
+                  "num_drives")
+# Add new columns
+df$avg_birdies = df$total_birdies / df$num_weeks
+df$avg_driving_distance = df$total_driving_distance / df$num_drives
+df$avg_earnings = df$total_earnings / df$num_weeks
+```
+
+Checkout the new df.
+
+```{R}
+head(df)
+```
+
+
+## Exercise 3
+
+How many players are in the data?
+
+```{R}
+length(unique(df$player_name))
+```
+
+```{R}
+df %>% 
+  ggplot(aes(x=num_weeks)) +
+  geom_histogram(binwidth = 1) + 
+  ggtitle("Distribution of number of weeks played")
+```
+```{R}
+df %>% 
+  ggplot(aes(x=total_earnings)) +
+  geom_histogram() + 
+  ggtitle("Distribution of total earnings")
+```
+
+```{R}
+df %>% 
+  ggplot(aes(x=avg_birdies)) +
+  geom_histogram() + 
+  ggtitle("Distribution of average number of birdies per week")
+```
+
+```{R}
+df %>% 
+  ggplot(aes(x=avg_driving_distance)) +
+  geom_histogram() + 
+  ggtitle("Distribution of average driving distance")
+```
+
+Let's plot some associations.
+
+```{R}
+df %>%
+  ggplot(aes(x=avg_driving_distance, y=avg_birdies)) +
+  geom_point()
+```
+
+There seems to be a weak association between average number of birdies and
+average driving distance. Namely the player that is able to drive far seems to
+have more birdies per week on average.
+
+```{R}
+df %>%
+  ggplot(aes(x=avg_birdies, y=total_earnings)) +
+  geom_point()
+```
+```{R}
+df %>%
+  ggplot(aes(x=avg_driving_distance, y=total_earnings)) +
+  geom_point()
+```
+
+There is a weak positive association between average birdies/average driving
+distance and total earnings too.
+
+### Model 1 total earnings ~ average birdies
+
+```{R}
+summary(lm(total_earnings ~ avg_birdies, df))
+```
+
+The intercept is the (hypothetical) expected total earnings for a player with
+0 average birdies per week. In other words, a player is expected to earn 
+-1965956 dollars, which is not possible.
+
+The coefficient avg_birdies is the increase in total earnings when the average 
+number of birdies per week is increased by 1. In this case, we expect a player's
+yearly earnings to increase by 179523 dollars yearly if he can make 1 more
+birdie per week.
+
+### Model 2 total earnings ~ average driving distance
+
+```{R}
+summary(lm(total_earnings ~ avg_driving_distance, df))
+```
+
+The intercept is the (hypothetical) expected total earnings for a player with
+average driving distance of 0. In other words, a player is expected to earn 
+-7700918 dollars if his average driving distance is 0, which is not possible.
+
+The coefficient avg_driving_distance is the increase in total earnings when the 
+average driving distance is increased by 1. In this case, we expect a player's
+yearly earnings to increase by 28954 dollars yearly if his average driving
+distance increases by 1 yard.
+
+### Model 3 total earnings ~ average birdies + average driving distance
+
+```{R}
+summary(lm(total_earnings ~ avg_birdies + avg_driving_distance, df))
+```
+
+The intercept is the (hypothetical) expected total earnings for a player with
+average weekly birdies number of 0 and average driving distance of 0. In other 
+words, a player is expected to earn -7820336 dollars if both of his/hers average
+number of birdies and driving distance are 0.
+
+The coefficient avg_birdies is, controlling for driving distance, the increase 
+in total earnings when the average number of weekly birdies is increased by 1. 
+In this case, we expect a player's yearly earnings to increase by 134395 dollars 
+if his average number of birdies increases by 1, all else stays the same.
+
+The coefficient avg_driving_distance is, controlling for average number of
+birdies, the increase in total earnings when the average driving distance is 
+increased by 1 yard. In this case, we expect a player's yearly earnings to 
+increase by 22158 dollars yearly if his average driving distance increases by 1
+yard, all else stays the same.
+
+### Model 4 total earnings ~ average birdies + average driving distance
+
+```{R}
+summary(lm(total_earnings ~ log2(avg_birdies) + log2(avg_driving_distance), df))
+```
+
+The intercept is the (hypothetical) expected total earnings for a player with
+a 1 weekly birdies and 1 yard of average driving distance. In other words, a 
+player is expected to earn -41444298 dollars if both of his/hers average
+number of birdies and driving distance are 1. Note that the intercept is not
+the expected value at 0 because $log(x)=0$ when $x=1$. 
+
+The coefficient avg_birdies is, controlling for driving distance, the increase 
+in total earnings when the average number of weekly birdies doubles. (Notice
+that we are using log function with base 2). In this case, we expect a player's 
+yearly earnings to increase by 1082637 dollars if his average number of birdies 
+doubles, all else stays the same.
+
+The coefficient avg_driving_distance is, controlling for average number of
+birdies, the increase in total earnings when the average driving distance
+doubles. In this case, we expect a player's yearly earnings to 
+increase by 4630556 dollars yearly if his average driving distance doubles, all 
+else stays the same.
+
+### Model 5 total earnings ~ average birdies + average driving distance + num_weeks
+
+```{R}
+summary(lm(total_earnings ~ avg_birdies + avg_driving_distance + num_weeks, df))
+```
+
+The intercept is the (hypothetical) expected total earnings for a player with
+average weekly birdies number of 0, average driving distance of 0 and played 0
+weeks (events). In other words, a player is expected to earn -4633670 dollars if 
+he is really bad at the game as also doesn't play, which is not possible.
+
+The coefficient avg_birdies is, controlling for other variables, the increase 
+in total earnings when the average number of weekly birdies is increased by 1. 
+In this case, we expect a player's yearly earnings to increase by 64652 dollars 
+if his average number of birdies increases by 1, all else stays the same.
+
+The coefficient avg_driving_distance is, controlling for all other variables, 
+the increase in total earnings when the average driving distance is 
+increased by 1 yard. In this case, we expect a player's yearly earnings to 
+increase by 11448 dollars yearly if his average driving distance increases by 1
+yard, all else stays the same.
+
+The coefficient avg_birdies is, controlling for other variables, the increase 
+in total earnings when the player plays for 1 more week (event). In this case, 
+we expect a player's yearly earnings to increase by 134668 dollars if he plays
+1 more week a year, all else stays the same.
+
+#### model fit
+
+We can see that the adjusted R-squared is 0.4223, meaning that the model is able
+to explain 42.33% of the variance, which is not a very good fit.
+
+#### model assumptions
+
+Plot the fitted plots.
+
+```{R}
+par(mfrow = c(2, 2))
+plot(lm(total_earnings ~ avg_birdies + avg_driving_distance + num_weeks, df))
+```
+
+1. Linearity
+
+Yes, from the residuals vs fitted plot, we can see the estimated curve is close
+to horizontal line at $y = 0$.
+
+2. Normality of residuals
+
+No, from the Q-Q plot, we can tell the distribution of residuals is right-skewed.
+
+3. Homogeneity of residuals variance
+
+No, from the scale-location plot, the variablity increases with the fitted value.
+
+4. Independence of residuals
+
+No, clear pattern in the residuals vs fitted plot.
 
 
