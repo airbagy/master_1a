@@ -1,0 +1,143 @@
+---
+title: "STA 3431 Assignment #2"
+author: "Yihan Duan"
+date: "26/10/2021"
+output: pdf_document
+---
+
+Name: Yihan Duan
+Student #: 1003118547
+Department: CS
+Program: MScAC
+Year: first year master
+E-mail: yihan.duan@mail.utoronto.ca
+
+## Question 1
+
+First let's take a look at the target density function. Because $-\frac{-x^4}{6} \le 0$ on $R$, and $e^x$ is increasing on $R^-$, we know the target density function should be larger around 0 and should get smaller further away from 0. Let's verify that.
+
+```{R}
+g = function(x) {
+  return(exp(-x^4/6))
+}
+
+curve(g, from=-10, to=10)
+```
+
+As we can see, the value for g(x) drops drastically around -2.5 and 2.5. As MCMC works better if the initial value covers the "important" parts of the state space, we choose $X_0$ using a uniform distribution $U(-2.5, 2.5)$.
+
+### $\sigma^2 = 1$
+
+First lets try $\sigma = 1$. Let's choose $X_0 = 3$ and run it for 1000 iterations to see decide on burn-in.
+
+```{R}
+# define h here
+h = function(y) { return(y^2) }
+
+# parameters
+N = 1000
+X = 3
+sigma = 1
+xlist = rep(0, N)
+hlist = rep(0, N)
+
+for (i in 1:N) {
+  Y = X + sigma * rnorm(1)
+  U = runif(1)
+  alpha = g(Y) / g(X)
+  if (U < alpha) {
+    X = Y
+  }
+  xlist[i] = X
+  hlist[i] = h(X)
+}
+
+plot(xlist, type='l')
+```
+
+It seems like not much burn in is needed before it becomes stable. Let's set the number of burn-in's to be 1000. 
+
+Now let's see what's the best choice for 'lag.max' in 'acf' function.
+
+```{R}
+acf(hlist)
+```
+
+Looks like our 'acf' becomes very small at around 10. Let's try to automate this process.
+
+```{R}
+get_lag_max <- function(hlist) {
+  N = length(hlist)
+  acfs = acf(hlist, plot=FALSE, lag.max=N)$acf
+  for (i in 1:N) {
+    if (acfs[i] < 0.01) {
+      return(i)
+    }
+  }
+  return(N)
+}
+
+get_lag_max(hlist)
+```
+
+```{R}
+set.seed(1234) 
+
+run_MCMC <- function(M, B, sigma, lagmax, print_all=TRUE) {
+  X = runif(n=1, min=-2.5, max=2.5)  # overdispersed starting distribution
+  xlist = rep(0,M)  # for keeping track of chain values
+  hlist = rep(0,M)  # for keeping track of h function values
+  numaccept = 0
+  
+  for (i in 1:M) {
+    Y = X + sigma * rnorm(1)  # proposal value
+    U = runif(1)  # for accept/reject
+    alpha = g(Y) / g(X)  # for accept/reject
+    if (U < alpha) {
+      X = Y  # accept proposal
+      numaccept = numaccept + 1
+    }
+    xlist[i] = X
+    hlist[i] = h(X)
+  }
+
+  cat("ran Metropolis algorithm for", M, "iterations, with burn-in", B, "\n")
+  cat("acceptance rate =", numaccept/M, "\n")
+  u = mean(hlist[(B+1):M])
+  cat("mean of h is about", u, "\n")
+  
+  if (print_all) {
+    se1 =  sd(hlist[(B+1):M]) / sqrt(M-B)
+    cat("iid standard error would be about", se1, "\n")
+    
+    varfact <- function(xxx) { 2 * sum(acf(xxx, plot=FALSE, lag.max=get_lag_max(hlist))$acf) - 1 }
+    thevarfact = varfact(hlist[(B+1):M])
+    se = se1 * sqrt( thevarfact )
+    cat("varfact = ", thevarfact, "\n")
+    cat("true standard error is about", se, "\n")
+    cat("approximate 95% confidence interval is (", u - 1.96 * se, ",",
+        u + 1.96 * se, ")\n\n")
+  }
+  
+  return(list(xlist, hlist))
+}
+result = run_MCMC(11000,1000,1,12)
+```
+
+We can see that the acceptance rate is higher than the optimal but still quite good. The varfact and standard error is a little high and the confidence interval is wider then we would like. We can further reduce this by increasing the number of samples. 
+
+Let's see the mixing of the samples. We will choose the first 1000 samples to invetigate.
+
+```{R}
+plot(xlist[1001:2000], type='l')
+```
+
+Nice! They seems to be mixing really well.
+
+```{R}
+acf(result[[2]], lag.max=100)
+```
+
+
+
+

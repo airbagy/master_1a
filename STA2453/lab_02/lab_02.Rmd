@@ -72,7 +72,7 @@ library(tidyverse)
 
 # Read in the data
 ern_full <- read_csv('Earnings.csv')
-brd_full <- read_csv('Birdies.csv')
+brd_full <- read_csv('birdies.csv')
 drdis_full <- read_csv('Driving_Distance.csv')
 ```
 
@@ -190,7 +190,7 @@ df %>%
 ```
 
 There seems to be a weak association between average number of birdies and
-average driving distance. Namely the player that is able to drive far seems to
+average driving distance. Namely any player that is able to drive further seems to
 have more birdies per week on average.
 
 ```{R}
@@ -305,7 +305,7 @@ increased by 1 yard. In this case, we expect a player's yearly earnings to
 increase by 11448 dollars yearly if his average driving distance increases by 1
 yard, all else stays the same.
 
-The coefficient avg_birdies is, controlling for other variables, the increase 
+The coefficient num_weeks is, controlling for other variables, the increase 
 in total earnings when the player plays for 1 more week (event). In this case, 
 we expect a player's yearly earnings to increase by 134668 dollars if he plays
 1 more week a year, all else stays the same.
