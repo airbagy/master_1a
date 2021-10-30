@@ -1,0 +1,1 @@
+the metropolis algorithm is wrong at calculating acf, too few samples, increase max.

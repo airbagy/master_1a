@@ -1,7 +1,7 @@
 ---
 title: "STA 3431 Assignment #2"
 author: "Yihan Duan"
-date: "26/10/2021"
+date: "29/10/2021"
 output: pdf_document
 ---
 
@@ -24,9 +24,9 @@ g = function(x) {
 curve(g, from=-5, to=5)
 ```
 
-As we can see, the value for g(x) drops drastically around -3 and 3. As MCMC works better if the initial value covers the "important" parts of the state space, we choose $X_0$ using a uniform distribution $U(-3, 3)$.
+As we can see, the value for g(x) drops drastically around -3 and 3. As Metropolis works better if the initial value covers the "important" parts of the state space, we choose $X_0$ using a uniform distribution $U(-3, 3)$.
 
-### $\sigma^2 = 1$
+### Sigma = 1
 
 First lets try $\sigma = 1$. Let's choose $X_0 = 3$ and run it for 1000 iterations to see decide on burn-in.
 
@@ -85,7 +85,7 @@ Now lets start a real run.
 ```{R}
 set.seed(1234) 
 
-run_MCMC <- function(M, B, sigma, print_result=TRUE) {
+run_Metropolis <- function(M, B, sigma, print_result=TRUE) {
   X = runif(n=1, min=-3, max=3)  # overdispersed starting distribution
   xlist = rep(0,M)  # for keeping track of chain values
   hlist = rep(0,M)  # for keeping track of h function values
@@ -123,7 +123,7 @@ run_MCMC <- function(M, B, sigma, print_result=TRUE) {
   
   return(list(xlist, hlist, u))
 }
-result = run_MCMC(11000,1000,1)
+result = run_Metropolis(11000,1000,1)
 ```
 
 We can see that the acceptance rate is higher than the optimal but still quite good. The varfact and standard error is a little high and the confidence interval is wider then we would like. We can further reduce this by increasing the number of samples. 
@@ -131,10 +131,16 @@ We can see that the acceptance rate is higher than the optimal but still quite g
 Let's see the mixing of the samples. We will choose the first 1000 samples to investigate.
 
 ```{R}
-plot(result[[1]][1001:2000], type='l')
+plot(result[[1]][1001:2000], type='l', ylab='Samples', xlab='Index')
 ```
 
-They seems to be mixing really well. The value doesn't stay unchanged for a long time and stays
+Again, plot the 'acf' function.
+
+```{R}
+acf(result[[2]][1001:2000], plot=TRUE, lag.max=100, main = "h(X) ACF")
+```
+
+They seems to be mixing really well. The value doesn't plateau and covers most of the important area. The correlation between close estimates comes down to 0 really fast.
 
 Now let's re-run the algorithm for a few times and see the accuracy.
 
@@ -142,7 +148,7 @@ Now let's re-run the algorithm for a few times and see the accuracy.
 set.seed(1234)
 estimates = c(20)
 for (i in 1:20) {
-  estimates[i] = run_MCMC(11000,1000,1,FALSE)[[3]]
+  estimates[i] = run_Metropolis(11000,1000,1,FALSE)[[3]]
 }
 
 cat("The estimates are:\n")
@@ -153,10 +159,538 @@ cat("Standard error: ", sd(estimates)/sqrt(20))
 
 As we can see most of the estimates for h are between 0.82 and 0.84. However, there are still occasional estimates that are way off like 0.79. This algorithm is moderately accurate.
 
-### $\sigma^2 = 2$
+### Sigma = 5
+
+Let's try to increase $\sigma$ so that the acceptance rate is closer to the optimal acceptance rate 0.234. Note that this value is calculated for high-dimensional Metropolis and might not be the best for 1-dimensional case. We also do not change the number of burn-in's in this case because when we increase $\sigma$, we generally won't need more burn-in's to reach a stable distribution.
 
 ```{R}
-result = run_MCMC(11000,1000,5,TRUE)
+set.seed(1234)
+result = run_Metropolis(11000,1000,5,TRUE)
 ```
 
+After a few tries, we found out that $\sigma = 5$ gets us an acceptance rate close to 0.234. The varfact is about 2 times as large as we had before and the standard error is larger, resulting in a larger confidence interval. This is due to the fact that with a smaller acceptance rate, $x$ is more likely to be rejected and would plateau more often, leading to higher correlation between $h(x)$'s that are close.
+
+Let's see the mixing of the samples to verify our analysis.
+
+```{R}
+plot(result[[1]][1001:2000], type='l', ylab="Samples", xlab='Index')
+```
+
+```{R}
+acf(result[[2]][1001:2000], plot=TRUE, lag.max=100, main = "h(X) ACF")
+```
+
+$h$ values plateaus more often and the acf function comes down a lot slower than that with $\sigma = 1$. More correlations between close estimates because of rejection.
+
+Now let's re-run the algorithm for a few times and see the accuracy.
+
+```{R}
+set.seed(1234)
+estimates = c(20)
+for (i in 1:20) {
+  estimates[i] = run_Metropolis(11000,1000,5,FALSE)[[3]]
+}
+
+cat("The estimates are:\n")
+estimates
+cat("Mean: ", mean(estimates), "\n")
+cat("Standard error: ", sd(estimates)/sqrt(20))
+```
+
+As expected, the algorithm is not as accurate using $\sigma = 5$. Extreme values like 0.79 and 0.86 are more frequent and the standard error is slightly larger.
+
+### Sigma = 2
+
+Let's try with rejection rate close to 0.5. As the value of $\sigma$ should be between 1 and 5, we don't change the number of burn-in's.
+
+```{R}
+set.seed(1234)
+result = run_Metropolis(11000,1000,2,TRUE)
+```
+
+After a few tries, we found that $\sigma = 2$ gives us close to 0.5 acceptance rate. The varfact and standard error are both relatively low. Let's see the mixing of the samples.
+
+```{R}
+plot(result[[1]][1001:2000], type='l', ylab="Samples", xlab='Index')
+```
+
+```{R}
+acf(result[[2]][1001:2000], plot=TRUE, lag.max=100, main = "h(X) ACF")
+```
+
+This is definitely an improvement to $\sigma = 5$. The samples seems to be mixing pretty nicely and the 'acf' function reduces to 0 faster.
+
+Now let's re-run the algorithm for a few times and see the accuracy.
+
+```{R}
+set.seed(1234)
+estimates = c(20)
+for (i in 1:20) {
+  estimates[i] = run_Metropolis(11000,1000,2,FALSE)[[3]]
+}
+
+cat("The estimates are:\n")
+estimates
+cat("Mean: ", mean(estimates), "\n")
+cat("Standard error: ", sd(estimates)/sqrt(20))
+```
+
+As expected, the standard error is smaller than that with $\sigma = 5$. This is the most accurate estimation so far.
+
+### Conclusion
+
+Judging by the standard error of single estimate and across multiple iid estimates, $\sigma = 0.2$ seems to be the best choice. Let's run Metropolis for more iterations and get a better estimate.
+
+```{R}
+result = run_Metropolis(101000,1000,2,TRUE)
+```
+
+## Question 2
+
+Let's borrow the function definitions from HW#1. Remember we need to make sure that the density function $g$ returns 0 for all points outside the region $0<x_i<1$.
+
+```{R}
+in_bound <- function(x) {
+  return(0<=x && x<=1)
+}
+
+g <- function(x) {
+  for (xi in x) {
+    if (! in_bound(xi)) {
+      return(0)
+    }
+  }
+  return(x[1]^14 * 2^(x[2]+3) * (1 + cos(x[1] + 2*x[2] + 3*x[3] + 4*x[4] + 8*x[5])) * exp(-8*x[4]^2) * exp(-9*(x[4] - 3*x[5])^2))
+}
+
+h <- function(x) {
+  return((x[1] + x[2]^2) / (2 + x[3]*x[4] + x[5]))
+}
+```
+
+The starting point for each dimension is selected from a uniform distribution between 0 and 1. This is because we know density function is only defined on this region thus 'import region' is sure to be covered. 
+
+Let's try to find out the appropriate number of burn-in's with a relatively small scaling factor 0.05 and initial value $X_0$ close to origin. This will elongate the the burn-in.
+
+```{R}
+set.seed(123)
+N = 5000
+X = runif(n=5, min=0, max=0.1)
+sigma = 0.05  # proposal scaling
+x1list = x2list = x3list = x4list = x5list = hlist = rep(0,N)  # for keeping track of values
+
+for (i in 1:N) {
+    Y = X + sigma * rnorm(5)  # proposal value (dim=2)
+    U = runif(1)  # for accept/reject
+    alpha = g(Y) / g(X)  # for accept/reject
+    if (U < alpha) {
+      X = Y  # accept proposal
+    }
+    hlist[i] = h(X)
+}
+
+plot(hlist, type='l')
+```
+
+Using $\sigma = 0.05$, it seems that a 1000-step burn-in is more than enough. However, the samples are not well mixed, so we ought to run it for longer.
+
+Now let's define the Metropolis algorithm.
+
+```{R}
+run_Metropolis_5_dim <- function(M, B, sigma, print_result=TRUE) {
+  X = runif(n=5, min=0, max=1)  # overdispersed starting distribution
+  x1list = x2list = x3list = x4list = x5list = hlist = rep(0,M)
+  numaccept = 0
+  
+  for (i in 1:M) {
+    Y = X + sigma * rnorm(5)  # proposal value
+    U = runif(1)  # for accept/reject
+    alpha = g(Y) / g(X)  # for accept/reject
+    if (U < alpha) {
+      X = Y  # accept proposal
+      numaccept = numaccept + 1
+    }
+    x1list[i] = X[1]
+    x2list[i] = X[2]
+    x3list[i] = X[3]
+    x4list[i] = X[4]
+    x5list[i] = X[5]
+    hlist[i] = h(X)
+  }
+  
+  u = mean(hlist[(B+1):M])
+  
+  if (print_result) {
+    cat("ran Metropolis algorithm for", M, "iterations, with burn-in", B, "\n")
+    cat("acceptance rate =", numaccept/M, "\n")
+    cat("mean of h is about", u, "\n")
+    se1 =  sd(hlist[(B+1):M]) / sqrt(M-B)
+    cat("iid standard error would be about", se1, "\n")
+    
+    varfact <- function(xxx) { 2 * sum(acf(xxx, plot=FALSE, lag.max=get_lag_max(hlist))$acf) - 1 }
+    thevarfact = varfact(hlist[(B+1):M])
+    se = se1 * sqrt( thevarfact )
+    cat("varfact = ", thevarfact, "\n")
+    cat("true standard error is about", se, "\n")
+    cat("approximate 95% confidence interval is (", u - 1.96 * se, ",",
+        u + 1.96 * se, ")\n\n")
+  }
+  
+  return(list(x1list, x2list, x3list, x4list, x5list, hlist, u))
+}
+```
+
+As the region within which $g(X)$ is valid is relatively small, we don't want a very large $\sigma$. Therefore more steps are needed for the samples to mix well. We will try to go for a 0.234 acceptance rate.
+
+```{R}
+set.seed(1234)
+result = run_Metropolis_5_dim(10^5 + 1000, 1000, 0.09, TRUE)
+```
+
+After a few runs, we found out that the best sigma is 0.09. We won't change the number of burn-in's as the analysis we did with $\sigma = 0.05$ should still holds (the higher the sigma, the faster we burn-in). We choose a sample size of 10^5. Varfact is still quite large but the standard error is relatively small.
+
+Let's look at the mixing of the values.
+
+```{R}
+for (i in 1:5) {
+  plot(result[[i]][1001: 6000], type='l', ylab=paste('X',i,sep=""))
+}
+
+plot(result[[6]][1001:6000], type='l', ylab="h(X)")
+```
+
+We can see that both the samples and the estimates are mixed pretty well. None of the values have long plateaus. Let take a look at the 'acf'.
+
+```{R}
+acf(result[[6]], lag.max = 500, main = "h(X) ACF")
+```
+
+As expected, the 'acf' function goes down really slowly. 2 reasons: $\sigma$ is too small and rejection rate is pretty high. Let's also see how accurate the multi-dimensional Metropolis is.
+
+```{R}
+set.seed(1234)
+estimates = c(20)
+for (i in 1:20) {
+  estimates[i] = run_Metropolis_5_dim(10^5 + 1000, 1000, 0.09, FALSE)[[7]]
+}
+
+cat("The estimates are:\n")
+estimates
+cat("Mean: ", mean(estimates), "\n")
+cat("Standard error: ", sd(estimates)/sqrt(20))
+```
+
+The result is moderately accurate.
+
+However, as shown in the line plot for the sample in 5 dimensions, each dimension has a different variance. Instead of using the same scaling factor for all dimensions, why not try a different factor by their standard deviation? Let's see if that gives us better result.
+
+```{R}
+sdlist = c(5)
+
+for (i in 1:5) {
+  sdlist[i] = sd(result[[i]][1001:length(result[[i]])])
+}
+
+run_Metropolis_5_dim_scale <- function(M, B, sigma, sdlist, print_result=TRUE) {
+  X = runif(n=5, min=0, max=1)  # overdispersed starting distribution
+  x1list = x2list = x3list = x4list = x5list = hlist = rep(0,M)
+  numaccept = 0
+  
+  for (i in 1:M) {
+    Y = X + sigma * sdlist * rnorm(5)  # proposal value
+    U = runif(1)  # for accept/reject
+    alpha = g(Y) / g(X)  # for accept/reject
+    if (U < alpha) {
+      X = Y  # accept proposal
+      numaccept = numaccept + 1
+    }
+    x1list[i] = X[1]
+    x2list[i] = X[2]
+    x3list[i] = X[3]
+    x4list[i] = X[4]
+    x5list[i] = X[5]
+    hlist[i] = h(X)
+  }
+  
+  u = mean(hlist[(B+1):M])
+  
+  if (print_result) {
+    cat("ran Metropolis algorithm for", M, "iterations, with burn-in", B, "\n")
+    cat("acceptance rate =", numaccept/M, "\n")
+    cat("mean of h is about", u, "\n")
+    se1 =  sd(hlist[(B+1):M]) / sqrt(M-B)
+    cat("iid standard error would be about", se1, "\n")
+    
+    varfact <- function(xxx) { 2 * sum(acf(xxx, plot=FALSE, lag.max=get_lag_max(hlist))$acf) - 1 }
+    thevarfact = varfact(hlist[(B+1):M])
+    se = se1 * sqrt( thevarfact )
+    cat("varfact = ", thevarfact, "\n")
+    cat("true standard error is about", se, "\n")
+    cat("approximate 95% confidence interval is (", u - 1.96 * se, ",",
+        u + 1.96 * se, ")\n\n")
+  }
+  
+  return(list(x1list, x2list, x3list, x4list, x5list, hlist, u))
+}
+```
+
+This method is correct because $q(X_1, X_2) = q(X_2, X_1)$. The rest of the proof is the same for normal Metropolis algorithm. Note this is not the exact definition with $Y_n \sim MVN(X_{n-1}, \sigma^2I)$.
+
+```{R}
+set.seed(1234)
+result = run_Metropolis_5_dim_scale(10^5 + 1000, 1000, 0.9, sdlist, TRUE)
+```
+
+Nice! Varfact came down to just about 39. We are much more confidence about our prediction.
+
+```{R}
+for (i in 1:5) {
+  plot(result[[i]][1001: 6000], type='l', ylab=paste('X',i,sep=""))
+}
+
+plot(result[[6]][1001:6000], type='l', ylab="h(X)")
+```
+
+We can see there are much less plateaus in this case.
+
+```{R}
+acf(result[[6]], lag.max = 100, main = "h(X) ACF")
+```
+
+As we expected, 'acf' function approaches 0 much faster. I assume this is because we have much less plateaus even with similar acceptance rate and each dimension can change 'faster' than before. 
+
+Let's see the accuracy.
+
+```{R}
+set.seed(1234)
+estimates = c(20)
+for (i in 1:20) {
+  estimates[i] = run_Metropolis_5_dim_scale(10^5 + 1000, 1000, 0.9, sdlist, FALSE)[[7]]
+}
+
+cat("The estimates are:\n")
+estimates
+cat("Mean: ", mean(estimates), "\n")
+cat("Standard error: ", sd(estimates)/sqrt(20))
+```
+
+The standard error is 2 times smaller and there are much less extreme values. This is much more accurate.
+
+Comparing to importance sampler, Metropolis algorithm doesn't require any hand-picked density function $f$. We also don't need to worry about cancelling terms in the denominator or finding easy-to-sample distributions. Directly comparing the two examples, we were able achieve similar accuracy with 10 times less iterations using the Metropolis algorithm with component wise scaling.
+
+Comparing to rejection sampler, again, no need to handpick density function $f$. Also, all the samples in Metropolis are used, leading to better efficiency. 
+
+Metropolis algorithm also have some drawbacks. It requires more tuning, as the number of burn-in's and the scaling factor needs to be determined. Metropolis also suffers from high correlations between close estimates. increasing the true standard error. 
+
+
+## Question 3
+
+First, let's see how much burn-in's are needed. We expect it to take longer as only one coordinate moves at a time.
+
+```{R}
+set.seed(123)
+N = 10000
+X = runif(n=5, min=0, max=0.1)
+sigma = 0.05  # proposal scaling
+x1list = x2list = x3list = x4list = x5list = hlist = rep(0,N)  # for keeping track of values
+
+for (i in 1:N) {
+  coord = i %% 5 + 1 # systematic scan
+  Y = X
+  Y[coord] = X[coord] + sigma * rnorm(1) 
+  U = runif(1)  # for accept/reject
+  alpha = g(Y) / g(X)  # for accept/reject
+  if (U < alpha) {
+    X = Y  # accept proposal
+  }
+  x1list[i] = X[1]
+  x2list[i] = X[2]
+  hlist[i] = h(X)
+}
+
+plot(hlist, type='l')
+```
+
+As expect, more burn-in's are required. Let's choose 4000 burn-in's just to be safe.
+
+Again, let's formalize the findings from last question. First we create a function for getting a list of standard deviations. We will use the same component-wise algorithm so that the variance is more accurately reflected. We will choose sigma by acceptance rate. 
+
+Idea: maybe we should use higher acceptance rate? Intuitively that will help the variance to be more 'pronounced', but is that true? Let's try with 50% acceptance rate.
+
+```{R}
+get_sdlist <- function(M, B, sigma) {
+  X = runif(n=5, min=0, max=1)  # overdispersed starting distribution
+  x1list = x2list = x3list = x4list = x5list = rep(0,M)
+  numaccept = 0
+  
+  for (i in 1:M) {
+    coord = i %% 5 + 1 # systematic scan
+    Y = X
+    Y[coord] = X[coord] + sigma * rnorm(1) 
+    U = runif(1)  # for accept/reject
+    alpha = g(Y) / g(X)  # for accept/reject
+    if (U < alpha) {
+      X = Y  # accept proposal
+      numaccept = numaccept + 1
+    }
+    x1list[i] = X[1]
+    x2list[i] = X[2]
+    x3list[i] = X[3]
+    x4list[i] = X[4]
+    x5list[i] = X[5]
+  }
+  
+  cat("ran Metropolis algorithm for", M, "iterations, with burn-in", B, "\n")
+  cat("acceptance rate =", numaccept/M, "\n")
+  
+  return(c(sd(x1list), sd(x2list), sd(x3list), sd(x4list), sd(x5list)))
+}
+
+set.seed(123)
+sdlist = get_sdlist(10^5 + 4000, 4000, 0.2)
+```
+
+Now, let's use the standard deviation we had before to conduct component-wise MCMC.
+
+```{R}
+run_Metropolis_cmpnt_scale <- function(M, B, sigma, sdlist, print_result=TRUE) {
+  X = runif(n=5, min=0, max=1)  # overdispersed starting distribution
+  x1list = x2list = x3list = x4list = x5list = hlist = rep(0,M)
+  numaccept = 0
+  
+  for (i in 1:M) {
+    coord = i %% 5 + 1 # systematic scan
+    Y = X
+    Y[coord] = X[coord] + sigma * sdlist[coord] * rnorm(1) 
+    U = runif(1)  # for accept/reject
+    alpha = g(Y) / g(X)  # for accept/reject
+    if (U < alpha) {
+      X = Y  # accept proposal
+      numaccept = numaccept + 1
+    }
+    x1list[i] = X[1]
+    x2list[i] = X[2]
+    x3list[i] = X[3]
+    x4list[i] = X[4]
+    x5list[i] = X[5]
+    hlist[i] = h(X)
+  }
+  
+  u = mean(hlist[(B+1):M])
+  
+  if (print_result) {
+    cat("ran Metropolis algorithm for", M, "iterations, with burn-in", B, "\n")
+    cat("acceptance rate =", numaccept/M, "\n")
+    cat("mean of h is about", u, "\n")
+    se1 =  sd(hlist[(B+1):M]) / sqrt(M-B)
+    cat("iid standard error would be about", se1, "\n")
+    
+    varfact <- function(xxx) { 2 * sum(acf(xxx, plot=FALSE, lag.max=get_lag_max(hlist))$acf) - 1 }
+    thevarfact = varfact(hlist[(B+1):M])
+    se = se1 * sqrt( thevarfact )
+    cat("varfact = ", thevarfact, "\n")
+    cat("true standard error is about", se, "\n")
+    cat("approximate 95% confidence interval is (", u - 1.96 * se, ",",
+        u + 1.96 * se, ")\n\n")
+  }
+  
+  return(list(x1list, x2list, x3list, x4list, x5list, hlist, u))
+}
+```
+
+```{R}
+set.seed(1234)
+result = run_Metropolis_cmpnt_scale(10^5 + 4000, 4000, 1.6, sdlist, TRUE)
+```
+
+Aiming for 50% acceptance rate, the sigma we choose is much larger for component-wise MCMC. Note that $\sigma$ here doesn't correspond to that in the original MCMC algorithm. With varfact at around 39, the true standard error is pretty small. We also have a pretty tight confidence interval.
+
+```{R}
+for (i in 1:5) {
+  plot(result[[i]][1001: 6000], type='l', ylab=paste('X',i,sep=""))
+}
+
+plot(result[[6]][1001:6000], type='l', ylab="h(X)")
+```
+
+Each dimension is plateauing due to fact that we are using systematic-scan. We can see that both the samples and the estimates are mixed pretty well. $h(X)$ is pretty evenly spread and have little to no plateauing. Let take a look at the 'acf'.
+
+```{R}
+acf(result[[6]], lag.max = 100, main = "h(X) ACF")
+```
+
+Interesting. ACF comes down even faster than non-componentwise MCMC with component wise scaling. I suspect this is because we now have higher acceptance rate.
+
+```{R}
+set.seed(1234)
+estimates = c(20)
+for (i in 1:20) {
+  estimates[i] = run_Metropolis_cmpnt_scale(10^5 + 4000, 4000, 1.6, sdlist, FALSE)[[7]]
+}
+
+cat("The estimates are:\n")
+estimates
+cat("Mean: ", mean(estimates), "\n")
+cat("Standard error: ", sd(estimates)/sqrt(20))
+```
+
+Nice! The standard error for 20 i.i.d. estimates is even smaller than non-componentwise MCMC with scaling. We have a pretty accurate estimator.
+
+Let's also compare this with normal component wise MCMC.
+
+```{R}
+run_Metropolis_cmpnt <- function(M, B, sigma, print_result=TRUE) {
+  X = runif(n=5, min=0, max=1)  # overdispersed starting distribution
+  x1list = x2list = x3list = x4list = x5list = hlist = rep(0,M)
+  numaccept = 0
+  
+  for (i in 1:M) {
+    coord = i %% 5 + 1 # systematic scan
+    Y = X
+    Y[coord] = X[coord] + sigma * rnorm(1) 
+    U = runif(1)  # for accept/reject
+    alpha = g(Y) / g(X)  # for accept/reject
+    if (U < alpha) {
+      X = Y  # accept proposal
+      numaccept = numaccept + 1
+    }
+    x1list[i] = X[1]
+    x2list[i] = X[2]
+    x3list[i] = X[3]
+    x4list[i] = X[4]
+    x5list[i] = X[5]
+    hlist[i] = h(X)
+  }
+  
+  u = mean(hlist[(B+1):M])
+  
+  if (print_result) {
+    cat("ran Metropolis algorithm for", M, "iterations, with burn-in", B, "\n")
+    cat("acceptance rate =", numaccept/M, "\n")
+    cat("mean of h is about", u, "\n")
+    se1 =  sd(hlist[(B+1):M]) / sqrt(M-B)
+    cat("iid standard error would be about", se1, "\n")
+    
+    varfact <- function(xxx) { 2 * sum(acf(xxx, plot=FALSE, lag.max=get_lag_max(hlist))$acf) - 1 }
+    thevarfact = varfact(hlist[(B+1):M])
+    se = se1 * sqrt( thevarfact )
+    cat("varfact = ", thevarfact, "\n")
+    cat("true standard error is about", se, "\n")
+    cat("approximate 95% confidence interval is (", u - 1.96 * se, ",",
+        u + 1.96 * se, ")\n\n")
+  }
+  
+  return(list(x1list, x2list, x3list, x4list, x5list, hlist, u))
+}
+
+set.seed(1234)
+result = run_Metropolis_cmpnt(10^5 + 4000, 4000, 0.25, TRUE)
+```
+
+With the same acceptance rate, component wise scaling again has lower varfact. I assume this is because the number of rejection for each dimension is "not balanced". When every dimension changes with the same rate, there will be certain dimensions that are rejected more often. Therefore leading to worse results.
+
+```{R}
+acf(result[[6]], lag.max = 100, main = "h(X) ACF")
+```
+The analysis reflects on 'acf' function, which gets to 0 a bit slower comparing to component wise scaling.
 
